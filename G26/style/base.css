@@ -1,0 +1,48 @@
+header {
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #237DAE;
+}
+
+#banner { 
+	text-align: inline; 
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+footer {
+	bottom: 0;
+	height: 200px;
+	width: 100%;
+	background-color: gray;
+}
+
+footer ul {
+	list-style: none;
+	display: block;
+	float: left;
+}
+
+.footerclmns {
+	justify-content: center;
+	left: 50%;
+	margin-right: -50%;
+	align-items: center;
+}
+
+#copyrightlist { 
+	text-align: inline; 
+}
+
+#validator {
+	display: block;
+	padding: 2px;
+	position: bottom;
+	clear: both;
+}
