@@ -151,16 +151,57 @@ please contact Toni. */
 .formtable { 
 
 width: 100%; 
-height: 50%;
+height: 500px;
 margin-left: auto;
 margin-right: auto;
+overflow: scroll;
 }
 
 .formtd1 { 
 
-background-image: url(https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/15875883_1650469098587102_4688515183692218368_n.jpg?ig_cache_key=MTQyNDQ5MDc1NjIxNDc4NTg4NA%3D%3D.2g);
-width: 250px;
-height: 250px;
+
+width: 300px;
+height: 300px;
 padding: 5%;
 
+}
+
+.formtd2 { 
+
+
+width: 300px;
+height: 300px;
+padding: 5%;
+
+}
+
+.formtd3 { 
+
+
+width: 300px;
+height: 300px;
+padding: 5%;
+
+}
+
+.formtd4 { 
+
+
+width: 300px;
+height: 300px;
+padding: 5%;
+
+}
+
+/* Gray Scale of Project Colors & Hover */
+
+.hovergray figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hovergray figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
