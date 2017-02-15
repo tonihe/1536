@@ -112,7 +112,7 @@ footer a { color: #9ed1ec;
 }
 
 #footerclmn1 {
-	padding-left: 600px;;
+	padding-left: 40%;
 }
 
 #footerclmn2 {
@@ -124,8 +124,8 @@ footer a { color: #9ed1ec;
 	display: block;
 	text-align: center; 
 	position: relative;
-	bottom: 25px;
-	left: 525px;
+	bottom: 50%;
+	left: 35%;
 	clear: left;
 	width: 50%;
 	padding-top: 30px;
@@ -141,6 +141,7 @@ footer a { color: #9ed1ec;
 	padding: 2px;
 	position: bottom;
 	clear: both;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -271,3 +272,6 @@ EDIT WITH CAUTION */
 	background: #007bb5;
 	color: white;
 }
+=======
+}
+>>>>>>> cfa5d4116f1d1d8bfd2404b838295b1b18e11bd7
