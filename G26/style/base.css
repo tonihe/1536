@@ -207,6 +207,67 @@ padding: 5%;
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
-=======
+
+
+/* SOCIAL MEDIA BUTTON CSS BELOW
+EDIT WITH CAUTION */
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
->>>>>>> 6b0414f43e8e3633585fe22333ddecf36e5c12ae
+
+.findsocial { 
+
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+ .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #e95950;
+    color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+/* Reddit */
+.fa-reddit {
+    background: #FF5700;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin { 
+	background: #007bb5;
+	color: white;
+}
