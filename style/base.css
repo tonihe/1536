@@ -1,13 +1,58 @@
+html { font-family: tahoma, sans-serif;
+}
+
 header {
-	height: 100px;
+	height: 15%;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	background-color: #237DAE;
+	opacity: 0.95;
+}
+header h1 { position: relative;
+			top: 18px;
+			left: 5%;
+			display: inline;	
 }
 
 #banner { 
 	text-align: inline; 
+	padding: 15px;
+	position: fixed;
+}
+
+#banner img { float:left;
+			padding: 0;
+			margin: 0;
+			height: 100px;
+			width: 100px;
+			position: relative;
+			top: 10%;
+}
+
+.headerbox {width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			display:-webkit-flex-shrink: 0;
+			display:-ms-flex-negative: 0;
+			flex-shrink: 0;
+}
+
+a:hover {opacity: 0.6;
+}
+
+a {	text-decoration: none;	
+}
+
+nav {
+	position: relative;
+	left: 520px;
+	top: 42px;
+}
+
+nav a{	 padding: 5px; 
+		font-size: 18px;
+		color: white; 
 }
 
 body {
@@ -16,11 +61,35 @@ body {
 	border: 0;
 }
 
+main { 	
+		padding-top: 8%;
+		
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	
+}
+
+#scrollbutton {
+	display: block;
+	text-align: center;
+}
+
+#scrollbutton img {
+	width: 40px;
+	height: 20px;
+	margin: 0;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+
 footer {
 	bottom: 0;
-	height: 200px;
+	height: 30%;
 	width: 100%;
-	background-color: gray;
+	background-color: #0e3c4b;
+	justify-content: center;
+	color: #c3ccd1;
 }
 
 footer ul {
@@ -30,14 +99,40 @@ footer ul {
 }
 
 .footerclmns {
-	justify-content: center;
-	left: 50%;
-	margin-right: -50%;
-	align-items: center;
+	width: 20%;
+	font-size: 18px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
-#copyrightlist { 
-	text-align: inline; 
+footer a { color: #9ed1ec;
+}
+
+#footerclmn1 {
+	padding-left: 40%;
+}
+
+#footerclmn2 {
+	position: relative;
+	
+}
+
+#copyright { 
+	display: block;
+	text-align: center; 
+	position: relative;
+	bottom: 25px;
+	left: 34%;
+	clear: left;
+	width: 50%;
+	padding-top: 30px;
+}
+#copyright li{ display: inline;
+				margin-left: auto;
+				margin-right: auto;
+				
 }
 
 #validator {
