@@ -112,7 +112,7 @@ footer a { color: #9ed1ec;
 }
 
 #footerclmn1 {
-	padding-left: 600px;;
+	padding-left: 40%;
 }
 
 #footerclmn2 {
@@ -124,8 +124,8 @@ footer a { color: #9ed1ec;
 	display: block;
 	text-align: center; 
 	position: relative;
-	bottom: 25px;
-	left: 525px;
+	bottom: 50%;
+	left: 35%;
 	clear: left;
 	width: 50%;
 	padding-top: 30px;
@@ -141,72 +141,4 @@ footer a { color: #9ed1ec;
 	padding: 2px;
 	position: bottom;
 	clear: both;
-<<<<<<< HEAD
 }
-
-
-/* Project Page CSS Starts Here 
-Please edit with care and caution
-Coded by Toni, if problem arises 
-please contact Toni. */
-
-.formtable { 
-
-width: 100%; 
-height: 500px;
-margin-left: auto;
-margin-right: auto;
-overflow: scroll;
-}
-
-.formtd1 { 
-
-
-width: 300px;
-height: 300px;
-padding: 5%;
-
-}
-
-.formtd2 { 
-
-
-width: 300px;
-height: 300px;
-padding: 5%;
-
-}
-
-.formtd3 { 
-
-
-width: 300px;
-height: 300px;
-padding: 5%;
-
-}
-
-.formtd4 { 
-
-
-width: 300px;
-height: 300px;
-padding: 5%;
-
-}
-
-/* Gray Scale of Project Colors & Hover */
-
-.hovergray figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hovergray figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-}
-=======
-}
->>>>>>> 6b0414f43e8e3633585fe22333ddecf36e5c12ae
