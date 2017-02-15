@@ -8,6 +8,7 @@ header {
 	top: 0;
 	background-color: #237DAE;
 	opacity: 0.95;
+	z-index:10;
 }
 header h1 { position: relative;
 			top: 18px;
@@ -140,6 +141,7 @@ footer a { color: #9ed1ec;
 	padding: 2px;
 	position: bottom;
 	clear: both;
+<<<<<<< HEAD
 }
 
 
@@ -205,3 +207,6 @@ padding: 5%;
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
+=======
+}
+>>>>>>> 6b0414f43e8e3633585fe22333ddecf36e5c12ae
