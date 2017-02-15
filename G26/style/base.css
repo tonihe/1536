@@ -272,8 +272,7 @@ EDIT WITH CAUTION */
 	color: white;
 }
 
-=======
-<<<<<<< HEAD
+
 html { font-family: tahoma, sans-serif;
 }
 
@@ -417,153 +416,7 @@ footer a { color: #9ed1ec;
 	padding: 2px;
 	position: bottom;
 	clear: both;
-}
-=======
-html { font-family: tahoma, sans-serif;
-}
 
-header {
-	height: 15%;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	background-color: #237DAE;
-	opacity: 0.95;
-	z-index:10;
-}
-header h1 { position: relative;
-			top: 18px;
-			left: 5%;
-			display: inline;	
-}
-
-#banner { 
-	text-align: inline; 
-	padding: 15px;
-	position: fixed;
-}
-
-#banner img { float:left;
-			padding: 0;
-			margin: 0;
-			height: 100px;
-			width: 100px;
-			position: relative;
-			top: 10%;
-}
-
-.headerbox {width: 1000px;
-			margin-left: auto;
-			margin-right: auto;
-			display:-webkit-flex-shrink: 0;
-			display:-ms-flex-negative: 0;
-			flex-shrink: 0;
-}
-
-a:hover {opacity: 0.6;
-}
-
-a {	text-decoration: none;	
-}
-
-nav {
-	position: relative;
-	left: 520px;
-	top: 42px;
-}
-
-nav a{	 padding: 5px; 
-		font-size: 18px;
-		color: white; 
-}
-
-body {
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
-
-main { 	
-		padding-top: 8%;
-		
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-	
-}
-
-#scrollbutton {
-	display: block;
-	text-align: center;
-}
-
-#scrollbutton img {
-	width: 40px;
-	height: 20px;
-	margin: 0;
-	padding-top: 12px;
-	padding-bottom: 10px;
-}
-
-footer {
-	bottom: 0;
-	height: 30%;
-	width: 100%;
-	background-color: #0e3c4b;
-	justify-content: center;
-	color: #c3ccd1;
-}
-
-footer ul {
-	list-style: none;
-	display: block;
-	float: left;
-}
-
-.footerclmns {
-	width: 20%;
-	font-size: 18px;
-	display: inline;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-
-footer a { color: #9ed1ec;
-}
-
-#footerclmn1 {
-	padding-left: 40%;
-}
-
-#footerclmn2 {
-	position: relative;
-	
-}
-
-#copyright { 
-	display: block;
-	text-align: center; 
-	position: relative;
-	bottom: 50%;
-	left: 35%;
-	clear: left;
-	width: 50%;
-	padding-top: 30px;
-}
-#copyright li{ display: inline;
-				margin-left: auto;
-				margin-right: auto;
-				
-}
-
-#validator {
-	display: block;
-	padding: 2px;
-	position: bottom;
-	clear: both;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 
 
@@ -693,8 +546,418 @@ EDIT WITH CAUTION */
 	background: #007bb5;
 	color: white;
 }
-=======
+
+header {
+	height: 15%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #237DAE;
+	opacity: 0.95;
+	z-index:10;
 }
->>>>>>> cfa5d4116f1d1d8bfd2404b838295b1b18e11bd7
->>>>>>> 01a2c7aa0922f87ac1162b86b2831696448cd450
->>>>>>> 97e2769ae8875a2676861a967f0aad03a961c26f
+header h1 { position: relative;
+			top: 18px;
+			left: 5%;
+			display: inline;	
+}
+
+#banner { 
+	text-align: inline; 
+	padding: 15px;
+	position: fixed;
+}
+
+#banner img { float:left;
+			padding: 0;
+			margin: 0;
+			height: 100px;
+			width: 100px;
+			position: relative;
+			top: 10%;
+}
+
+.headerbox {width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			display:-webkit-flex-shrink: 0;
+			display:-ms-flex-negative: 0;
+			flex-shrink: 0;
+}
+
+a:hover {opacity: 0.6;
+}
+
+a {	text-decoration: none;	
+}
+
+nav {
+	position: relative;
+	left: 520px;
+	top: 42px;
+}
+
+nav a{	 padding: 5px; 
+		font-size: 18px;
+		color: white; 
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+main { 	
+		padding-top: 8%;
+		
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	
+}
+
+#scrollbutton {
+	display: block;
+	text-align: center;
+}
+
+#scrollbutton img {
+	width: 40px;
+	height: 20px;
+	margin: 0;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+
+footer {
+	bottom: 0;
+	height: 30%;
+	width: 100%;
+	background-color: #0e3c4b;
+	justify-content: center;
+	color: #c3ccd1;
+}
+
+footer ul {
+	list-style: none;
+	display: block;
+	float: left;
+}
+
+.footerclmns {
+	width: 20%;
+	font-size: 18px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+footer a { color: #9ed1ec;
+}
+
+#footerclmn1 {
+	padding-left: 40%;
+}
+
+#footerclmn2 {
+	position: relative;
+	
+}
+
+#copyright { 
+	display: block;
+	text-align: center; 
+	position: relative;
+	bottom: 50%;
+	left: 35%;
+	clear: left;
+	width: 50%;
+	padding-top: 30px;
+}
+#copyright li{ display: inline;
+				margin-left: auto;
+				margin-right: auto;
+				
+}
+
+#validator {
+	display: block;
+	padding: 2px;
+	position: bottom;
+	clear: both;
+}
+
+html { font-family: tahoma, sans-serif;
+}
+
+header {
+	height: 15%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #237DAE;
+	opacity: 0.95;
+	z-index:10;
+}
+header h1 { position: relative;
+			top: 18px;
+			left: 5%;
+			display: inline;	
+}
+
+#banner { 
+	text-align: inline; 
+	padding: 15px;
+	position: fixed;
+}
+
+#banner img { float:left;
+			padding: 0;
+			margin: 0;
+			height: 100px;
+			width: 100px;
+			position: relative;
+			top: 10%;
+}
+
+.headerbox {width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			display:-webkit-flex-shrink: 0;
+			display:-ms-flex-negative: 0;
+			flex-shrink: 0;
+}
+
+a:hover {opacity: 0.6;
+}
+
+a {	text-decoration: none;	
+}
+
+nav {
+	position: relative;
+	left: 520px;
+	top: 42px;
+}
+
+nav a{	 padding: 5px; 
+		font-size: 18px;
+		color: white; 
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+main { 	
+		padding-top: 8%;
+		
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	
+}
+
+#scrollbutton {
+	display: block;
+	text-align: center;
+}
+
+#scrollbutton img {
+	width: 40px;
+	height: 20px;
+	margin: 0;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
+
+footer {
+	bottom: 0;
+	height: 30%;
+	width: 100%;
+	background-color: #0e3c4b;
+	justify-content: center;
+	color: #c3ccd1;
+}
+
+footer ul {
+	list-style: none;
+	display: block;
+	float: left;
+}
+
+.footerclmns {
+	width: 20%;
+	font-size: 18px;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+footer a { color: #9ed1ec;
+}
+
+#footerclmn1 {
+	padding-left: 40%;
+}
+
+#footerclmn2 {
+	position: relative;
+	
+}
+
+#copyright { 
+	display: block;
+	text-align: center; 
+	position: relative;
+	bottom: 50%;
+	left: 35%;
+	clear: left;
+	width: 50%;
+	padding-top: 30px;
+}
+#copyright li{ display: inline;
+				margin-left: auto;
+				margin-right: auto;
+				
+}
+
+#validator {
+	display: block;
+	padding: 2px;
+	position: bottom;
+	clear: both;
+}
+
+
+/* Project Page CSS Starts Here 
+Please edit with care and caution
+Coded by Toni, if problem arises 
+please contact Toni. */
+
+.formtable { 
+
+width: 100%; 
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+overflow: scroll;
+}
+
+.formtd1 { 
+
+
+width: 300px;
+height: 300px;
+padding: 5%;
+
+}
+
+.formtd2 { 
+
+
+width: 300px;
+height: 300px;
+padding: 5%;
+
+}
+
+.formtd3 { 
+
+
+width: 300px;
+height: 300px;
+padding: 5%;
+
+}
+
+.formtd4 { 
+
+
+width: 300px;
+height: 300px;
+padding: 5%;
+
+}
+
+/* Gray Scale of Project Colors & Hover */
+
+.hovergray figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hovergray figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+
+/* SOCIAL MEDIA BUTTON CSS BELOW
+EDIT WITH CAUTION */
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.findsocial { 
+
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+ .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #e95950;
+    color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+/* Reddit */
+.fa-reddit {
+    background: #FF5700;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin { 
+	background: #007bb5;
+	color: white;
+}
