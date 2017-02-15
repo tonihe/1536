@@ -111,7 +111,7 @@ footer a { color: #9ed1ec;
 }
 
 #footerclmn1 {
-	padding-left: 40%;
+	padding-left: 600px;;
 }
 
 #footerclmn2 {
@@ -124,7 +124,7 @@ footer a { color: #9ed1ec;
 	text-align: center; 
 	position: relative;
 	bottom: 25px;
-	left: 34%;
+	left: 525px;
 	clear: left;
 	width: 50%;
 	padding-top: 30px;
