@@ -1,6 +1,7 @@
 /* This CSS has been edited by Toni @ 5:00 February 15, 2017 to include FlexBox */
 
 html { font-family: tahoma, sans-serif;
+
 }
 
 header {
@@ -36,9 +37,7 @@ header h1 { position: relative;
 .headerbox {width: 1000px;
 			margin-left: auto;
 			margin-right: auto;
-			display:-webkit-flex-shrink: 0;
-			display:-ms-flex-negative: 0;
-			flex-shrink: 0;
+
 }
 
 a:hover {opacity: 0.6;
@@ -62,16 +61,16 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-  	
+
 }
 
 main { 	
+
 		padding-top: 8%;
-		
 		width: 800px;
 		margin-left: auto;
 		margin-right: auto;
-	
+
 }
 
 #scrollbutton {
@@ -92,7 +91,6 @@ footer {
 	height: 30%;
 	width: 100%;
 	background-color: #0e3c4b;
-	justify-content: center;
 	color: #c3ccd1;
 }
 
