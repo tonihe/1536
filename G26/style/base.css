@@ -162,45 +162,31 @@ Coded by Toni, if problem arises
 please contact Toni. */
 
 .formtable { 
-
-width: 100%; 
-height: 500px;
-margin-left: auto;
-margin-right: auto;
-overflow: scroll;
+	width: 100%; 
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
 }
 
 .formtd1 { 
-
-
-width: 300px;
-height: 300px;
-
+	width: 300px;
+	height: 300px;
 }
 
 .formtd2 { 
-
-
 width: 300px;
 height: 300px;
-
 }
 
 .formtd3 { 
-
-
 width: 300px;
 height: 300px;
-
-
 }
 
 .formtd4 { 
-
-
 width: 300px;
 height: 300px;
-
 }
 
 /* Gray Scale of Project Colors & Hover */
@@ -229,12 +215,9 @@ EDIT WITH CAUTION */
 }
 
 .findsocial { 
-
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-
-
 }
 
 /* Add a hover effect if you want */
