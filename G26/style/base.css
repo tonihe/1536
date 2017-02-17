@@ -6,7 +6,7 @@ html { font-family: tahoma, sans-serif;
 }
 
 header {
-	height: 15%;
+	height: 130px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -23,7 +23,8 @@ header h1 {
 }
 
 #banner { 
-	text-align: inline; 
+	text-align: inline;
+	white-space: nowrap;
 	padding: 15px;
 	position: fixed;
 }
@@ -66,19 +67,17 @@ nav a{
 }
 
 body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
 	border: 0;
-
 }
 
 main { 	
-
-	padding-top: 8%;
+	padding-top: 130px;
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 #scrollbutton {
@@ -100,6 +99,7 @@ footer {
 	width: 100%;
 	background-color: #0e3c4b;
 	color: #c3ccd1;
+	white-space: nowrap;
 }
 
 footer ul {
@@ -109,12 +109,9 @@ footer ul {
 }
 
 .footerclmns {
-	width: 20%;
 	font-size: 18px;
-	display: inline;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 
 footer a { 
@@ -127,6 +124,10 @@ footer a {
 
 #footerclmn2 {
 	position: relative;
+<<<<<<< HEAD
+=======
+	margin-left: 10px;
+>>>>>>> 3dbdb13ff08da723e8b5a88629a6d69ba7e4c50a
 }
 
 #copyright { 
@@ -173,13 +174,13 @@ please contact Toni. */
 }
 
 .formtd2 { 
-width: 300px;
-height: 300px;
+	width: 300px;
+	height: 300px;
 }
 
 .formtd3 { 
-width: 300px;
-height: 300px;
+	width: 300px;
+	height: 300px;
 }
 
 .formtd4 { 
