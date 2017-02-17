@@ -1,0 +1,39 @@
+.contents {
+	margin-top: 25px;
+	margin-bottom: 0px;
+	overflow: hidden;
+	padding-left: 50px;
+	padding-right: 50px;
+}		
+#textbox {
+	background-color: #237DAE;
+	color: white;
+	border-radius: 25px;
+	float: left;
+	max-width: 300px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+	margin-bottom: 25px;
+}
+#textbox h2 {
+	text-shadow:2px 2px #000000;
+}
+#projectslink {
+	float: right;
+	width: 370px;
+	height: 350px;
+	left: 400px;
+	bottom:200px;
+	border: solid;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 50px;
+}		
+#imageicons {
+	display: inline;
+	width: 800px;
+	margin-left auto;
+	margin-right auto;
+	position: relative;
+	left: 10%;
+}
