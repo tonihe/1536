@@ -131,6 +131,12 @@ footer a {
 	color: #9ed1ec;
 }
 
+.liheading {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
 #footerclmn1 {
 	padding-left: 40%;
 }
