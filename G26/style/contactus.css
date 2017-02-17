@@ -1,0 +1,13 @@
+.findsocial {
+	background-color: #237DAE;
+	padding: 10px;
+	color: white;
+	text-shadow:2px 2px #000000;
+	border-radius: 25px;
+	background-image: url("style/sample.jpg");
+	background-position: 220px 155px;
+	background-repeat: no-repeat;
+	background-size: 427px 290px;
+	margin-top: 10px;
+}
+.findsocial a {border: solid 2px white;}

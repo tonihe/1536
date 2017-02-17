@@ -3,78 +3,25 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style/base.css">
-<title>Web RCKT</title>
-<style>
-#infoboxes {
-	padding: 30px;
-	overflow: hidden;
-}
-#loginbox h2 {
-	text-shadow: 2px 2px #000000;
-}
-#Community h2 {
-	text-shadow: 2px 2px #000000;
-}
-#loginbox {
-	width: 42%;
-	height: 500px;
-	border: solid;
-	border-radius: 25px;
-	text-align: center;
-	float:left;
-	background-color: #237DAE;
-	text-shadow: 1px 1px #000000;
-	color: white;
-}
-#Community {
-	text-align: center;
-	border-radius: 25px;
-	width: 55%;
-	height: 500px;
-	border:solid;
-	float:right;
-	background-image: url(style/PlaceholderBackground.png);
-	background-color: #237DAE;
-	color: white;
-	text-shadow: 1px 1px #000000;
-}
-			
-#Community p {
-	width: 250px;
-	position: relative;
-	left: 20%;
-}
-			
-#Community h2 {
-	color: white;
-
-
-
-}		
-
-.regsumbimt { 
-	padding: 10px 24px;
-
-}
-
-</style>
+<link rel="stylesheet" href="style/community.css">
+<title>Community</title>
 </head>
 <body>
-	<header>
-		<div class="headerbox">
+<header>
+	<div class="headerbox">
 		<div id="banner">
-			<a href="index.html"><img src="style/RocketLogo.png" alt="Rocket Logo" /></a>
-			<h1><a href="index.html"></a>WEB RCKT DESIGN</h1>
+			<a href="index.html"><img src="style/RocketLogo.png" alt="Rocket Logo"></a>
+			<a href="index.html"><h1>WEB RCKT DESIGN</h1></a>
 		</div>
-			<nav>
-				<a href="index.html">Home</a>
-				<a href="aboutus.html">About Us</a>
-				<a href="services.html">Services</a>
-				<a href="community.html">Community</a>
-				<a href="contactus.html">Contact Us</a>
-			</nav>
-		</div>
-	</header>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="aboutus.html">About Us</a>
+			<a href="services.html">Services</a>
+			<a href="community.html">Community</a>
+			<a href="contactus.html">Contact Us</a>
+		</nav>
+	</div>
+</header>
 <a id="pagetop"></a>
 <main>
 	<h2>Come join the community!</h2>
@@ -93,7 +40,7 @@
 				<input id="loginname" class="input" name="name" type="text" value="" size="30" />
 				<br>
 				<label for="loginpass">Password:</label><br/>
-				<input id="loginpass" class="input" name="name" type="text" value="" size="30" />
+				<input id="loginpass" class="input" name="name" type="password" value="" size="30" />
 				<br>
 			</form>
 			<h2>REGISTER:</h2>
@@ -108,10 +55,10 @@
 				<input id="username" class="input" name="name" type="text" value="" size="30" />
 				<br>
 				<label for="password">Password:</label><br>
-				<input id="password" class="input" name="name" type="text" value="" size="30" />
+				<input id="password" class="input" name="name" type="password" value="" size="30" />
 				<br>
 				<label for="passwordconf">Confirm Password:</label><br>
-				<input id="passwordconf" class="input" name="name" type="text" value="" size="30" />
+				<input id="passwordconf" class="input" name="name" type="password" value="" size="30" />
 				<br>
 				<br>
 				<input type="submit" value="submit">
@@ -134,7 +81,7 @@
 <footer>
 	<div class="footerclmns">
 		<ul id="footerclmn1">
-			<li>Get in Touch</li>
+			<li class="liheading">Contact Us</li>
 			<li>Number</li>
 			<li><a href="tel:685-987-8934">685-987-8934</a></li>
 			<li>Address</li>
@@ -143,7 +90,7 @@
 			<li><a href="mailto:rckt@rcktmail.com">rckt@rcktmail.com</a></li>
 		</ul>
 		<ul id="footerclmn2">
-			<li>Our Company</li>
+			<li class="liheading">Our Company<li>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="aboutus.html">About Us</a></li>
 			<li><a href="services.html">Services</a></li>
