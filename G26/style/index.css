@@ -15,7 +15,6 @@
 	max-width: 350px;
 	float: left;
 	width: 45%;
-	
 }		
 .previewprojects {
 	float: right;
@@ -29,11 +28,16 @@
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-right: auto;}
+	margin-right: auto;
+}
 	
-#mediaImage img{width: 100%}
+#mediaImage img{
+	width: 1300px;
+}
 
-#mediaImage {text-align: center;}
+#mediaImage {
+	text-align: center;
+}
 
 #motto h1 {
 	margin: 5px;

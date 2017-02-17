@@ -3,7 +3,6 @@ This CSS has been last edited by Toni @ 5:00 February 15, 2017 */
 
 html { 
 	font-family: tahoma, sans-serif;
-
 }
 
 header {
@@ -16,7 +15,9 @@ header {
 	z-index:10;
 }
 
-header a{color: black;}
+header a {
+	color: black;
+}
 
 header h1 { 
 	position: relative;
@@ -45,7 +46,6 @@ header h1 {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 a:hover {
@@ -210,10 +210,10 @@ height: 300px;
 	filter: grayscale(0);
 }
 
-
 /* SOCIAL MEDIA BUTTON CSS BELOW
 EDIT WITH CAUTION */
 /* Style all font awesome icons */
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -271,7 +271,4 @@ EDIT WITH CAUTION */
 	color: white;
 }
 
-/* THIS IS THE END OF THE CSS. 
-LET'S HOPE GITHUB DOESN'T RUIN THIS AGAIN
-*/ 
-
+/* THIS IS THE END OF THE CSS.*/ 
