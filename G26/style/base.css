@@ -25,8 +25,7 @@ header h1 {
 	display: inline;	
 }
 
-#banner { 
-	text-align: inline;
+#banner {
 	white-space: nowrap;
 	padding: 15px;
 	position: fixed;
@@ -86,7 +85,6 @@ main {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	/* background-color: #FFFFFF */
 }
 
 #scrollbutton {
@@ -159,16 +157,13 @@ footer a {
 #copyright li{ 
 	display: inline;
 	margin-left: auto;
-	margin-right: auto;
-				
+	margin-right: auto;			
 }
 
 #validator {
 	display: block;
 	padding: 2px;
-	position: bottom;
 	clear: both;
-
 }
 
 /* Project Page CSS Starts Here 
