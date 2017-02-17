@@ -16,6 +16,8 @@ header {
 	z-index:10;
 }
 
+header a{color: black;}
+
 header h1 { 
 	position: relative;
 	top: 18px;
