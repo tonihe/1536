@@ -1,0 +1,45 @@
+#homepagecontent {
+	overflow: hidden;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px; 0px;
+}
+
+#pagetext {
+	background-color: #237DAE;
+	padding: 10px;
+	color: white;
+	text-shadow:2px 2px #000000;
+	border-radius: 25px;
+	max-width: 350px;
+	float: left;
+	width: 45%;
+	
+}		
+.previewprojects {
+	float: right;
+	width: 45%;
+}
+
+#motto {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	padding-top: 8%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-right: auto;}
+	
+#mediaImage img{width: 100%}
+
+#mediaImage {text-align: center;}
+
+#motto h1 {
+	margin: 5px;
+}
+
+body p {max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+}
