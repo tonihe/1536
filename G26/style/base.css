@@ -1,7 +1,8 @@
 /* GROUP26 CSS STYLESHEET FOR WEBDEV 1536
 This CSS has been last edited by Toni @ 5:00 February 15, 2017 */
 
-html { font-family: tahoma, sans-serif;
+html { 
+	font-family: tahoma, sans-serif;
 
 }
 
@@ -112,6 +113,10 @@ footer ul {
 	font-size: 18px;
 	margin-left: auto;
 	margin-right: auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
 }
 
 footer a { 
@@ -124,10 +129,7 @@ footer a {
 
 #footerclmn2 {
 	position: relative;
-<<<<<<< HEAD
-=======
 	margin-left: 10px;
->>>>>>> 3dbdb13ff08da723e8b5a88629a6d69ba7e4c50a
 }
 
 #copyright { 
