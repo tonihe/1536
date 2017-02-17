@@ -14,10 +14,12 @@ header {
 	opacity: 0.95;
 	z-index:10;
 }
-header h1 { position: relative;
-			top: 18px;
-			left: 5%;
-			display: inline;	
+
+header h1 { 
+	position: relative;
+	top: 18px;
+	left: 5%;
+	display: inline;	
 }
 
 #banner { 
@@ -26,25 +28,29 @@ header h1 { position: relative;
 	position: fixed;
 }
 
-#banner img { float:left;
-			padding: 0;
-			margin: 0;
-			height: 100px;
-			width: 100px;
-			position: relative;
-			top: 10%;
+#banner img { 
+	float:left;
+	padding: 0;
+	margin: 0;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	top: 10%;
 }
 
-.headerbox {width: 1000px;
-			margin-left: auto;
-			margin-right: auto;
+.headerbox { 
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
-a:hover {opacity: 0.6;
+a:hover {
+	opacity: 0.6;
 }
 
-a {	text-decoration: none;	
+a {	
+	text-decoration: none;	
 }
 
 nav {
@@ -53,9 +59,10 @@ nav {
 	top: 42px;
 }
 
-nav a{	 padding: 5px; 
-		font-size: 18px;
-		color: white; 
+nav a{
+	padding: 5px; 
+	font-size: 18px;
+	color: white; 
 }
 
 body {
@@ -67,10 +74,10 @@ body {
 
 main { 	
 
-		padding-top: 8%;
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
+	padding-top: 8%;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
@@ -110,7 +117,8 @@ footer ul {
 	
 }
 
-footer a { color: #9ed1ec;
+footer a { 
+	color: #9ed1ec;
 }
 
 #footerclmn1 {
@@ -132,9 +140,10 @@ footer a { color: #9ed1ec;
 	width: 50%;
 	padding-top: 30px;
 }
-#copyright li{ display: inline;
-				margin-left: auto;
-				margin-right: auto;
+#copyright li{ 
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
 				
 }
 
@@ -153,45 +162,31 @@ Coded by Toni, if problem arises
 please contact Toni. */
 
 .formtable { 
-
-width: 100%; 
-height: 500px;
-margin-left: auto;
-margin-right: auto;
-overflow: scroll;
+	width: 100%; 
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
 }
 
 .formtd1 { 
-
-
-width: 300px;
-height: 300px;
-
+	width: 300px;
+	height: 300px;
 }
 
 .formtd2 { 
-
-
 width: 300px;
 height: 300px;
-
 }
 
 .formtd3 { 
-
-
 width: 300px;
 height: 300px;
-
-
 }
 
 .formtd4 { 
-
-
 width: 300px;
 height: 300px;
-
 }
 
 /* Gray Scale of Project Colors & Hover */
@@ -220,12 +215,9 @@ EDIT WITH CAUTION */
 }
 
 .findsocial { 
-
-			width: 80%;
-			margin-left: auto;
-			margin-right: auto;
-
-
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Add a hover effect if you want */
