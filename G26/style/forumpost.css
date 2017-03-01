@@ -1,0 +1,45 @@
+main{
+	background-color: #A1B0B7;
+	display: flex;
+	display: block;
+}
+
+.thread{
+	font-size: 16;
+	border-radius: 25px;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.thread hr {opacity: 0.6;}
+
+#newmessage{
+	background-color: #237DAE;
+	color: white;
+	font-size: 16;
+	text-shadow:2px 2px #000000;
+	border-radius: 25px;
+	margin-top: 5%;
+	width: 72%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	padding-left: 7%;
+	padding-right: 1%;
+}
+	
+#topicbox{
+	width: 90%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#message{
+	margin-top: 5px;
+	width: 90%;
+}
