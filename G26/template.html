@@ -5,9 +5,16 @@
 <link rel="stylesheet" href="style/base.css">
 <link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
 <title>Web RCKT</title>
+<style>
+	#headerbox { 
+		transition:all 0.4s;
+		height: 150px;
+		width: 100%;
+		}
+</style>
 </head>
 <body>
-<header>
+<header id="header">
 	<div class="headerbox">
 		<div id="banner">
 			<a href="index.html"><img src="style/RocketLogo.png" alt="Rocket Logo"></a>
@@ -123,6 +130,18 @@
 			<li>| All rights reserved.</li>
 		</ul>
 	</div>
+	<script type="text/javascript">
+		function Scroll() {
+		var top = document.getElementById('headerbox');
+		var ypos = window.pageYOffset;
+		if(ypos > 587) {
+			top.style.height = "70px";
+			} else {
+				top.style.height = "150px";
+				}
+		}
+		window.addEventListener("scroll",Scroll);
+	</script>
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
 </body>	
