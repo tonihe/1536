@@ -42,12 +42,14 @@ header:hover nav {
 header:hover #banner img{
 	height: 115%;
 	width: 7%;
+	top: 5%;
 	transition: 0.4s;
 }
 header:hover #banner h1{
 	font-size: 2.2em;
 	font-weight: 200;
-	top: 35%;
+	left: 6%;
+	top: 12%;
 	transition-duration:0.4s;
 }
 /* End of transition Effect */
@@ -72,12 +74,14 @@ header a {
 	height: 85%;
 	width: 5.5%;
 	left: -2%;
+	top: 0;
 	position: relative;
 	transition-duration: 0.4s;
 }
 
 /* Changed to 70% width from 1000px */
 .headerbox { 
+	height: 100%;
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
@@ -100,8 +104,9 @@ header a {
 #banner h1{
 	font-weight: 300;
 	font-size: 1.5em;
-	position: relative;
-	left: -1%;
+	position: absolute;
+	left: 4%;
+	top: 12%;
 	transition-duration: 0.4s;
 }
 

@@ -20,16 +20,6 @@
 	float: right;
 	width: 45%;
 }
-
-#motto {
-	padding-top: 130px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 30px;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-right: auto;
-}
 	
 #mediaImage img{
 	width: 1300px;
@@ -37,10 +27,6 @@
 
 #mediaImage {
 	text-align: center;
-}
-
-#motto h1 {
-	margin: 5px;
 }
 
 /* Animated Header Backgrounds */
@@ -68,6 +54,7 @@
 	letter-spacing: 0.1em;
 }
 
+/* Resized background image to work with animated background and true to original */
 body {
 	background-image: url(backgroundimg.jpg);
 	background-repeat: no-repeat;
