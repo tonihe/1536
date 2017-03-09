@@ -15,8 +15,6 @@ header {
 	opacity: 0.95;
 	z-index:10;
 	transition-duration: 0.4s;
-
-
 }
 /* Transition Effect */
 header:hover {
@@ -26,7 +24,7 @@ header:hover {
 	transition-duration: 0.4s;
 }
 header:hover .dropbtn {
-	background-color: white;
+	background-color: transparent;
 	transition-duration: 0.4s;
 	color: black;
 }
@@ -74,9 +72,19 @@ header a {
 	margin: 0;
 	height: 85px;
 	width: 85px;
+	position: relative;
 	left: -2%;
 	top: 0;
-	position: relative;
+	transition-duration: 0.4s;
+}
+
+/* Thin Name Text, limited to 200,300,400,800 via import. shifted name left and enlarged */
+#banner h1{
+	font-weight: 300;
+	font-size: 1.5em;
+	position: absolute;
+	left: 65px;
+	top: 15px;
 	transition-duration: 0.4s;
 }
 
@@ -100,15 +108,6 @@ header a {
 .ha-header-color h1,
 .ha-header-color nav a {
 	color: #fff;
-}
-/* Thin Name Text, limited to 200,300,400,800 via import. shifted name left and enlarged */
-#banner h1{
-	font-weight: 300;
-	font-size: 1.5em;
-	position: absolute;
-	left: 4%;
-	top: 12%;
-	transition-duration: 0.4s;
 }
 
 a:hover {
@@ -164,7 +163,7 @@ nav a:hover:before {
 
 /* CSS for drop down menus in the navigation */
 .dropbtn {
-    background-color: #237DAE;
+    background-color: transparent;
     color: white;
     padding: 20px;
     font-size: 0.8em;
