@@ -7,7 +7,7 @@ html {
 }
 
 header {
-	height: 13%;
+	height: 95px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -16,10 +16,11 @@ header {
 	z-index:10;
 	transition-duration: 0.4s;
 
+
 }
 /* Transition Effect */
 header:hover {
-	height:18%;
+	height:130px;
 	width:100%;
 	background-color: white;
 	transition-duration: 0.4s;
@@ -40,8 +41,8 @@ header:hover nav {
 }
 
 header:hover #banner img{
-	height: 115%;
-	width: 7%;
+	height: 120px;
+	width: 120px;
 	top: 5%;
 	transition: 0.4s;
 }
@@ -71,8 +72,8 @@ header a {
 	float:left;
 	padding: 0;
 	margin: 0;
-	height: 85%;
-	width: 5.5%;
+	height: 85px;
+	width: 85px;
 	left: -2%;
 	top: 0;
 	position: relative;
@@ -165,7 +166,7 @@ nav a:hover:before {
 .dropbtn {
     background-color: #237DAE;
     color: white;
-    padding: 15px;
+    padding: 20px;
     font-size: 0.8em;
     border: none;
     cursor: pointer;
