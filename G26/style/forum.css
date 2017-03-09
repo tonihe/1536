@@ -2,10 +2,20 @@
 	float: right;
 	margin-top: 50px;
 	margin-bottom: 5px;
-	background-color: orange;
+	background-color: #f3796c;
 	color: white;
 	padding: 5px 20px;
+	border:solid;
+	border-color: #f3796c;
 	border-radius: 5px;
+	transition: 0.3s;
+}
+
+#postbutton:hover {
+	background-color: white;
+	color: #f3796c;
+	border:solid;
+	transition: 0.3s;
 }
 
 .forum {
