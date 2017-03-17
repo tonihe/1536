@@ -47,7 +47,7 @@ header:hover #banner img{
 header:hover #banner h1{
 	font-size: 2.2em;
 	font-weight: 200;
-	left: 6%;
+	left: 2.5em;
 	top: 12%;
 	transition-duration:0.4s;
 }
@@ -92,6 +92,8 @@ header a {
 .headerbox { 
 	height: 100%;
 	width: 70%;
+	min-width: 48em;
+	padding-left: 2em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -119,7 +121,7 @@ a {
 }
 
 nav {
-	position: absolute;
+	position: relative;
 	left: 53%;
 	top: 25%;
 	display: -webkit-flex;

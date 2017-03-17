@@ -14,7 +14,7 @@
 <header>
 	<div class="headerbox">
 		<div id="banner">
-			<a href="index.html"><img src="style/RocketLogo.png" alt="Rocket Logo"></a>
+			<a href="index.html"><img src="style/rocketLogo.png" alt="Rocket Logo"></a>
 			<a href="index.html"><h1>WEB RCKT DESIGN</h1></a>
 		</div>
 		<nav>
@@ -61,19 +61,19 @@
 		<div id ="userinfo">
 		<img id="contactimage" src="style/sample.jpg" alt="Sample">
 			<h2>Contact Us!</h2>
-				<form action="http://webdevfoundations.net/scripts/formdemo.asp">
+				<form onsubmit="return clicked()" action="http://webdevfoundations.net/scripts/formdemo.asp">
 				<p>First name:</p>
-				<input type="text" name="firstname" value="John">
+				<input type="text" id="firstname" name="firstname" placeholder="Firstname">
 				<p>Last name:</p>
-				<input type="text" name="lastname" value="Doe">
+				<input type="text" id="lastname" name="lastname" placeholder="Lastname">
 				<p>Email:</p>
-				<input type="text" name="email" value="your email here">
+				<input type="text" id="email" name="email" placeholder="Email Address Here">
 		<br>
 			<p>Your message here:</p>
-			<textarea name="message" rows="10" cols="81">Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel, no zril vocent posidonium his. Elitr fuisset probatus eu sea, his timeam dignissim neglegentur ne, quo eu paulo complectitur. Sit te vide ludus convenire, sed legere argumentum at. His oporteat laboramus ut, sit feugiat efficiendi at. Graece euripidis est ne, amet posse honestatis cum eu...</textarea>
+			<textarea id="message" name="message" rows="10" cols="81" placeholder="Please write us here!"></textarea>
 		<br>
 			<input type="reset" value="Reset">
-			<input type="submit" value="Submit">
+			<input type="submit" value="Submit" onClick="clicked()">
 			</form> 
 		</div>
 
@@ -111,5 +111,7 @@
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
 		<script src="js/scroll.js"></script>
+	<!-- JavaScript for Info Check -->
+		<script src="js/userlogin.js"></script>
 </body>	
 </html>
