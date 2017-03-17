@@ -6,7 +6,7 @@ html {
 }
 
 header {
-	height: 95px;
+	height: 110px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -40,8 +40,8 @@ header:hover nav {
 
 header:hover #banner img {
 	display: inline-block;
-	height: 100px;
-	width: 100px;
+	height: 115px;
+	width: 115px;
 	position: absolute;
 	top: 5%;
 	transition: 0.4s;
@@ -50,9 +50,10 @@ header:hover #banner img {
 header:hover #banner h1 {
 	display: relative;
 	font-size: 2.5em;
-	margin-left: 2%;
-	margin-top: 35px;
+	margin-left: 15px;
+	margin-top: 30px;
 	transition-duration:0.4s;
+	white-space: nowrap;
 }
 /* End of transition Effect */
 
@@ -73,8 +74,8 @@ header a {
 	float:left;
 	padding: 0;
 	margin-top: 7px;
-	height: 85px;
-	width: 85px;
+	height: 100px;
+	width: 100px;
 	position: absolute;
 	left: -2%;
 	top: 0;
@@ -88,17 +89,17 @@ header a {
 	margin-left: 10px;
 	margin-top: 25px;
 	position: absolute;
-	left: 65px;
+	left: 70px;
 	transition-duration: 0.4s;
+	white-space: nowrap;
 }
 
 /* Changed to 70% width from 1000px */
 .headerbox { 
 	height: 100%;
-	width: 70%;
+	width: 85%;
 	min-width: 52em;
-	padding-left: 2em;
-	margin-left: auto;
+	margin-left: 12%;
 	margin-right: auto;
 }
 
@@ -179,7 +180,7 @@ nav a:hover:before {
 }
 
 nav .dropdown a {
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .dropdown {

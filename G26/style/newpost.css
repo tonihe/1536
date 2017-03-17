@@ -1,7 +1,17 @@
+body {
+	background-image: url(cauldron.jpg);
+	background-repeat: no-repeat;
+	background-size: 180% 140%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 #newmessage{
 	background-color: #237DAE;
 	color: white;
-	font-size: 16;
+	font-size: 16px;
 	text-shadow:2px 2px #000000;
 	border-radius: 25px;
 	margin-top: 5%;
@@ -19,7 +29,9 @@
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+
 #message{
 	margin-top: 5px;
 	width: 90%;
 }
+

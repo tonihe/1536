@@ -8,3 +8,21 @@ main img {
 #scrollbutton {
 	padding-top: 30px;
 }
+
+#textbox {
+	background-color: #237DAE;
+	color: white;
+	border-radius: 25px;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+body {
+		background-image: url(colourbuildings.jpg);
+	background-repeat: no-repeat;
+	background-size: 120% 100%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

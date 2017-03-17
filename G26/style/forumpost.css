@@ -43,3 +43,13 @@ main{
 	margin-top: 5px;
 	width: 90%;
 }
+
+body {
+	background-image: url(falsecreek3.jpg);
+	background-repeat: no-repeat;
+	background-size: 180% 140%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

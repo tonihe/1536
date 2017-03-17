@@ -15,6 +15,16 @@
 	width: 320px;
 }
 
+body {
+	background-image: url(falsecreek0.jpg);
+	background-repeat: no-repeat;
+	background-size: 150% 120%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 .findsocial a {
 	border: solid 2px white;
 	margin: 1px;
@@ -27,7 +37,3 @@ input {
 span {
 	font-size: 75%;
 }
-
-/*#form input{
-	margin: 1em;
-} */
