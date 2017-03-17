@@ -108,19 +108,6 @@ function warnDomainInvalid(id) {
 			<h2>CONTACT US!</h2>
 				<form onsubmit="return clicked()" action="http://webdevfoundations.net/scripts/formdemo.asp">
 				<p>First name:</p>
-<<<<<<< HEAD
-				<input type="text" id="firstname" name="firstname" placeholder="Firstname" required>
-				<p>Last name:</p>
-				<input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
-				<p>Email:</p>
-				<input type="text" id="email" name="email" placeholder="Email Address Here" required>
-		<br>
-			<p>Your message here:</p>
-			<textarea id="message" name="message" rows="10" cols="81" placeholder="Please write us here!" required ></textarea>
-		<br>
-			<input type="reset" value="Reset">
-			<input type="submit" value="Submit" onClick="clicked()">
-=======
 				<input type="text" id="firstname" name="firstname" placeholder="First Name" onblur="warnFirstNameInvalid('firstname')"/>
 				<br>
 				<span id="invalidfirstname"></span>
@@ -138,7 +125,6 @@ function warnDomainInvalid(id) {
 				<br>
 					<input type="reset" value="Reset">
 					<input type="submit" value="Submit" onClick="clicked()">
->>>>>>> 286a12107eb5ee4b0a346c97afd950b06ec97790
 			</form> 
 		</div>
 	</div> 
