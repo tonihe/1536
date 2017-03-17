@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="style/base.css">
 <link rel="stylesheet" href="style/aboutus.css">
 <link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
+<!-- Importing Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
 <title>About Us</title>
 </head>
 <body>
@@ -15,11 +17,33 @@
 			<a href="index.html"><h1>WEB RCKT DESIGN</h1></a>
 		</div>
 		<nav>
-			<a href="index.html">Home</a>
-			<a href="aboutus.html">About Us</a>
-			<a href="services.html">Services</a>
-			<a href="community.html">Community</a>
-			<a href="contactus.html">Contact Us</a>
+			<div class="dropdown">
+				<a href="index.html"><button class="dropbtn">Home</button></a>
+			</div>
+			<div class="dropdown">
+				<a href="aboutus.html"><button class="dropbtn">About Us</button></a>
+				<div class="dropdown-content">
+					<a href="team.html">Team</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a href="services.html"><button class="dropbtn">Services</button></a>
+				<div class="dropdown-content">
+					<a href="projects/project1.html">Project 1</a>
+					<a href="projects/project2.html">Project 2</a>
+					<a href="projects/project3.html">Project 3</a>
+					<a href="projects/project4.html">Project 4</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a href="community.html"><button class="dropbtn">Community</button></a>
+				<div class="dropdown-content">
+					<a href="forum.html">Forum</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a href="contactus.html"><button class="dropbtn">Contact Us</button></a>
+			</div>
 		</nav>
 	</div>
 </header>
@@ -45,7 +69,7 @@
 			<a href="team.html"> <img src="style/placeholder2.jpg" alt="Meet Our Team"width="425px"; height="50px";></a>
 		</div>
 		<img src="style/placeholder.jpg" alt="Picture of the team" width="800px"; height="350px"; >
-<a id="scrollbutton" href="#pagetop"><img src="style/buttonup.png" alt="Back to Top"></a>	
+	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -76,5 +100,7 @@
 	</div>
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
+	<!-- Javascript for animated scroll-to-top -->
+		<script src="js/scroll.js"></script>
 </body>	
 </html>

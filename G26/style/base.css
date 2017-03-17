@@ -1,51 +1,113 @@
 /* GROUP26 CSS STYLESHEET FOR WEBDEV 1536
-This CSS has been last edited by Toni @ 5:00 February 15, 2017 */
+This CSS has been last edited by Raly @ 7:00 March 7, 2017 */
 
+/* Importing Google Fonts */
 html { 
-	font-family: tahoma, sans-serif;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
 }
 
 header {
-	height: 130px;
+	height: 95px;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	background-color: #237DAE;
 	opacity: 0.95;
 	z-index:10;
+	transition-duration: 0.4s;
 }
+/* Transition Effect */
+header:hover {
+	height:130px;
+	width:100%;
+	background-color: white;
+	transition-duration: 0.4s;
+}
+header:hover .dropbtn {
+	background-color: transparent;
+	transition-duration: 0.4s;
+	color: black;
+}
+
+header .dropbtn {
+	transition-duration: 0.4s;
+}
+
+header:hover nav {
+	top: 40%;
+	transition-duration: 0.4s;
+}
+
+header:hover #banner img{
+	height: 120px;
+	width: 120px;
+	top: 5%;
+	transition: 0.4s;
+}
+header:hover #banner h1{
+	font-size: 2.2em;
+	font-weight: 200;
+	left: 6%;
+	top: 12%;
+	transition-duration:0.4s;
+}
+/* End of transition Effect */
 
 header a {
 	color: black;
 }
 
-header h1 { 
-	position: relative;
-	top: 18px;
-	left: 5%;
-	display: inline;	
-}
 
 #banner {
 	white-space: nowrap;
-	padding: 15px;
+	padding: 0.65%;
 	position: fixed;
+	height: 13%;
+	width: 100%;
 }
 
 #banner img { 
 	float:left;
 	padding: 0;
 	margin: 0;
-	height: 100px;
-	width: 100px;
+	height: 85px;
+	width: 85px;
 	position: relative;
-	top: 10%;
+	left: -2%;
+	top: 0;
+	transition-duration: 0.4s;
 }
 
+/* Thin Name Text, limited to 200,300,400,800 via import. shifted name left and enlarged */
+#banner h1{
+	font-weight: 300;
+	font-size: 1.5em;
+	position: absolute;
+	left: 65px;
+	top: 15px;
+	transition-duration: 0.4s;
+}
+
+/* Changed to 70% width from 1000px */
 .headerbox { 
-	width: 1000px;
+	height: 100%;
+	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+}
+/* animated header transitions */
+.ha-header-color {
+	height: 420px;
+}
+
+.ha-header-color .ha-header-front,
+.ha-header-color .ha-header-bottom {
+	background: #f3796c;
+}
+
+.ha-header-color h1,
+.ha-header-color nav a {
+	color: #fff;
 }
 
 a:hover {
@@ -57,22 +119,97 @@ a {
 }
 
 nav {
-	position: relative;
-	left: 520px;
-	top: 42px;
+	position: absolute;
+	left: 53%;
+	top: 25%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	/* Transition for moving effect */
+	transition-duration: 0.4s; 
 }
 
 nav a{
-	padding: 5px; 
-	font-size: 18px;
-	color: white; 
+	padding: 5%; 
 }
 
+/* To negate navbar underlines from becoming transparent */
+nav a:hover {
+	opacity: 1;
+}
+
+/* Underline effect on navbar */
+nav a:before {
+	 content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #E55B58;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+nav a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* CSS for drop down menus in the navigation */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    font-size: 0.8em;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	/* Underline effect */
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color: #707070;
+	text-decoration: none;
+}
+/* end dropdown css */
+
+/* Resized background image to work with animated background and true to original */
+/* Remove once backgrounds imgs are put in page specific CSS */
 body {
 	background-image: url(backgroundimg.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	height: 100%;
+	background-size: 150% 100%;
+	background-position: bottom;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -129,9 +266,10 @@ footer a {
 	color: #9ed1ec;
 }
 
+/* adjusted font size of liheading */
 .liheading {
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: 400;
 	margin-bottom: 5px;
 }
 
