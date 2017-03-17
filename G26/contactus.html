@@ -63,14 +63,14 @@
 			<h2>Contact Us!</h2>
 				<form onsubmit="return clicked()" action="http://webdevfoundations.net/scripts/formdemo.asp">
 				<p>First name:</p>
-				<input type="text" id="firstname" name="firstname" placeholder="Firstname">
+				<input type="text" id="firstname" name="firstname" placeholder="Firstname" required>
 				<p>Last name:</p>
-				<input type="text" id="lastname" name="lastname" placeholder="Lastname">
+				<input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
 				<p>Email:</p>
-				<input type="text" id="email" name="email" placeholder="Email Address Here">
+				<input type="text" id="email" name="email" placeholder="Email Address Here" required>
 		<br>
 			<p>Your message here:</p>
-			<textarea id="message" name="message" rows="10" cols="81" placeholder="Please write us here!"></textarea>
+			<textarea id="message" name="message" rows="10" cols="81" placeholder="Please write us here!" required ></textarea>
 		<br>
 			<input type="reset" value="Reset">
 			<input type="submit" value="Submit" onClick="clicked()">

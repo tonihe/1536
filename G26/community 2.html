@@ -59,28 +59,74 @@
 		</p>
 	<div id="infoboxes">
 		<div id="loginbox">
-			<div class="btn"><h4>LOGIN</h4></div>
-			<div class="btn"><h4>REGISTER</h4></div>
-			<h2>REGISTER:</h2>
-			<form id="registration" name="registration" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-				<label for="firstname">First Name:</label><br>
-				<input id="firstname" class="input" name="name" type="text" value="" size="30" />
+			<div class="btn" onclick="document.getElementById('userlogin').style.display='block'" style="width:auto;"><h4>LOGIN</h4></div>
+
+			<div id="userlogin" class="modal">
+  
+  <form class="modal-content animate" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('userlogin').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="Style/RocketLogo.png" alt="Avatar" class="avatar" />
+    </div>
+
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('userlogin').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+			<div class="btn" onclick="document.getElementById('userlogin2').style.display='block'" style="width:auto;"><h4>REGISTER</h4></div>
+			
+			<div id="userlogin2" class="modal">
+  
+  <form class="modal-content animate" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('userlogin2').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="Style/RocketLogo.png" alt="Avatar" class="avatar" />
+    </div>
+
+    <div class="container">
+     <label for="firstname">First Name:</label><br>
+				<input id="firstname" class="input" name="name" type="text" value="" size="30" placeholder="Firstname" required/>
 				<br>
 				<label for="lastname">Last Name:</label><br>
-				<input id="lastname" class="input" name="name" type="text" value="" size="30" />
+				<input id="lastname" class="input" name="name" type="text" value="" size="30" placeholder="Lastname" required/>
 				<br>
 				<label for="username">Username:</label><br>
-				<input id="username" class="input" name="name" type="text" value="" size="30" />
+				<input id="username" class="input" name="name" type="text" value="" size="30" placeholder="Username" required/>
 				<br>
 				<label for="password">Password:</label><br>
-				<input id="password" class="input" name="name" type="password" value="" size="30" />
+				<input id="password" class="input" name="name" type="password" value="" size="30" placeholder="*******" required/>
 				<br>
 				<label for="passwordconf">Confirm Password:</label><br>
-				<input id="passwordconf" class="input" name="name" type="password" value="" size="30" />
+				<input id="passwordconf" class="input" name="name" type="password" value="" size="30"  placeholder="******" required/>
 				<br>
-				<br>
-				<input type="submit" value="submit">
-			</form>
+				<br> 
+
+      <button type="submit">Register</button>
+      
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('userlogin2').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+
 		</div>
 		<div id="Community">
 			<h2>COMMUNITY</h2>
@@ -127,5 +173,7 @@
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
 		<script src="js/scroll.js"></script>
+	<!-- JavaScript for animated scroll-to-top -->
+		<script src="js/userlogin.js"></script>	
 </body>	
 </html>
