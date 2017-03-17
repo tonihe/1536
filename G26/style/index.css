@@ -3,7 +3,7 @@
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 30px 0px;
+	padding: 30px 0;
 }
 
 #pagetext {
@@ -69,7 +69,8 @@ body {
 	border: 0;
 }
 
-body p {max-width: 800px;
-		margin-left: auto;
-		margin-right: auto;
+body p {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
