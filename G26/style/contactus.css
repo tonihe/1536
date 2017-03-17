@@ -19,3 +19,15 @@
 	border: solid 2px white;
 	margin: 1px;
 }
+
+input {
+	margin-top: 1em;
+}
+
+span {
+	font-size: 75%;
+}
+
+/*#form input{
+	margin: 1em;
+} */
