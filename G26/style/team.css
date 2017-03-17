@@ -7,3 +7,21 @@
 	background-color: #A1B0B7;
 	border-radius: 25px;
 }
+
+body {
+	background-image: url(waterfront.jpg);
+	background-repeat: no-repeat;
+	background-size: 220% 160%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#textbox {
+	background-color: #237DAE;
+	color: white;
+	border-radius: 25px;
+	padding: 15px;
+	margin-bottom: 25px;
+}

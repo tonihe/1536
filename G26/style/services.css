@@ -37,3 +37,13 @@
 	position: relative;
 	left: 10%;
 }
+
+body {
+	background-image: url(cauldron.jpg);
+	background-repeat: no-repeat;
+	background-size: 150% 120%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

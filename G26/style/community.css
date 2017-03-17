@@ -43,6 +43,24 @@
 	color: white;
 }		
 
+body {
+	background-image: url(falsecreek1.jpg);
+	background-repeat: no-repeat;
+	background-size: 180% 140%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+main #textbox {
+	background-color: #237DAE;
+	color: white;
+	border-radius: 25px;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
 .regsumbimt { 
 	padding: 10px 24px;
 }
