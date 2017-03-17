@@ -1,10 +1,11 @@
 .findsocial {
 	background-color: #237DAE;
-	padding: 5px 0px 17px 37px;
-	color: white;
-	text-shadow:2px 2px #000000;
+	border: solid;
 	border-radius: 25px;
+	color: white;
 	margin-top: 10px;
+	padding: 5px 0 17px 37px;
+	text-shadow:2px 2px #000000;
 }
 
 #contactimage {
@@ -16,4 +17,5 @@
 
 .findsocial a {
 	border: solid 2px white;
+	margin: 1px;
 }
