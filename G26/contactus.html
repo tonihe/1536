@@ -106,25 +106,30 @@ function warnDomainInvalid(id) {
 		<div id ="userinfo">
 		<img id="contactimage" src="style/sample.jpg" alt="Sample">
 			<h2>CONTACT US!</h2>
-				<form onsubmit="return clicked()" action="http://webdevfoundations.net/scripts/formdemo.asp">
-				<p>First name:</p>
+				<form id="form" action="http://webdevfoundations.net/scripts/formdemo.asp">
+				<label for="firstname">First name:</label>
+				<br>
 				<input type="text" id="firstname" name="firstname" placeholder="First Name" onblur="warnFirstNameInvalid('firstname')"/>
 				<br>
 				<span id="invalidfirstname"></span>
-				<p>Last name:</p>
+				<br>
+				<label for="lastname">Last name:</label>
+				<br>
 				<input type="text" id="lastname" name="lastname" placeholder="Last Name" onblur="warnLastNameInvalid('lastname')"/>
 				<br>
 				<span id="invalidlastname"></span>
-				<p>Email:</p>
+				<br>
+				<label for="email">Email:</label>
+				<br>
 				<input type="text" id="email" name="email" placeholder="Email Address Here" onblur="warnDomainInvalid('email')"/>
 				<br>
 				<span id="invalidemail"></span>
 				<br>
-					<p>Your message here:</p>
+					<label for ="message">Your message here:</label>
 					<textarea id="message" name="message" rows="10" cols="81" placeholder="Please write us here!"></textarea>
 				<br>
 					<input type="reset" value="Reset">
-					<input type="submit" value="Submit" onClick="clicked()">
+					<input type="submit" value="Submit">
 			</form> 
 		</div>
 	</div> 

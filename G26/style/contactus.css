@@ -30,3 +30,10 @@ body {
 	margin: 1px;
 }
 
+input {
+	margin-top: 1em;
+}
+
+span {
+	font-size: 75%;
+}
