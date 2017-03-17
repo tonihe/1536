@@ -21,7 +21,7 @@ else {
 
 	window.alert("Please make sure all fields are filled.");
 	return false;  
-	
+
 	 }												
 
 		
@@ -54,3 +54,25 @@ else {
 	
 
 						}	
+
+
+
+// Get the modal
+var modal = document.getElementById('userlogin');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+// Get the modal2
+var modal = document.getElementById('userlogin2');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
