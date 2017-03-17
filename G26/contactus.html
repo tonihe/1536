@@ -9,6 +9,27 @@
 <!-- Importing Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
 <title>Contact Us</title>
+<script>
+function $(id) {
+	var element = document.getElementById(id);
+	if (element == null)
+		alert('Programmer error: ' + id + ' does not exist.');
+	return element;
+}
+
+function testDomainValid(id) {
+    var domain = ($(id).value.toUpperCase());
+    var domain3 = domain.substring(domain.length-3);
+    var domain4 = domain.substring(domain.length-4);
+    
+    return (domain3 == '.CA' || domain4 == '.COM' || domain4 == '.ORG');
+}
+
+function warnDomainInvalid(id) {
+    if(!testDomainValid(id))
+        alert("Please provide a valid email domain type (.com, .ca, .org)");
+}
+</script>
 </head>
 <body>
 <header>
@@ -67,13 +88,13 @@
 				<p>Last name:</p>
 				<input type="text" id="lastname" name="lastname" placeholder="Lastname">
 				<p>Email:</p>
-				<input type="text" id="email" name="email" placeholder="Email Address Here">
-		<br><br>
-			<p>Your message here:</p>
-			<textarea id="message" name="message" rows="10" cols="79" placeholder="Please write us here!"></textarea>
-		<br>
-			<input type="reset" value="Reset">
-			<input type="submit" value="Submit" onClick="clicked()">
+				<input type="text" id="email" name="email" placeholder="Email Address Here" onblur="warnDomainInvalid('email')">
+				<br>
+					<p>Your message here:</p>
+					<textarea id="message" name="message" rows="10" cols="81" placeholder="Please write us here!"></textarea>
+				<br>
+					<input type="reset" value="Reset">
+					<input type="submit" value="Submit" onClick="clicked()">
 			</form> 
 		</div>
 	</div> 
