@@ -34,23 +34,24 @@ header .dropbtn {
 }
 
 header:hover nav {
-	top: 40%;
+	top: 35%;
 	transition-duration: 0.4s;
 }
 
 header:hover #banner img {
 	display: inline-block;
-	height: 120px;
-	width: 120px;
+	height: 100px;
+	width: 100px;
+	position: absolute;
 	top: 5%;
 	transition: 0.4s;
 }
 
 header:hover #banner h1 {
-	display: inline-block;
-	font-size: 2em;
-	margin-left: 3%;
-	margin-top: 3%;
+	display: relative;
+	font-size: 2.5em;
+	margin-left: 2%;
+	margin-top: 35px;
 	transition-duration:0.4s;
 }
 /* End of transition Effect */
@@ -71,10 +72,10 @@ header a {
 #banner img { 
 	float:left;
 	padding: 0;
-	margin: 0;
+	margin-top: 7px;
 	height: 85px;
 	width: 85px;
-	position: relative;
+	position: absolute;
 	left: -2%;
 	top: 0;
 	transition-duration: 0.4s;
@@ -83,8 +84,9 @@ header a {
 /* Thin Name Text, limited to 200,300,400,800 via import. shifted name left and enlarged */
 #banner h1 {
 	font-weight: 300;
-	font-size: 1.5em;
-	margin-top: 1.7%;
+	font-size: 2em;
+	margin-left: 10px;
+	margin-top: 25px;
 	position: absolute;
 	left: 65px;
 	transition-duration: 0.4s;
@@ -94,7 +96,7 @@ header a {
 .headerbox { 
 	height: 100%;
 	width: 70%;
-	min-width: 48em;
+	min-width: 52em;
 	padding-left: 2em;
 	margin-left: auto;
 	margin-right: auto;
