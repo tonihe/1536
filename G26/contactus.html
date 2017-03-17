@@ -17,6 +17,28 @@ function $(id) {
 	return element;
 }
 
+function testFirstNameValid(id) {
+    var firstName = $(id).value;
+    
+    return (firstName.length > 0);
+}
+
+function warnFirstNameInvalid(id) {
+    if(!testFirstNameValid(id))
+        $('invalidfirstname').innerHTML="Please provide your first name";
+}
+
+function testLastNameValid(id) {
+    var lastName = $(id).value;
+    
+    return (lastName.length > 0);
+}
+
+function warnLastNameInvalid(id) {
+    if(!testLastNameValid(id))
+        $('invalidlastname').innerHTML="Please provide your last name";
+}
+
 function testDomainValid(id) {
     var domain = ($(id).value.toUpperCase());
     var domain3 = domain.substring(domain.length-3);
@@ -27,7 +49,9 @@ function testDomainValid(id) {
 
 function warnDomainInvalid(id) {
     if(!testDomainValid(id))
-        alert("Please provide a valid email domain type (.com, .ca, .org)");
+	{
+        $('invalidemail').innerHTML="Please provide a valid email domain type ('.com', '.ca', '.org')";
+	}
 }
 </script>
 </head>
@@ -84,11 +108,17 @@ function warnDomainInvalid(id) {
 			<h2>CONTACT US!</h2>
 				<form onsubmit="return clicked()" action="http://webdevfoundations.net/scripts/formdemo.asp">
 				<p>First name:</p>
-				<input type="text" id="firstname" name="firstname" placeholder="Firstname">
+				<input type="text" id="firstname" name="firstname" placeholder="First Name" onblur="warnFirstNameInvalid('firstname')"/>
+				<br>
+				<span id="invalidfirstname"></span>
 				<p>Last name:</p>
-				<input type="text" id="lastname" name="lastname" placeholder="Lastname">
+				<input type="text" id="lastname" name="lastname" placeholder="Last Name" onblur="warnLastNameInvalid('lastname')"/>
+				<br>
+				<span id="invalidlastname"></span>
 				<p>Email:</p>
-				<input type="text" id="email" name="email" placeholder="Email Address Here" onblur="warnDomainInvalid('email')">
+				<input type="text" id="email" name="email" placeholder="Email Address Here" onblur="warnDomainInvalid('email')"/>
+				<br>
+				<span id="invalidemail"></span>
 				<br>
 					<p>Your message here:</p>
 					<textarea id="message" name="message" rows="10" cols="81" placeholder="Please write us here!"></textarea>
