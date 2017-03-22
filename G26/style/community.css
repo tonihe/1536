@@ -75,6 +75,11 @@ body {
 	border: 0;
 }
 
+span {
+	color: #E55B58;
+	font-weight: bold;
+}
+
 .regsumbimt { 
 	padding: 10px 24px;
 }
@@ -93,12 +98,6 @@ body {
 .btn:hover {
   background: #3cb0fd;
   text-decoration: none;
-}
-
-span {
-	font-size: 100%;
-	color: red;
-	font-weight: bold;
 }
 
 /* Login Form CSS starts below */

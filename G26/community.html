@@ -24,7 +24,7 @@ function testFirstNameValid(id) {
 
 function warnFirstNameInvalid(id) {
     if(!testFirstNameValid(id))
-        $('invalidfirstname').innerHTML="<br>Please provide your first name";
+        $('invalidfirstname').innerHTML="Please provide your first name<br>";
 }
 
 function testLastNameValid(id) {
@@ -35,26 +35,18 @@ function testLastNameValid(id) {
 
 function warnLastNameInvalid(id) {
     if(!testLastNameValid(id))
-        $('invalidlastname').innerHTML="<br>Please provide your last name";
+        $('invalidlastname').innerHTML="Please provide your last name<br>";
 }
 
-function testDomainValid(id) {
-	
-	var re = /\S+@\S+\.\S+/;
-	
-    var domain = ($(id).value.toUpperCase());
-    var domain3 = domain.substring(domain.length-3);
-    var domain4 = domain.substring(domain.length-4);
-	
-	return re.test(email);
-    
-    // return (domain3 == '.CA' || domain4 == '.COM' || domain4 == '.ORG');
+function testDomainValid(id) {	
+	var re = /\S+@\S+\.\S+/;	
+	return re.test($(id).value);
 }
 
 function warnDomainInvalid(id) {
     if(!testDomainValid(id))
 	{
-        $('invalidemail').innerHTML="<br>Please provide a valid email";
+        $('invalidemail').innerHTML="Please provide a valid email<br>";
 		$(id).value = "";
 	}
 }
@@ -67,7 +59,7 @@ function testUserNameValid(id) {
 
 function warnUserNameInvalid(id) {
     if(!testUserNameValid(id))
-        $('invalidusername').innerHTML="<br>Please provide a user name";
+        $('invalidusername').innerHTML="Please provide a user name<br>";
 }
 
 function testPasswordValid(id) {
@@ -78,7 +70,7 @@ function testPasswordValid(id) {
 
 function warnPasswordInvalid(id) {
     if(!testPasswordValid(id))
-        $('invalidpassword').innerHTML="<br>Please provide a password";
+        $('invalidpassword').innerHTML="Please provide a password<br>";
 }
 
 function testConfirmPasswordValid(id, acceptBlank) {
@@ -96,7 +88,7 @@ function testConfirmPasswordValid(id, acceptBlank) {
 
 function warnConfirmPasswordInvalid(id, acceptBlank) {
     if(!testConfirmPasswordValid(id, acceptBlank))
-        $('invalidconfpassword').innerHTML="<br>Your password must match the one above";
+        $('invalidconfpassword').innerHTML="Your password must match the one above<br>";
 }
 
 </script>

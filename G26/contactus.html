@@ -25,7 +25,7 @@ function testFirstNameValid(id) {
 
 function warnFirstNameInvalid(id) {
     if(!testFirstNameValid(id))
-        $('invalidfirstname').innerHTML="Please provide your first name";
+        $('invalidfirstname').innerHTML="Please provide your first name<br>";
 }
 
 function testLastNameValid(id) {
@@ -36,26 +36,18 @@ function testLastNameValid(id) {
 
 function warnLastNameInvalid(id) {
     if(!testLastNameValid(id))
-        $('invalidlastname').innerHTML="Please provide your last name";
+        $('invalidlastname').innerHTML="Please provide your last name<br>";
 }
 
 function testDomainValid(id) {
-	
-	var re = /\S+@\S+\.\S+/;
-	
-    var domain = ($(id).value.toUpperCase());
-    var domain3 = domain.substring(domain.length-3);
-    var domain4 = domain.substring(domain.length-4);
-	
-	return re.test(email);
-    
-    // return (domain3 == '.CA' || domain4 == '.COM' || domain4 == '.ORG');
+	var re = /\S+@\S+\.\S+/;	
+	return re.test($(id).value);
 }
 
 function warnDomainInvalid(id) {
     if(!testDomainValid(id))
 	{
-        $('invalidemail').innerHTML="Please provide a valid email";
+        $('invalidemail').innerHTML="Please provide a valid email<br>";
 		$(id).value = "";
 	}
 }
