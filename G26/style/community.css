@@ -22,9 +22,20 @@
 	padding: 10px;
 }
 
-#loginwrapper {
-	width: 90%;
-	height: 90%;
+#registerbox {
+	width: 40%;
+	height: 80%;
+	border: solid;
+	border-radius: 25px;
+	text-align: center;
+	float:left;
+	background-color: #237DAE;
+	text-shadow: 1px 1px #000000;
+	color: white;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
 }
 
 #logininput input {
