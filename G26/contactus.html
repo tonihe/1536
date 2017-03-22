@@ -56,6 +56,7 @@ function warnDomainInvalid(id) {
     if(!testDomainValid(id))
 	{
         $('invalidemail').innerHTML="Please provide a valid email domain type ('.com', '.ca', '.org')";
+		$(id).value = "";
 	}
 }
 
@@ -115,29 +116,29 @@ function warnDomainInvalid(id) {
 				<form id="form" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 					<label for="firstname">First name:</label>
 					<br>
-					<input type="text" id="firstname" name="first_name" placeholder="First Name" onblur="warnFirstNameInvalid('firstname')" />
+					<input type="text" id="firstname" name="first_name" placeholder="First Name" tabindex="1" onblur="warnFirstNameInvalid('firstname')" required>
 					<br>
 					<span id="invalidfirstname"></span>
 					<br>
 					<label for="lastname">Last name:</label>
 					<br>
-					<input type="text" id="lastname" name="last_name" placeholder="Last Name" onblur="warnLastNameInvalid('lastname')"/>
+					<input type="text" id="lastname" name="last_name" placeholder="Last Name" tabindex="2" onblur="warnLastNameInvalid('lastname')" required>
 					<br>
 					<span id="invalidlastname"></span>
 					<br>
 					<label for="email">Email:</label>
 					<br>
-					<input type="text" id="email" name="email" placeholder="Email Address Here" onblur="warnDomainInvalid('email')"/>
+					<input type="text" id="email" name="email" placeholder="Email Address Here" tabindex="3" onblur="warnDomainInvalid('email')" required>
 					<br>
 					<span id="invalidemail"></span>
 					<br>
 						<label for ="message">Your message here:</label>
 						<textarea id="message" name="message" rows="10" cols="81" placeholder="Please write us here!"></textarea>
 					<br>
-						<input type="reset" value="Reset">
-						<input type="submit" value="Submit">
+						<input type="submit" value="Submit" tabindex="4">
+						<input type="reset" value="Reset" tabindex="5">
 				</form> 
-		</div>
+			</div>
 	</div> 
 	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </main>

@@ -10,8 +10,8 @@
 }
 
 #loginbox {
-	width: 42%;
-	height: 500px;
+	width: 40%;
+	height: 80%;
 	border: solid;
 	border-radius: 25px;
 	text-align: center;
@@ -19,18 +19,32 @@
 	background-color: #237DAE;
 	text-shadow: 1px 1px #000000;
 	color: white;
+	padding: 10px;
 }
+
+#loginwrapper {
+	width: 90%;
+	height: 90%;
+}
+
+#logininput input {
+	height: 80%;
+}
+
+input{font-size: 75%}
+
 #Community {
 	text-align: center;
 	border-radius: 25px;
-	width: 55%;
-	height: 500px;
+	width: 50%;
+	height: 80%;
 	border:solid;
 	float:right;
 	background-image: url(style/PlaceholderBackground.png);
 	background-color: #237DAE;
 	color: white;
 	text-shadow: 1px 1px #000000;
+	padding: 10px;
 }
 			
 #Community p {
@@ -79,6 +93,10 @@ main #textbox {
 .btn:hover {
   background: #3cb0fd;
   text-decoration: none;
+}
+
+span {
+	font-size: 75%;
 }
 
 /* Login Form CSS starts below */

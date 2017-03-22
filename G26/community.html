@@ -8,6 +8,98 @@
 <title>Community</title>
 <!-- Importing Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
+<script>
+function $(id) {
+	var element = document.getElementById(id);
+	if (element == null)
+		alert('Programmer error: ' + id + ' does not exist.');
+	return element;
+}
+
+function testFirstNameValid(id) {
+    var firstName = $(id).value;
+    
+    return (firstName.length > 0);
+}
+
+function warnFirstNameInvalid(id) {
+    if(!testFirstNameValid(id))
+        $('invalidfirstname').innerHTML="<br>Please provide your first name";
+}
+
+function testLastNameValid(id) {
+    var lastName = $(id).value;
+    
+    return (lastName.length > 0);
+}
+
+function warnLastNameInvalid(id) {
+    if(!testLastNameValid(id))
+        $('invalidlastname').innerHTML="<br>Please provide your last name";
+}
+
+function testDomainValid(id) {
+	
+	var re = /\S+@\S+\.\S+/;
+	
+    var domain = ($(id).value.toUpperCase());
+    var domain3 = domain.substring(domain.length-3);
+    var domain4 = domain.substring(domain.length-4);
+	
+	return re.test(email);
+    
+    // return (domain3 == '.CA' || domain4 == '.COM' || domain4 == '.ORG');
+}
+
+function warnDomainInvalid(id) {
+    if(!testDomainValid(id))
+	{
+        $('invalidemail').innerHTML="<br>Please provide a valid email domain type ('.com', '.ca', '.org')";
+		$(id).value = "";
+	}
+}
+
+function testUserNameValid(id) {
+    var userName = $(id).value;
+    
+    return (userName.length > 0);
+}
+
+function warnUserNameInvalid(id) {
+    if(!testUserNameValid(id))
+        $('invalidusername').innerHTML="<br>Please provide a user name";
+}
+
+function testPasswordValid(id) {
+    var userPassword = $(id).value;
+    
+    return (userPassword.length > 0);
+}
+
+function warnPasswordInvalid(id) {
+    if(!testPasswordValid(id))
+        $('invalidpassword').innerHTML="<br>Please provide a password";
+}
+
+function testConfirmPasswordValid(id, acceptBlank) {
+	var valid = false;
+    var userpassword = $(id+'_0').value;
+	var userpasswordconf = $(id+'_1').value;
+	if(acceptBlank && userpasswordconf.length==0)
+		valid = true;
+ 
+    if (userpassword == userpasswordconf)
+		valid = true;
+		
+	return valid;
+}
+
+function warnConfirmPasswordInvalid(id, acceptBlank) {
+    if(!testConfirmPasswordValid(id, acceptBlank))
+        $('invalidconfpassword').innerHTML="<br>Your password must match the one above";
+}
+
+</script>
 </head>
 <body>
 <header>
@@ -59,35 +151,47 @@
 		</p>
 	<div id="infoboxes">
 		<div id="loginbox">
-			<h2>SIGN IN:</h2>
-			<form id="loginInput" name="loginInput" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp"> 
-				<label for="loginname">Username:</label><br>
-				<input id="loginname" class="input" name="name" type="text" value="" size="30" />
-				<br>
-				<label for="loginpass">Password:</label><br/>
-				<input id="loginpass" class="input" name="name" type="password" value="" size="30" />
-				<br>
-			</form>
+			<div id="loginwrapper">
+				<h2>SIGN IN:</h2>
+				<form id="loginInput" name="loginInput" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp"> 
+					<label for="loginname">Username:</label><br>
+					<input id="loginname" class="input" name="name" type="text" tabindex="1" required>
+					<br>
+					<label for="loginpass">Password:</label><br/>
+					<input id="loginpass" class="input" name="name" type="password" tabindex="2" required>
+					<br>
+					<input type="submit" value="submit" tabindex="3">
+				</form>
 			<h2>REGISTER:</h2>
 			<form id="registration" name="registration" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 				<label for="firstname">First Name:</label><br>
-				<input id="firstname" class="input" name="name" type="text" value="" size="30" />
+				<span id="invalidfirstname"></span>
+				<input id="firstname" class="input" name="first_name" type="text" tabindex="4" onblur="warnFirstNameInvalid('firstname')" required>
 				<br>
 				<label for="lastname">Last Name:</label><br>
-				<input id="lastname" class="input" name="name" type="text" value="" size="30" />
+				<span id="invalidlastname"></span>
+				<input id="lastname" class="input" name="last_name" type="text" tabindex="5" onblur="warnLastNameInvalid('lastname')" required>
+				<br>
+				<label for="email">Email:</label><br>
+				<span id="invalidemail"></span>
+				<input id="email" class="input" name="email" type="text" tabindex="6" onblur="warnDomainInvalid('email')" required>
 				<br>
 				<label for="username">Username:</label><br>
-				<input id="username" class="input" name="name" type="text" value="" size="30" />
+				<span id="invalidusername"></span>
+				<input id="username" class="input" name="user_name" type="text" tabindex="7" onblur="warnUserNameInvalid('username')" required>
 				<br>
 				<label for="password">Password:</label><br>
-				<input id="password" class="input" name="name" type="password" value="" size="30" />
+				<span id="invalidpassword"></span>
+				<input id="password_0" class="input" name="password" type="password" tabindex="8" onblur="warnPasswordInvalid('password_0')" required>
 				<br>
 				<label for="passwordconf">Confirm Password:</label><br>
-				<input id="passwordconf" class="input" name="name" type="password" value="" size="30" />
+				<span id="invalidconfpassword"></span>
+				<input id="password_1" class="input" name="confirm_password" type="password" tabindex="9" onblur="warnConfirmPasswordInvalid('password', true)" required>
 				<br>
 				<br>
-				<input type="submit" value="submit">
+				<input type="submit" value="submit" tabindex="10">
 			</form>
+			</div>
 		</div>
 		<div id="Community">
 			<h2>COMMUNITY</h2>
