@@ -209,10 +209,10 @@ span.psw {
     animation: animatezoom 0.6s
 }
 
-@-webkit-keyframes animatezoom {
+/*@-webkit-keyframes animatezoom {
     from {-webkit-transform: scale(0)} 
     to {-webkit-transform: scale(1)}
-}
+}*/
     
 @keyframes animatezoom {
     from {transform: scale(0)} 

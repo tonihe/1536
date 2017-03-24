@@ -5,7 +5,7 @@ main {
 }
 
 .thread {
-	font-size: 16;
+	font-size: 16px;
 	border-radius: 25px;
 	margin-top: 5%;
 	margin-left: auto;
@@ -21,7 +21,7 @@ main {
 #newmessage {
 	background-color: #237DAE;
 	color: white;
-	font-size: 16;
+	font-size: 16px;
 	text-shadow:2px 2px #000000;
 	border-radius: 25px;
 	margin-top: 5%;
