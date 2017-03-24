@@ -1,17 +1,33 @@
 main {
 	background-color: #A1B0B7;
 }
+
 #sampleimg1 {
 	float: left;
 	height: 250px;
 	width: 250px;
 }
+
 #sampleimg2 {
 	float: right;
 	height: 300px;
 	width:400px;
 }
+
 #projectsreturn {
-	float: right;
-	margin-top: 5px;
+	background-color: #f3796c;
+	color: white;
+	padding: 3px 12px;
+	border:solid;
+	border-color: #f3796c;
+	border-radius: 5px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+#projectsreturn:hover {
+	background-color: white;
+	color: #f3796c;
+	border:solid;
+	transition: 0.3s;
 }
