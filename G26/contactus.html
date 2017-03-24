@@ -1,59 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style/base.css">
-<link rel="stylesheet" href="style/contactus.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
-<!-- Importing Google Font -->
-<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
-<title>Contact Us</title>
-<script>
-function $(id) {
-	var element = document.getElementById(id);
-	if (element == null)
-		alert('Programmer error: ' + id + ' does not exist.');
-	return element;
-}
-
-function testFirstNameValid(id) {
-    var firstName = $(id).value;
-    
-    return (firstName.length > 0);
-}
-
-function warnFirstNameInvalid(id) {
-    if(!testFirstNameValid(id))
-        $('invalidfirstname').innerHTML="Please provide your first name";
-}
-
-function testLastNameValid(id) {
-    var lastName = $(id).value;
-    
-    return (lastName.length > 0);
-}
-
-function warnLastNameInvalid(id) {
-    if(!testLastNameValid(id))
-        $('invalidlastname').innerHTML="Please provide your last name";
-}
-
-function testDomainValid(id) {
-    var domain = ($(id).value.toUpperCase());
-    var domain3 = domain.substring(domain.length-3);
-    var domain4 = domain.substring(domain.length-4);
-    
-    return (domain3 == '.CA' || domain4 == '.COM' || domain4 == '.ORG');
-}
-
-function warnDomainInvalid(id) {
-    if(!testDomainValid(id))
-	{
-        $('invalidemail').innerHTML="Please provide a valid email domain type ('.com', '.ca', '.org')";
-	}
-}
-</script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style/base.css">
+	<link rel="stylesheet" href="style/contactus.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
+	<!-- Importing Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
+	<title>Contact Us</title>
 </head>
 <body>
 <header>
@@ -107,7 +62,7 @@ function warnDomainInvalid(id) {
 		<div id ="userinfo">
 		<img id="contactimage" src="style/sample.jpg" alt="Sample">
 			<h2>CONTACT US!</h2>
-				<form id="form" action="http://webdevfoundations.net/scripts/formdemo.asp">
+			<form id="form" action="http://webdevfoundations.net/scripts/formdemo.asp">
 				<label for="firstname">First name:</label>
 				<br>
 				<input type="text" id="firstname" name="firstname" placeholder="First Name" onblur="warnFirstNameInvalid('firstname')"/>
@@ -126,15 +81,15 @@ function warnDomainInvalid(id) {
 				<br>
 				<span id="invalidemail"></span>
 				<br>
-					<label for ="message">Your message here:</label>
-					<textarea id="message" name="message" rows="10" cols="79" placeholder="Please write us here!"></textarea>
+				<label for ="message">Your message here:</label>
+				<textarea id="message" name="message" rows="10" cols="79" placeholder="Please write us here!"></textarea>
 				<br>
-					<input type="reset" value="Reset">
-					<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+				<input type="submit" value="Submit">
 			</form> 
 		</div>
 	</div> 
-	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
+<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -169,5 +124,7 @@ function warnDomainInvalid(id) {
 		<script src="js/scroll.js"></script>
 	<!-- JavaScript for Info Check -->
 		<script src="js/userlogin.js"></script>
+	<!-- Javascript for Contact Us Form Validation -->
+		<script src="js/contactus.js"></script>
 </body>	
 </html>

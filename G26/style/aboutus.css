@@ -1,10 +1,12 @@
 main img {
 	padding-top: 30px;
 }
+
 #teamlink {
 	position: relative;
 	left: 180px;
 }
+
 #scrollbutton {
 	padding-top: 30px;
 }
@@ -18,7 +20,7 @@ main img {
 }
 
 body {
-		background-image: url(colourbuildings.jpg);
+	background-image: url(colourbuildings.jpg);
 	background-repeat: no-repeat;
 	background-size: 120% 100%;
 	background-position: bottom;

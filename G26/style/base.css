@@ -15,6 +15,7 @@ header {
 	z-index:10;
 	transition-duration: 0.4s;
 }
+
 /* Transition Effect */
 header:hover {
 	height:130px;
@@ -60,7 +61,6 @@ header:hover #banner h1 {
 header a {
 	color: black;
 }
-
 
 #banner {
 	white-space: nowrap;
@@ -164,9 +164,9 @@ nav a:before {
 }
 
 nav a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
 }
 
 /* CSS for drop down menus in the navigation */
@@ -356,7 +356,6 @@ please contact Toni. */
 }
 
 /* Gray Scale of Project Colors & Hover */
-
 .hovergray figure img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -371,7 +370,6 @@ please contact Toni. */
 /* SOCIAL MEDIA BUTTON CSS BELOW
 EDIT WITH CAUTION */
 /* Style all font awesome icons */
-
 .fa {
     padding: 20px;
     font-size: 30px;
