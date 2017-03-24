@@ -28,11 +28,8 @@ function warnLastNameInvalid(id) {
 }
 
 function testDomainValid(id) {
-    var domain = ($(id).value.toUpperCase());
-    var domain3 = domain.substring(domain.length-3);
-    var domain4 = domain.substring(domain.length-4);
-    
-    return (domain3 == '.CA' || domain4 == '.COM' || domain4 == '.ORG');
+    var re = /\S+@\S+\.\S+/;	
+	return re.test($(id).value);
 }
 
 function warnDomainInvalid(id) {
