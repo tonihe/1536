@@ -39,5 +39,6 @@ function warnDomainInvalid(id) {
     if(!testDomainValid(id))
 	{
         $('invalidemail').innerHTML="Please provide a valid email domain type ('.com', '.ca', '.org')";
+        $(id).value = "";
 	}
 }
