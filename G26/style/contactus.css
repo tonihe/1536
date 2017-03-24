@@ -38,6 +38,10 @@ body {
 	margin: 1px;
 }
 
+.findsocial a:focus {
+	opacity: 0.8;
+}
+
 input {
 	margin-top: 1em;
 }
@@ -70,7 +74,3 @@ textarea {
 .submitter:focus {
 	opacity: 0.8;
 }	
-
-.socialbutton:focus {
-	border: 1px, solid, black;
-}
