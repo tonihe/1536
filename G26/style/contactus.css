@@ -66,3 +66,11 @@ span {
 textarea {
 	width: 100%;
 }
+
+.submitter:focus {
+	opacity: 0.8;
+}	
+
+.socialbutton:focus {
+	border: 1px, solid, black;
+}

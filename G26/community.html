@@ -151,7 +151,7 @@ function warnConfirmPasswordInvalid(id, acceptBlank) {
 					<label for="loginpass">Password:</label><br/>
 					<input id="loginpass" class="input" name="name" type="password" tabindex="2" required>
 					<br>
-					<input type="submit" value="submit" tabindex="3">
+					<input type="submit" value="submit" tabindex="3" class="submitter">
 				</form>
 		</div>
 		<div id="Community">
@@ -162,38 +162,38 @@ function warnConfirmPasswordInvalid(id, acceptBlank) {
 			dignissim neglegentur ne, quo eu paulo complectitur. Sit te vide ludus convenire, 
 			sed legere argumentum at.
 			</p>
-			<a href="forum.html"><img src="style/placeholder4.jpg" alt="Link to Forum" 
-			width=250 height=50 /></a>
+			<a href="forum.html"><img src="style/placeholder4.jpg" alt="Link to Forum" id="linkbutton"
+			width=250 height=50 tabindex="11" /></a>
 		</div>
 		<div id="registerbox">
 			<h2>REGISTER:</h2>
 			<form id="registration" name="registration" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
 				<label for="firstname">First Name:</label><br>
 				<span id="invalidfirstname"></span>
-				<input id="firstname" class="input" name="first_name" type="text" tabindex="4" onblur="warnFirstNameInvalid('firstname')" required>
+				<input id="firstname" class="input" name="first_name" type="text" tabindex="4" onchange="warnFirstNameInvalid('firstname')" required>
 				<br>
 				<label for="lastname">Last Name:</label><br>
 				<span id="invalidlastname"></span>
-				<input id="lastname" class="input" name="last_name" type="text" tabindex="5" onblur="warnLastNameInvalid('lastname')" required>
+				<input id="lastname" class="input" name="last_name" type="text" tabindex="5" onchange="warnLastNameInvalid('lastname')" required>
 				<br>
 				<label for="email">Email:</label><br>
 				<span id="invalidemail"></span>
-				<input id="email" class="input" name="email" type="text" tabindex="6" onblur="warnDomainInvalid('email')" required>
+				<input id="email" class="input" name="email" type="text" tabindex="6" onchange="warnDomainInvalid('email')" required>
 				<br>
 				<label for="username">Username:</label><br>
 				<span id="invalidusername"></span>
-				<input id="username" class="input" name="user_name" type="text" tabindex="7" onblur="warnUserNameInvalid('username')" required>
+				<input id="username" class="input" name="user_name" type="text" tabindex="7" onchange="warnUserNameInvalid('username')" required>
 				<br>
-				<label for="password">Password:</label><br>
+				<label for="password_0">Password:</label><br>
 				<span id="invalidpassword"></span>
-				<input id="password_0" class="input" name="password" type="password" tabindex="8" onblur="warnPasswordInvalid('password_0')" required>
+				<input id="password_0" class="input" name="password" type="password" tabindex="8" onchange="warnPasswordInvalid('password_0')" required>
 				<br>
-				<label for="passwordconf">Confirm Password:</label><br>
+				<label for="password_1">Confirm Password:</label><br>
 				<span id="invalidconfpassword"></span>
-				<input id="password_1" class="input" name="confirm_password" type="password" tabindex="9" onblur="warnConfirmPasswordInvalid('password', true)" required>
+				<input id="password_1" class="input" name="confirm_password" type="password" tabindex="9" onchange="warnConfirmPasswordInvalid('password', true)" required>
 				<br>
 				<br>
-				<input type="submit" value="submit" tabindex="10">
+				<input type="submit" value="submit" tabindex="10" class="submitter">
 			</form>
 		</div>
 	</div>
