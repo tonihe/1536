@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="style/index.css">
 <link rel="stylesheet" href="style/base.css">
+<link rel="stylesheet" href="style/community.css">
 <link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
+<title>Community</title>
 <!-- Importing Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
-<title>Web RCKT</title>
 </head>
 <body>
 <header>
@@ -29,11 +29,10 @@
 			<div class="dropdown">
 				<a href="services.html"><button class="dropbtn">Services</button></a>
 				<div class="dropdown-content">
-					<a href="projects.html">Projects</a>
-					<a href="projects/project1.html">Project1</a>
-					<a href="projects/project2.html">Project2</a>
-					<a href="projects/project3.html">Project3</a>
-					<a href="projects/project4.html">Project4</a>
+					<a href="projects/project1.html">Project 1</a>
+					<a href="projects/project2.html">Project 2</a>
+					<a href="projects/project3.html">Project 3</a>
+					<a href="projects/project4.html">Project 4</a>
 				</div>
 			</div>
 			<div class="dropdown">
@@ -49,33 +48,61 @@
 	</div>
 </header>
 <a id="pagetop"></a>
-<div id="large-header">
-	<canvas id="demo-canvas"></canvas>
-	<h1 class="main-title">YOUR WEBSITE<br>IS YOUR ONLINE<br>PRESENCE AND REPUTATION</h1>
-</div>
-	<iframe src="https://player.vimeo.com/video/136760590?autoplay=1" width="1000" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen id="mediaImage"></iframe>
-		<div id="homepagecontent">
-		<div id="pagetext">
+<main>
+	<h2>Come join the community!</h2>
+		<p>
+		Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel,
+		no zril vocent posidonium his. Elitr fuisset probatus eu sea, his timeam 
+		dignissim neglegentur ne, quo eu paulo complectitur. Sit te vide ludus convenire, 
+		sed legere argumentum at. His oporteat laboramus ut, sit feugiat efficiendi at. 
+		Graece euripidis est ne, amet posse honestatis cum eu.
+		</p>
+	<div id="infoboxes">
+		<div id="loginbox">
+			<h2>SIGN IN:</h2>
+			<form id="loginInput" name="loginInput" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp"> 
+				<label for="loginname">Username:</label><br>
+				<input id="loginname" class="input" name="name" type="text" value="" size="30" />
+				<br>
+				<label for="loginpass">Password:</label><br/>
+				<input id="loginpass" class="input" name="name" type="password" value="" size="30" />
+				<br>
+			</form>
+			<h2>REGISTER:</h2>
+			<form id="registration" name="registration" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+				<label for="firstname">First Name:</label><br>
+				<input id="firstname" class="input" name="name" type="text" value="" size="30" />
+				<br>
+				<label for="lastname">Last Name:</label><br>
+				<input id="lastname" class="input" name="name" type="text" value="" size="30" />
+				<br>
+				<label for="username">Username:</label><br>
+				<input id="username" class="input" name="name" type="text" value="" size="30" />
+				<br>
+				<label for="password">Password:</label><br>
+				<input id="password" class="input" name="name" type="password" value="" size="30" />
+				<br>
+				<label for="passwordconf">Confirm Password:</label><br>
+				<input id="passwordconf" class="input" name="name" type="password" value="" size="30" />
+				<br>
+				<br>
+				<input type="submit" value="submit">
+			</form>
+		</div>
+		<div id="Community">
+			<h2>COMMUNITY</h2>
 			<p>
 			Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel,
 			no zril vocent posidonium his. Elitr fuisset probatus eu sea, his timeam 
 			dignissim neglegentur ne, quo eu paulo complectitur. Sit te vide ludus convenire, 
-			sed legere argumentum at. His oporteat laboramus ut, sit feugiat efficiendi at. 
-			Graece euripidis est ne, amet posse honestatis cum eu.Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel,
-			no zril vocent posidonium his.Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel,
-			no zril vocent posidonium his.
+			sed legere argumentum at.
 			</p>
+			<a href="forum.html"><img src="style/placeholder4.jpg" alt="Link to Forum" 
+			width=250 height=50 /></a>
 		</div>
-			<table class="previewprojects">
-				<tr>
-					<td><a href="projects/project1.html"><img src="style/sample.jpg" alt="Previews of Projects" width=175 height=150 /></a></td>
-					<td><a href="projects/project2.html"><img src="style/sample.jpg" alt="Previews of Projects" width=175 height=150 /></a></td>
-				<tr>
-					<td><a href="projects/project3.html"><img src="style/sample.jpg" alt="Previews of Projects" width=175 height=150 /></a></td>
-					<td><a href="projects/project4.html"><img src="style/sample.jpg" alt="Previews of Projects" width=175 height=150 /></a></td>
-			</table>
-		</div>
-	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>	
+	</div>
+	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
+</main>
 <footer>
 	<div class="footerclmns">
 		<ul id="footerclmn1">
@@ -105,12 +132,7 @@
 	</div>
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
-	<!-- Javscript for animated background -->
-	<script src="js/TweenLite.min.js"></script>
-	<script src="js/EasePack.min.js"></script>
-	<script src="js/rAF.js"></script>
-	<script src="js/demo-1.js"></script>
 	<!-- Javascript for animated scroll-to-top -->
-	<script src="js/scroll.js"></script>
+		<script src="js/scroll.js"></script>
 </body>	
 </html>

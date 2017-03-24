@@ -76,7 +76,7 @@
 body {
 	background-image: url(falsecreek1.jpg);
 	background-repeat: no-repeat;
-	background-size: 180% 140%;
+	background-size: 120% 100%;
 	background-position: bottom;
 	margin: 0;
 	padding: 0;
@@ -167,13 +167,13 @@ span.psw {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    left: 0;
+    left: 25%;
     top: 0;
-    width: 100%; /* Full width */
+    width: 50%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.1); /* Black w/ opacity */
     padding-top: 60px;
 }
 
