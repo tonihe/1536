@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="style/base.css">
-	<link rel="stylesheet" href="style/community.css">
-	<link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
-	<title>Community</title>
-	<!-- Importing Google Font -->
-	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style/base.css">
+<link rel="stylesheet" href="style/community.css">
+<link rel="shortcut icon" href="style/favicon.ico" type="image/x-icon">
+<title>Community</title>
+<!-- Importing Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
+<script>
+
+
+</script>
 </head>
 <body>
 <header>
 	<div class="headerbox">
 		<div id="banner">
 			<a href="index.html"><img src="style/rocketLogo.png" alt="Rocket Logo"></a>
-			<a href="index.html">
-				<h1>WEB RCKT DESIGN</h1>
-			</a>
+			<a href="index.html"><h1>WEB RCKT DESIGN</h1></a>
 		</div>
 		<nav>
 			<div class="dropdown">
@@ -31,11 +33,10 @@
 			<div class="dropdown">
 				<a href="services.html"><button class="dropbtn">Services</button></a>
 				<div class="dropdown-content">
-					<a href="projects.html">Projects</a>
-					<a href="projects/project1.html">Project1</a>
-					<a href="projects/project2.html">Project2</a>
-					<a href="projects/project3.html">Project3</a>
-					<a href="projects/project4.html">Project4</a>
+					<a href="projects/project1.html">Project 1</a>
+					<a href="projects/project2.html">Project 2</a>
+					<a href="projects/project3.html">Project 3</a>
+					<a href="projects/project4.html">Project 4</a>
 				</div>
 			</div>
 			<div class="dropdown">
@@ -52,85 +53,71 @@
 </header>
 <a id="pagetop"></a>
 <main>
-	<div id="textbox">
-		<h2>Come join the community!</h2>
+	<h2>Come join the community!</h2>
 		<p>
-		Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel, no zril vocent posidonium his. Elitr fuisset
-		probatus eu sea, his timeam dignissim neglegentur ne, quo eu paulo complectitur. Sit te vide ludus convenire, sed legere
-		argumentum at. His oporteat laboramus ut, sit feugiat efficiendi at. Graece euripidis est ne, amet posse honestatis cum
-		eu.
+		Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel,
+		no zril vocent posidonium his. Elitr fuisset probatus eu sea, his timeam 
+		dignissim neglegentur ne, quo eu paulo complectitur. Sit te vide ludus convenire, 
+		sed legere argumentum at. His oporteat laboramus ut, sit feugiat efficiendi at. 
+		Graece euripidis est ne, amet posse honestatis cum eu.
 		</p>
-	</div>
 	<div id="infoboxes">
 		<div id="loginbox">
-			<div class="btn" onclick="document.getElementById('userlogin').style.display='block'" style="width:auto;">
-				<h4>LOGIN</h4>
-			</div>
-			<div id="userlogin" class="modal">
-				<form class="modal-content animate" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-					<div class="imgcontainer">
-						<span onclick="document.getElementById('userlogin').style.display='none'" class="close" title="Close Modal">&times;</span>
-						<img src="Style/RocketLogo.png" alt="Avatar" class="avatar" />
-					</div>
-					<div class="container">
-						<label><b>Username</b></label>
-						<input type="text" placeholder="Enter Username" name="uname" required>
-						<label><b>Password</b></label>
-						<input type="password" placeholder="Enter Password" name="psw" required>
-						<button type="submit">Login</button>
-						<input type="checkbox" checked="checked"> Remember me
-					</div>
-					<div class="container" style="background-color:#f1f1f1">
-						<button type="button" onclick="document.getElementById('userlogin').style.display='none'" class="cancelbtn">Cancel</button>
-						<span class="psw">Forgot <a href="#">password?</a></span>
-					</div>
+				<h2>SIGN IN:</h2>
+				<form id="loginInput" name="loginInput" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp"> 
+					<label for="loginname">Username:</label><br>
+					<input id="loginname" class="input" name="name" type="text" tabindex="1" required>
+					<br>
+					<label for="loginpass">Password:</label><br/>
+					<input id="loginpass" class="input" name="name" type="password" tabindex="2" required>
+					<br>
+					<input type="submit" value="submit" tabindex="3" class="submitter">
 				</form>
-			</div>
-			<div class="btn" onclick="document.getElementById('userlogin2').style.display='block'" style="width:auto;">
-				<h4>REGISTER</h4>
-			</div>
-			<div id="userlogin2" class="modal">
-				<form class="modal-content animate" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
-					<div class="imgcontainer">
-						<span onclick="document.getElementById('userlogin2').style.display='none'" class="close" title="Close Modal">&times;</span>
-						<img src="Style/RocketLogo.png" alt="Avatar" class="avatar" />
-					</div>
-					<div class="container">
-						<label for="firstname">First Name:</label><br>
-						<input id="firstname" class="input" name="name" type="text" value="" size="30" placeholder="Firstname" required/>
-						<br>
-						<label for="lastname">Last Name:</label><br>
-						<input id="lastname" class="input" name="name" type="text" value="" size="30" placeholder="Lastname" required/>
-						<br>
-						<label for="username">Username:</label><br>
-						<input id="username" class="input" name="name" type="text" value="" size="30" placeholder="Username" required/>
-						<br>
-						<label for="password">Password:</label><br>
-						<input id="password" class="input" name="name" type="password" value="" size="30" placeholder="*******" required/>
-						<br>
-						<label for="passwordconf">Confirm Password:</label><br>
-						<input id="passwordconf" class="input" name="name" type="password" value="" size="30" placeholder="******" required/>
-						<br><br>
-						<button type="submit">Register</button>
-					</div>
-					<div class="container" style="background-color:#f1f1f1">
-						<button type="button" onclick="document.getElementById('userlogin2').style.display='none'" class="cancelbtn">Cancel</button>
-						<span class="psw">Forgot <a href="#">password?</a></span>
-					</div>
-				</form>
-			</div>
 		</div>
 		<div id="Community">
 			<h2>COMMUNITY</h2>
 			<p>
-			Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel, no zril vocent posidonium his. Elitr fuisset
-			probatus eu sea, his timeam dignissim neglegentur ne, quo eu paulo complectitur. Sit te vide ludus convenire, sed legere
-			argumentum at.
+			Ludus dissentiet sed at, ridens qualisque vis an. Perfecto gloriatur ex vel,
+			no zril vocent posidonium his. Elitr fuisset probatus eu sea, his timeam 
+			dignissim neglegentur ne, quo eu paulo complectitur. Sit te vide ludus convenire, 
+			sed legere argumentum at.
 			</p>
-			<a href="forum.html"><img src="style/placeholder4.jpg" alt="Link to Forum" width=250 height=50 /></a>
+			<a href="forum.html"><img src="style/placeholder4.jpg" alt="Link to Forum" id="linkbutton"
+			width=250 height=50 tabindex="11" /></a>
+		</div>
+		<div id="registerbox">
+			<h2>REGISTER:</h2>
+			<form id="registration" name="registration" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+				<label for="firstname">First Name:</label><br>
+				<span id="invalidfirstname"></span>
+				<input id="firstname" class="input" name="first_name" type="text" tabindex="4" onchange="warnFirstNameInvalid('firstname')" required>
+				<br>
+				<label for="lastname">Last Name:</label><br>
+				<span id="invalidlastname"></span>
+				<input id="lastname" class="input" name="last_name" type="text" tabindex="5" onchange="warnLastNameInvalid('lastname')" required>
+				<br>
+				<label for="email">Email:</label><br>
+				<span id="invalidemail"></span>
+				<input id="email" class="input" name="email" type="text" tabindex="6" onchange="warnDomainInvalid('email')" required>
+				<br>
+				<label for="username">Username:</label><br>
+				<span id="invalidusername"></span>
+				<input id="username" class="input" name="user_name" type="text" tabindex="7" onchange="warnUserNameInvalid('username')" required>
+				<br>
+				<label for="password_0">Password:</label><br>
+				<span id="invalidpassword"></span>
+				<input id="password_0" class="input" name="password" type="password" tabindex="8" onchange="warnPasswordInvalid('password_0')" required>
+				<br>
+				<label for="password_1">Confirm Password:</label><br>
+				<span id="invalidconfpassword"></span>
+				<input id="password_1" class="input" name="confirm_password" type="password" tabindex="9" onchange="warnConfirmPasswordInvalid('password', true)" required>
+				<br>
+				<br>
+				<input type="submit" value="submit" tabindex="10" class="submitter">
+			</form>
 		</div>
 	</div>
-<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
+	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -144,15 +131,12 @@
 			<li><a href="mailto:rckt@rcktmail.com">rckt@rcktmail.com</a></li>
 		</ul>
 		<ul id="footerclmn2">
-			<li class="liheading">Our Company
-				<li>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="aboutus.html">About Us</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="community.html">Community</a></li>
-					<li><a href="contactus.html">Contact Us</a></li>
-				</li>
-			</li>
+			<li class="liheading">Our Company<li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="community.html">Community</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
 		</ul>
 	</div>
 	<div id="copyright">
@@ -168,5 +152,7 @@
 	<script src="js/scroll.js"></script>
 <!-- JavaScript for animated scroll-to-top -->
 	<script src="js/userlogin.js"></script>
-</body>
+<!-- JavaScript for Community form Validation -->
+	<script src="js/community.js"></script>
+</body>	
 </html>

@@ -4,16 +4,22 @@
 	border-radius: 25px;
 	color: white;
 	margin-top: 10px;
-	padding: 5px 0 17px 37px;
 	text-shadow:2px 2px #000000;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #contactimage {
 	float: right;
-	margin-bottom: 7px;
-	margin-right: 52px;
-	height: 300px;
-	width: 320px;
+	margin-top: 1%;
+	margin-right: 2%;
+	height: 290px;
+}
+
+#wrapper {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 body {
@@ -31,10 +37,39 @@ body {
 	margin: 1px;
 }
 
+.findsocial a:focus {
+	opacity: 0.8;
+}
+
 input {
 	margin-top: 1em;
 }
 
-span {
-	font-size: 75%;
+#textboxes input {
+	width: 33%;
 }
+
+span {
+	color: #E55B58;
+	font-weight: bold;
+}
+
+
+#messagebox {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#userinfo {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+textarea {
+	width: 100%;
+}
+
+.submitter:focus {
+	opacity: 0.8;
+}	

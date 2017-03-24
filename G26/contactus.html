@@ -88,6 +88,48 @@
 				<input type="submit" value="Submit">
 			</form> 
 		</div>
+		<div id="wrapper">
+			<h2>CONNECT WITH US ON SOCIAL MEDIA!</h2>
+				<a href="https://www.facebook.com/" class="fa fa-facebook" tabindex="7" class="socialbutton"></a>
+				<a href="https://www.twitter.com/" class="fa fa-twitter" tabindex="8" class="socialbutton"></a>
+				<a href="https://www.instagram.com" class="fa fa-instagram" tabindex="9" class="socialbutton"></a>
+				<a href="https://www.youtube.com" class="fa fa-youtube" tabindex="10" class="socialbutton"></a>
+				<a href="https://www.reddit.com" class="fa fa-reddit" tabindex="11" class="socialbutton"></a>
+				<a href="https://linkedin.com/" class="fa fa-linkedin" tabindex="12" class="socialbutton"></a>
+			<div id ="userinfo">
+			<img id="contactimage" src="style/sample.jpg" alt="Sample">
+				<h2>CONTACT US!</h2>
+					<form id="form" method="post" action="http://webdevfoundations.net/scripts/formdemo.asp">
+						<div id = "textboxes">
+							<label for="firstname">First name:</label>
+							<br>
+							<span id="invalidfirstname"></span>
+							<input type="text" id="firstname" name="first_name" placeholder="First Name" tabindex="1" onblur="warnFirstNameInvalid('firstname')" required>
+							<br>
+							<br>
+							<label for="lastname">Last name:</label>
+							<br>
+							<span id="invalidlastname"></span>
+							<input type="text" id="lastname" name="last_name" placeholder="Last Name" tabindex="2" onblur="warnLastNameInvalid('lastname')" required>					
+							<br>
+							<br>
+							<label for="email">Email:</label>
+							<br>
+							<span id="invalidemail"></span>
+							<input type="text" id="email" name="email" placeholder="Email Address Here" tabindex="3" onblur="warnDomainInvalid('email')" required>
+							<br>
+						</div>
+						<br>
+							<label for ="message">Your message here:</label>
+							<br>
+							<br>
+							<textarea id="message" name="message" rows="10" placeholder="Please write us here!" tabindex="4"></textarea>
+						<br>
+							<input type="submit" value="Submit" tabindex="5" class="submitter">
+							<input type="reset" value="Reset" tabindex="6" class="submitter">
+					</form> 
+				</div>
+			</div>
 	</div> 
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </main>
