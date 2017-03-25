@@ -76,6 +76,8 @@ function testConfirmPasswordValid(id, acceptBlank) {
 }
 
 function warnConfirmPasswordInvalid(id, acceptBlank) {
-    if(!testConfirmPasswordValid(id, acceptBlank))
+    if(!testConfirmPasswordValid(id, acceptBlank)) {
         $('invalidconfpassword').innerHTML="Your password must match the one above<br>";
+		$(id+'_1').value = "";
+	}
 }
