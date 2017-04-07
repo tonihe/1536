@@ -6,57 +6,57 @@ html {
 }
 
 header {
-	height: 110px;
+	height: 130px;
 	width: 100%;
 	position: fixed;
 	top: 0;
-	background-color: #237DAE;
+	background-color: white;
 	opacity: 0.95;
 	z-index:10;
 	transition-duration: 0.4s;
 }
 
 /* Transition Effect */
-header:hover {
+/*header:hover {
 	height:130px;
 	width:100%;
 	background-color: white;
 	transition-duration: 0.4s;
-}
+}*/
 
-header:hover .dropbtn a{
+/*header:hover .dropbtn a{
 	background-color: transparent;
 	transition-duration: 0.4s;
 	color: black;
 	font-size: 1.2em;
-}
+}*/
 
-header .dropbtn {
+/*header .dropbtn {
 	transition-duration: 0.4s;
 	text-align: center;
-}
+}*/
 
-header:hover nav {
+/*header:hover nav {
 	top: 35%;
 	transition-duration: 0.4s;
-}
+}*/
 
-header:hover #banner img {
+/*header:hover #banner img {
 	display: inline-block;
 	height: 115px;
 	width: 115px;
 	position: absolute;
 	top: 5%;
 	transition: 0.4s;
-}
+}*/
 
-header:hover #banner h1 {
+/*header:hover #banner h1 {
 	font-size: 2.5em;
 	margin-left: 15px;
 	margin-top: 30px;
 	transition-duration:0.4s;
 	white-space: nowrap;
-}
+}*/
 /* End of transition Effect */
 
 header a {
@@ -75,20 +75,19 @@ header a {
 	float:left;
 	padding: 0;
 	margin-top: 7px;
-	height: 100px;
-	width: 100px;
+	height: 115px;
+	width: 115px;
 	position: absolute;
 	left: -2%;
-	top: 0;
-	transition-duration: 0.4s;
+	top: 5%;
 }
 
 /* Thin Name Text, limited to 200,300,400,800 via import. shifted name left and enlarged */
 #banner h1 {
 	font-weight: 300;
-	font-size: 2em;
-	margin-left: 10px;
-	margin-top: 25px;
+	font-size: 2.5em;
+	margin-left: 15px;
+	margin-top: 30px;
 	position: absolute;
 	left: 70px;
 	transition-duration: 0.4s;
@@ -130,7 +129,7 @@ a {
 nav {
 	position: relative;
 	left: 53%;
-	top: 25%;
+	top: 35%;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: row;
@@ -146,7 +145,7 @@ nav a:hover {
 
 /* Underline effect on navbar */
 nav a:before {
-	 content: "";
+	content: "";
 	position: absolute;
 	width: 100%;
 	height: 2px;
@@ -169,14 +168,13 @@ nav a:hover:before {
 /* CSS for drop down menus in the navigation */
 .dropbtn {
     padding: 20px;
-    font-size: 0.8em;
     cursor: pointer;
 }
 
 .dropbtn a{
-	color: white;
-	width: 100px;
-	transition-duration: 0.4s;
+	background-color: transparent;
+	color: black;
+	
 }
 
 nav .dropdown a {
