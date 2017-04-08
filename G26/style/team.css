@@ -8,6 +8,14 @@
 	border-radius: 25px;
 }
 
+#textbox {
+	background-color: #237DAE;
+	color: white;
+	border-radius: 25px;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
 body {
 	background-image: url(waterfront.jpg);
 	background-repeat: no-repeat;
@@ -16,12 +24,4 @@ body {
 	margin: 0;
 	padding: 0;
 	border: 0;
-}
-
-#textbox {
-	background-color: #237DAE;
-	color: white;
-	border-radius: 25px;
-	padding: 15px;
-	margin-bottom: 25px;
 }
