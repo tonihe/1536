@@ -6,7 +6,7 @@ html {
 }
 
 header {
-	height: 130px;
+	height: 125px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -222,17 +222,6 @@ nav .dropdown a {
 
 /* end dropdown css */
 
-/* Resized background image to work with animated background and true to original */
-/* Remove once backgrounds imgs are put in page specific CSS */
-body {
-	background-image: url(backgroundimg.jpg);
-	background-repeat: no-repeat;
-	background-size: 150% 100%;
-	background-position: bottom;
-	margin: 0;
-	padding: 0;
-	border: 0;
-}
 
 main { 	
 	padding-top: 130px;

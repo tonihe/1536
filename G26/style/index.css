@@ -61,9 +61,9 @@
 
 /* Resized background image to work with animated background and true to original */
 body {
-	background-image: url(backgroundimg.jpg);
+	background-image: url(scienceworld.jpg);
 	background-repeat: no-repeat;
-	background-size: 150% 80%;
+	background-size: 145% 68%;
 	background-position: bottom;
 	margin: 0;
 	padding: 0;
