@@ -95,7 +95,7 @@ header a {
 	white-space: nowrap;
 }
 
-/* Changed to 70% width from 1000px */
+
 .headerbox { 
 	height: 100%;
 	width: 85%;
@@ -136,7 +136,7 @@ nav {
 	-webkit-flex-direction: row;
 	flex-direction: row;
 	/* Transition for moving effect */
-	transition-duration: 0.4s; 
+	/*transition-duration: 0.4s; */
 }
 
 /* To negate navbar underlines from becoming transparent */
