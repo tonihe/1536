@@ -258,7 +258,6 @@ footer {
 footer ul {
 	list-style: none;
 	display: block;
-	float: left;
 }
 
 .footerclmns {
@@ -284,11 +283,12 @@ footer a {
 
 #footerclmn1 {
 	padding-left: 40%;
+	margin-top: 30px;
 }
 
 #footerclmn2 {
-	position: relative;
 	margin-left: 10px;
+	margin-top: 30px;
 }
 
 #copyright { 
@@ -296,34 +296,13 @@ footer a {
 	text-align: center; 
 	position: relative;
 	bottom: 50%;
-	left: 35%;
-	clear: left;
-	width: 50%;
-	padding-top: 30px;
-}
-#copyright li{ 
-	display: inline;
-	margin-left: auto;
-	margin-right: auto;			
+	padding-top: 10px;
 }
 
 #validator {
 	display: block;
 	padding: 2px;
 	clear: both;
-}
-
-
-/* Gray Scale of Project Colors & Hover */
-.hovergray figure img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hovergray figure:hover img {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
 }
 
 /* THIS IS THE END OF THE CSS.*/ 
