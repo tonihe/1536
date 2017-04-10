@@ -53,7 +53,8 @@
 	<canvas id="demo-canvas"></canvas>
 	<h1 class="main-title">YOUR WEBSITE<br>IS YOUR ONLINE<br>PRESENCE AND REPUTATION</h1>
 </div>
-	<iframe src="https://player.vimeo.com/video/209144283" width="1000" height="700" allowfullscreen id="mediaImage"></iframe>
+	<iframe id="vimeo_player" src="https://player.vimeo.com/video/209144283?api=1&player_id=vimeo_player&autoplay=1&loop=1&color=ffffff" width="1280" height="680" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<!--<iframe src="https://player.vimeo.com/video/209144283" width="1000" height="700" allowfullscreen id="mediaImage"></iframe>-->
 		<div id="homepagecontent">
 		<div id="pagetext">
 			<p>
@@ -104,6 +105,10 @@
 		<script src="js/EasePack.min.js"></script>
 		<script src="js/rAF.js"></script>
 		<script src="js/demo-1.js"></script>
+	<!-- JavaScript for embedding muted video -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
+		<script src="js/muteautoplay.js"></script>
 	<!-- Javascript for animated scroll-to-top -->
 		<script src="js/scroll.js"></script>
 </body>	

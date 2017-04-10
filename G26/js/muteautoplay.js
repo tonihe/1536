@@ -1,10 +1,9 @@
-//Select the #embeddedVideo element
-var video = document.getElementById('mediaImage');
+// Function for setting embedded vimeo video to mute.
+$(function() {
+    var vimeo_iframe = $('#vimeo_player')[0];
+    var player = $f(vimeo_iframe);
 
-//Create a new Vimeo.Player object
-var player = new Vimeo.Player(video);
-
-//When the player is ready, set the volume to 0
-player.ready().then(function() {
-    player.setVolume(0);
+    player.addEvent('ready', function() {
+        player.api('setVolume', 0);
+    });
 });

@@ -22,16 +22,13 @@
 	width: 35%;
 }
 	
-#mediaImage {
+#vimeo_player {
 	width: 80%;
 	display: block;
 	margin-top: 2%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-#mediaImage {
-	text-align: center;
+	padding-bottom: 75px;
 }
 
 /* Animated Header Backgrounds */
