@@ -1,3 +1,22 @@
+#formWrapper {
+	margin: 20px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background: #F6F9FB;
+	border: solid #237DAE;
+	border-radius: 25px;
+}
+
+#formWrapper p {
+	text-align: center;
+}
+
+.err {
+	color: #EE4F53;
+}
+
+
+/* Default code, replaced by our own
 body {
 	font: 11px Verdana, Arial, Helvetica, sans-serif;
 	color: #666666;
@@ -25,10 +44,9 @@ a {
 a:hover {
 	color: #99CC00;
 }
-.err {
-	color: #FF9900;
-}
+
 th {
 	font-weight: bold;
 	text-align: left;
 }
+*/

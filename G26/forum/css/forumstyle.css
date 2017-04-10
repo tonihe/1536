@@ -1,0 +1,19 @@
+a {
+	color: #237DAE;
+}
+
+#forumWrapper {
+	margin: 30px;
+	padding: 30px;
+	background: #F6F9FB;
+	border: solid #237DAE;
+	border-radius: 25px;
+}
+
+#forumWrapper p {
+	text-align: center;
+}
+
+#forum  table {
+	margin: 30px;
+}
