@@ -145,7 +145,7 @@
 				echo "<br>";
 				echo "<br>";
 				echo '
-				<a href="login_form.php">log in</a> </p>
+				<a href="index.php">Back</a> </p>
 				';
 				echo '
 				</div>
