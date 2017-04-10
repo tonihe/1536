@@ -19,3 +19,46 @@ body {
 table a:hover {
     opacity: 1;
 }
+
+/* Project Page CSS Starts Here 
+Please edit with care and caution
+Coded by Toni, if problem arises 
+please contact Toni. */
+
+.formtable { 
+	width: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formtd1 { 
+	width: 300px;
+	height: 300px;
+}
+
+.formtd2 { 
+	width: 300px;
+	height: 300px;
+}
+
+.formtd3 { 
+	width: 300px;
+	height: 300px;
+}
+
+.formtd4 { 
+	width: 300px;
+	height: 300px;
+}
+
+/* Gray Scale of Project Colors & Hover */
+.hovergray figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hovergray figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}

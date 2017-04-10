@@ -25,3 +25,27 @@ body {
 	padding: 0;
 	border: 0;
 }
+
+#ralypic:hover {
+	content: url(rocketpic.png);
+	width: 350px;
+	height: 300px;
+}
+
+#carlopic:hover {
+	content: url(rocketpic.png);
+	width: 350px;
+	height: 300px;
+}
+
+#tonipic:hover {
+	content: url(rocketpic.png);
+	width: 350px;
+	height: 300px;
+}
+
+#kevinpic:hover {
+	content: url(rocketpic.png);
+	width: 350px;
+	height: 300px;
+}
