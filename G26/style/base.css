@@ -313,36 +313,6 @@ footer a {
 	clear: both;
 }
 
-/* Project Page CSS Starts Here 
-Please edit with care and caution
-Coded by Toni, if problem arises 
-please contact Toni. */
-
-.formtable { 
-	width: 100%; 
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.formtd1 { 
-	width: 300px;
-	height: 300px;
-}
-
-.formtd2 { 
-	width: 300px;
-	height: 300px;
-}
-
-.formtd3 { 
-	width: 300px;
-	height: 300px;
-}
-
-.formtd4 { 
-	width: 300px;
-	height: 300px;
-}
 
 /* Gray Scale of Project Colors & Hover */
 .hovergray figure img {
@@ -354,66 +324,6 @@ please contact Toni. */
 .hovergray figure:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
-}
-
-/* SOCIAL MEDIA BUTTON CSS BELOW
-EDIT WITH CAUTION */
-/* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.findsocial { 
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
- .fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-/* Instagram */
-.fa-instagram {
-    background: #e95950;
-    color: white;
-}
-
-/* Youtube */
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
-/* Reddit */
-.fa-reddit {
-    background: #FF5700;
-    color: white;
-}
-
-/* Linkedin */
-.fa-linkedin { 
-	background: #007bb5;
-	color: white;
 }
 
 /* THIS IS THE END OF THE CSS.*/ 

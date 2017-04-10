@@ -19,3 +19,34 @@ body {
 table a:hover {
     opacity: 1;
 }
+
+/* Project Page CSS Starts Here 
+Please edit with care and caution
+Coded by Toni, if problem arises 
+please contact Toni. */
+
+.formtable { 
+	width: 100%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formtd1 { 
+	width: 300px;
+	height: 300px;
+}
+
+.formtd2 { 
+	width: 300px;
+	height: 300px;
+}
+
+.formtd3 { 
+	width: 300px;
+	height: 300px;
+}
+
+.formtd4 { 
+	width: 300px;
+	height: 300px;
+}
