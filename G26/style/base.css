@@ -247,6 +247,8 @@ main {
 }
 
 footer {
+	background-image: url(hexpattern2.png);
+	background-size: 700px;
 	bottom: 0;
 	height: 30%;
 	width: 100%;
