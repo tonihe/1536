@@ -57,6 +57,34 @@ main img {
 	margin-bottom: 25px;
 }
 
+.parallax {
+	    /* The image used */
+    background-image: url(colourbuildings.jpg);
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+	    /* The image used */
+    background-image: url(colourbuildings.jpg);
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #content2 {
 	background-color: rgba(255, 255, 255, 0.98);
 	padding-bottom: 25px;
@@ -65,17 +93,6 @@ main img {
 	width: 100%;
 	overflow: hidden;
 }
-
-/*#teamlink {
-	background-color: #237DAE;
-	display: block;
-	padding: 0.2% 5%;
-	text-align: center;
-	white-space: nowrap;
-	color: white;
-	height: 8%;
-	width: 10%;
-}*/
 
 #teampicture {
 	display: block;
@@ -107,10 +124,10 @@ of the bubble box across the website */
 }
 
 body {
-	background-image: url(colourbuildings.jpg);
+	/*background-image: url(colourbuildings.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 83%;
-	background-position: top;
+	background-position: top;*/
 	margin: 0;
 	padding: 0;
 	border: 0;
