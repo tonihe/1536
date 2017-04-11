@@ -131,7 +131,7 @@ nav {
 	flex-direction: row;
 }
 
-.login {
+.loginbtn {
 	position: absolute;
 	top: -25px;
 	right: 150px;
