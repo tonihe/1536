@@ -19,6 +19,17 @@ main img {
 	margin-bottom: 25px;
 }
 
+/* Added by Toni April 10, 2017
+to adjust padding / letter-spacing
+of the bubble box across the website */ 
+
+#textbox p { 
+
+padding: 10px;
+letter-spacing: 1px;
+
+}
+
 body {
 	background-image: url(colourbuildings.jpg);
 	background-repeat: no-repeat;

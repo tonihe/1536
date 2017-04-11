@@ -14,11 +14,23 @@
 	max-width: 300px;
 	padding-bottom: 50px;
 	padding-left: 10px;
+	padding-right: 10px;
 	margin-bottom: 25px;
 }
 
 #textbox h2 {
 	text-shadow:2px 2px #000000;
+}
+
+/* added by Toni when inserting content
+and adjusting padding & letter-spacing
+of the bubble box April 10th 2017 */
+
+#textbox p { 
+
+	padding: 10px;
+	letter-spacing: 1px;
+
 }
 
 #projectslink {
