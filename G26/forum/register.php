@@ -71,7 +71,7 @@
 	}
 	
 	if(preg_match('/^.*(?=.{6,})(?=.*[a-zA-Z])[a-zA-Z0-9]+$/', $password) != 1) {
-		$errmsg_arr[] = 'Password must be at least 6 characters long, contain only letters and numbers, and contain at least one letter.';
+		$errmsg_arr[] = 'Password not complex enough';
 		$errflag = true;
 	}
 	

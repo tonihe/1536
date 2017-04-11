@@ -29,6 +29,13 @@ body{
 	color: #EE4F53;
 }
 
+.reminder {
+	color: #EE4F53;
+	font-size: 90%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 
 /* Default code, replaced by our own
 body {

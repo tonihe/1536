@@ -63,24 +63,26 @@
 			<div id ="userinfo">
 			<img id="contactimage" src="style/sample.jpg" alt="Sample">
 				<h2>CONTACT US!</h2>
-					<form id="form" method="post" action="contact.php">
+					<form id="form" method="post" action="contact.php" onsubmit="return formValidate()">
 						<div id = "textboxes">
+							<div id="fullNameWrapper">
 							<label for="firstname">First name:</label>
 							<br>
-							<span id="invalidfirstname"></span>
-							<input type="text" id="firstname" name="first_name" placeholder="First Name" tabindex="1" onblur="warnFirstNameInvalid('firstname')" required>
+							<div id="fullNameError"></div>
+							<input type="text" id="firstname" name="first_name" placeholder="First Name" tabindex="1" required>
 							<br>
 							<br>
 							<label for="lastname">Last name:</label>
 							<br>
-							<span id="invalidlastname"></span>
-							<input type="text" id="lastname" name="last_name" placeholder="Last Name" tabindex="2" onblur="warnLastNameInvalid('lastname')" required>					
+							<input type="text" id="lastname" name="last_name" placeholder="Last Name" tabindex="2"required>	
+							</div>							
 							<br>
-							<br>
+							<div id="emailWrapper">
 							<label for="email">Email:</label>
 							<br>
-							<span id="invalidemail"></span>
-							<input type="text" id="email" name="email" placeholder="Email Address" tabindex="3" onblur="warnDomainInvalid('email')" required>
+							<div id="emailError"></div>
+							<input type="text" id="email" name="email" placeholder="Email Address" tabindex="3"required>
+							</div>
 							<br>
 						</div>
 						<br>

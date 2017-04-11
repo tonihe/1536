@@ -78,7 +78,7 @@
       <td><input name="lname" type="text" class="textfield" id="lname" /></td>
     </tr>
     <tr>
-      <th width="124">User Name</th>
+      <th width="124">Login</th>
       <td width="168"><input name="login" type="text" class="textfield" id="login" /></td>
     </tr>
     <tr>
@@ -95,6 +95,7 @@
     </tr>
   </table>
 </form>
+<p class="reminder">Password must be at least 6 characters long, contain only letters and numbers, and contain at least one letter.</p>
 </div>
 </main>
 <footer>
