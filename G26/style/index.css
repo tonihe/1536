@@ -2,7 +2,7 @@
 body {
 	background-image: url(scienceworld3.jpg);
 	background-repeat: no-repeat;
-	background-size: 150% 69%;
+	background-size: 154% 90%;
 	background-position: bottom;
 	margin: 0;
 	padding: 0;
@@ -74,7 +74,7 @@ body p {
 	margin-bottom: 25px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 75px;
+	padding-bottom: 30px;
 }
 
 /* Gray-scale for preview projects */
