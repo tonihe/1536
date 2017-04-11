@@ -7,24 +7,36 @@ main img {
 	background-color: #f3796c;
 	color: white;
 	border-color: #f3796c;
-	border-radius: 5px 5px 0 0;
+	border-radius: 6px;
+	width: 350px;
+	height: 50px;
 	transition: 0.3s;
 }
 
 #teamlink p {
-	margin-bottom: 0;
-	font-size: 2.2em;
+	position: relative;
+	bottom: 10px;
+	color: white;
+	font-size: 1.1em;
+	margin-top: 0;
+	transition: 0.3s;
+}
+
+#teamlink:hover p {
+	color: #f3796c;
+	transition: 0.3s;
 }
 
 #teamlink img {
 	position: relative;
-	top: 8px;
+	top: 13px;
 	left: 5px;
 }
 
 #teamlink:hover {
 	background-color: white;
 	color: #f3796c;
+	border-color: #f3796c;
 	transition: 0.3s;
 	opacity: 1;
 }
@@ -47,12 +59,14 @@ main img {
 
 #content2 {
 	background-color: rgba(255, 255, 255, 0.98);
-	margin-top: 12%;
+	padding-bottom: 25px;
+	margin-top: 6%;
+	margin-bottom: 6%;
 	width: 100%;
 	overflow: hidden;
 }
 
-#teamlink {
+/*#teamlink {
 	background-color: #237DAE;
 	display: block;
 	padding: 0.2% 5%;
@@ -61,24 +75,28 @@ main img {
 	color: white;
 	height: 8%;
 	width: 10%;
-}
+}*/
 
 #teampicture {
 	display: block;
 	float: left;
-	margin: 1% 0 1% 1%;
-	width: 50%;
+	margin: 2% 0 1% 1%;
+	width: 53%;
 }
 
 #text2 {
 	display: block;
 	height: 100%;
-	width: 44%;
+	width: 42%;
 	float: right;
 	font-size: 1.1em;
 	margin-left: 2%;
 	margin-right: 2%;
 }
+
+#text2 p{
+}
+
 /* Added by Toni April 10, 2017
 to adjust padding / letter-spacing
 of the bubble box across the website */ 
