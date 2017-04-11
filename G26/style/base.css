@@ -294,6 +294,10 @@ footer a {
 	padding-top: 10px;
 }
 
+#copyright span{
+	color: #f3796c;
+}
+
 #validator {
 	display: block;
 	padding: 2px;
