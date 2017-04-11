@@ -1,10 +1,32 @@
-main img {
-	padding-top: 30px;
+#teamlink {
+	text-align: center;
+	background-color: #f3796c;
+	color: white;
+	border-color: #f3796c;
+	border-radius: 5px 5px 0 0;
+	transition: 0.3s;
 }
 
-#teamlink {
+#teamlink p{
+	margin-bottom: 0;
+	font-size: 2.2em;
+}
+
+#teamlink img {
 	position: relative;
-	left: 180px;
+	top: 8px;
+	left: 5px;
+}
+
+#teamlink:hover {
+	background-color: white;
+	color: #f3796c;
+	transition: 0.3s;
+	opacity: 1;
+}
+
+#teambutton:hover {
+	opacity: 1;
 }
 
 #scrollbutton {
@@ -24,9 +46,8 @@ to adjust padding / letter-spacing
 of the bubble box across the website */ 
 
 #textbox p { 
-
-padding: 10px;
-letter-spacing: 1px;
+	padding: 10px;
+	letter-spacing: 1px;
 
 }
 
