@@ -59,6 +59,26 @@
 	opacity: 0.8;
 }
 
+#forumbutton {
+    background-color: #f3796c;
+    color: white;
+    padding: 5px 20px;
+    border:solid;
+    border-color: #f3796c;
+    border-radius: 5px;
+    font-size: 1.4em;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#forumbutton:hover {
+    background-color: white;
+    color: #f3796c;
+    border:solid;
+    opacity: 1;
+    transition: 0.3s;
+}
+
 .submitter:focus {
 	opacity: 0.8;
 }	
