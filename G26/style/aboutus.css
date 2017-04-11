@@ -86,6 +86,7 @@ main img {
     background-size: cover;
 }
 
+/* For centering the pagetop button within a parallax */
 #scrollbutton {
 	position: absolute;
 	bottom: 0;
