@@ -65,6 +65,8 @@
 	}
 ?>
 
+<h2>Please sign up and join our community!</h2>
+<p>(all fields are required)</p>
 <form id="registerForm" name="registerForm" method="post" action="register.php">
   <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
     <tr>
@@ -76,7 +78,7 @@
       <td><input name="lname" type="text" class="textfield" id="lname" /></td>
     </tr>
     <tr>
-      <th width="124">Login</th>
+      <th width="124">User Name</th>
       <td width="168"><input name="login" type="text" class="textfield" id="login" /></td>
     </tr>
     <tr>

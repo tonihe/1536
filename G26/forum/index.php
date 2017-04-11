@@ -70,8 +70,12 @@
 	href="javascript:ts('body',-1)">[-]</a></div>
 	<div id="left">
 	<h2>Welcome to the Web RCKT Community!</h2>
-	<p>This is our forum where you can share your thoughts on web development with us and other local business people and ask any questions you might have about your website.</p>
-	<p>We are constantly checking our forum to make sure that we keep in touch with you. Give it a try today!</p>
+	<p>Have a question about web design?</p>
+	<p>Want to know about the progress of a website that we're working on for you?</p>
+	<p>Feel free to ask here at our Community Forum!</p>
+	<p>We are constantly checking our forum and answering questions.</p>
+	<p>Come join us and talk with us, as well as other members of our community!</p>
+	
 	</p>
 	</div>
 	<div id="right">

@@ -17,6 +17,10 @@ body{
 	border-radius: 25px;
 }
 
+#formWrapper h2 {
+	text-align: center;
+}
+
 #formWrapper p {
 	text-align: center;
 }
