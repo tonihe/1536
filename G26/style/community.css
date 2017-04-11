@@ -7,14 +7,6 @@
 	overflow: hidden;
 }
 
-#loginbox h2 {
-	text-shadow: 2px 2px #000000;
-}
-
-#Community h2 {
-	text-shadow: 2px 2px #000000;
-}
-
 #loginbox {
 	width: 40%;
 	height: 80%;
@@ -23,7 +15,6 @@
 	text-align: center;
 	float:left;
 	background-color: #237DAE;
-	text-shadow: 1px 1px #000000;
 	color: white;
 	padding: 10px;
 }
@@ -36,7 +27,6 @@
 	text-align: center;
 	float:left;
 	background-color: #237DAE;
-	text-shadow: 1px 1px #000000;
 	color: white;
 	padding: 10px;
 	margin-left: auto;
@@ -58,15 +48,9 @@
 	background-image: url(style/PlaceholderBackground.png);
 	background-color: #237DAE;
 	color: white;
-	text-shadow: 1px 1px #000000;
-	padding: 10px;
+	padding: 10px 10px 30px 10px;
 }
-			
-#Community p {
-    text-shadow: 1px 1px #000000;
-
-}
-			
+		
 #Community h2 {
 	color: white;
 }	
