@@ -242,3 +242,18 @@ span.psw {
        width: 100%;
     }
 }
+
+.parallax {
+	position: relative;
+	/* The image used */
+    background-image: url(falsecreek1.jpg);
+
+    /* Set a specific height */
+    min-height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
