@@ -13,7 +13,6 @@ header {
 	background-color: white;
 	opacity: 0.95;
 	z-index:10;
-	transition-duration: 0.4s;
 }
 
 /* Transition Effect */
@@ -67,7 +66,6 @@ header a {
 	white-space: nowrap;
 	padding: 0.65%;
 	position: fixed;
-	height: 13%;
 	width: 100%;
 }
 
@@ -78,7 +76,6 @@ header a {
 	height: 100px;
 	width: 100px;
 	position: absolute;
-	left: -2%;
 	top: 2px;
 }
 
@@ -86,21 +83,18 @@ header a {
 #banner h1 {
 	font-weight: 300;
 	font-size: 2.3em;
-	margin-left: 15px;
 	margin-top: 30px;
 	position: absolute;
-	left: 70px;
 	top: 0px;
-	transition-duration: 0.4s;
+	left: 105px;
 	white-space: nowrap;
 }
 
 
 .headerbox { 
-	height: 100%;
 	width: 85%;
-	min-width: 52em;
-	margin-left: 12%;
+	min-width: 49em;
+	margin-left: auto;
 	margin-right: auto;
 }
 
@@ -128,15 +122,33 @@ a {
 }
 
 nav {
+	float: right;
 	position: relative;
-	left: 53%;
-	top: 33px;
+	top: 32px;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-	/* Transition for moving effect */
-	/*transition-duration: 0.4s; */
+}
+
+.login {
+	position: absolute;
+	top: -25px;
+	right: 150px;
+}
+
+.login a{
+	font-size: 0.8em;
+}
+
+.user {
+	position: absolute;
+	top: -25px;
+	right: 15px;
+}
+
+.user a{
+	font-size: 0.8em;
 }
 
 /* To negate navbar underlines from becoming transparent */
@@ -247,7 +259,7 @@ main {
 
 footer {
 	background-image: url(hexpattern2.png);
-	background-size: 700px;
+	background-size: 800px;
 	bottom: 0;
 	height: 30%;
 	width: 100%;
@@ -298,6 +310,10 @@ footer a {
 	position: relative;
 	bottom: 50%;
 	padding-top: 10px;
+}
+
+#copyright span{
+	color: #f3796c;
 }
 
 #validator {

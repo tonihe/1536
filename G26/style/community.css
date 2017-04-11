@@ -1,39 +1,39 @@
+#communityheader {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+#communityimage {
+    height: 250px;
+    width: 370px;
+}
+
 #infoboxes {
 	overflow: hidden;
 }
 
-#loginbox h2 {
-	text-shadow: 2px 2px #000000;
-}
-
-#Community h2 {
-	text-shadow: 2px 2px #000000;
-}
-
 #loginbox {
-	width: 40%;
+	width: 38%;
 	height: 80%;
 	border: solid;
 	border-radius: 25px;
-	text-align: center;
+	text-align: left;
 	float:left;
 	background-color: #237DAE;
-	text-shadow: 1px 1px #000000;
 	color: white;
-	padding: 10px;
+	padding: 0 0 14px 40px;
 }
 
 #registerbox {
-	width: 40%;
+	width: 38%;
 	height: 80%;
 	border: solid;
 	border-radius: 25px;
-	text-align: center;
+	text-align: left;
 	float:left;
 	background-color: #237DAE;
-	text-shadow: 1px 1px #000000;
 	color: white;
-	padding: 10px;
+	padding: 0 0 14px 40px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 2%;
@@ -53,22 +53,35 @@
 	background-image: url(style/PlaceholderBackground.png);
 	background-color: #237DAE;
 	color: white;
-	text-shadow: 1px 1px #000000;
-	padding: 10px;
+	padding: 10px 10px 30px 10px;
 }
-			
-#Community p {
-	width: 250px;
-	position: relative;
-	left: 20%;
-}
-			
+		
 #Community h2 {
 	color: white;
 }	
 
 #linkbutton:focus {
 	opacity: 0.8;
+}
+
+#forumbutton {
+    background-color: #f3796c;
+    color: white;
+    padding: 5px 20px;
+    border:solid;
+    border-color: #f3796c;
+    border-radius: 5px;
+    font-size: 1.4em;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#forumbutton:hover {
+    background-color: white;
+    color: #f3796c;
+    border:solid;
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .submitter:focus {
@@ -85,7 +98,7 @@ body {
 	border: 0;
 }
 
-span {
+#registration span {
 	color: #E55B58;
 	font-weight: bold;
 }
