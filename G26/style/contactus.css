@@ -126,3 +126,11 @@ EDIT WITH CAUTION */
 	background: #007bb5;
 	color: white;
 }
+
+#sentmessage {
+	background: #F6F9FB;
+	border: solid #237DAE;
+	border-radius: 25px;
+	padding:15px;
+	text-align: center;
+}

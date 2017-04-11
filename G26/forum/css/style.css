@@ -1,5 +1,15 @@
 /**** Content Container ***/
 
+body{
+	background-image: url('../../style/backgroundimg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 #content {
 	width: 100%;
 	margin-top:30px;

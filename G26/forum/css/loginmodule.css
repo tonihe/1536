@@ -1,7 +1,17 @@
+body{
+	background-image: url('../../style/backgroundimg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 #formWrapper {
 	margin: 20px;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background: #F6F9FB;
 	border: solid #237DAE;
 	border-radius: 25px;
