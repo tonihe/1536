@@ -31,16 +31,16 @@
 		</div>
 		<nav>
 			<div class="dropdown">
-				<div class="dropbtn"><a href="index.html">Home</a></div>
+				<a href="index.html"><div class="dropbtn">Home</div></a>
 			</div>
 			<div class="dropdown">
-				<div class="dropbtn"><a href="aboutus.html">About Us  </a></div>
+				<a href="aboutus.html"><div class="dropbtn">About Us</div></a>
 				<div class="dropdown-content">
 					<a href="team.html">Team</a>
 				</div>
 			</div>
 			<div class="dropdown">
-				<div class="dropbtn"><a href="services.html">Services</a></div>
+				<a href="services.html"><div class="dropbtn">Services</div></a>
 				<div class="dropdown-content">
 					<a href="projects.html">Projects</a>
 					<a href="projects/project1.html">Project1</a>
@@ -50,13 +50,13 @@
 				</div>
 			</div>
 			<div class="dropdown">
-				<div class="dropbtn"><a href="./forum/index.php">Community</a></div>
+				<a href="./forum/index.php"><div class="dropbtn">Community</div></a>
 				<div class="dropdown-content">
 					<a href="./forum/forum.php">Forum</a>
 				</div>
 			</div>
 			<div class="dropdown">
-				<div class="dropbtn"><a href="contactus.html">Contact Us</a></div>
+				<a href="contactus.html"><div class="dropbtn">Contact Us</div></a>
 			</div>
 		</nav>
 	</div>
@@ -68,7 +68,7 @@
 	</div>
 	<div class="findsocial">
 		<div id="wrapper">
-			<h2>CONNECT WITH US ON SOCIAL MEDIA!</h2>
+			<h1>CONNECT WITH US ON SOCIAL MEDIA!</h1>
 				<a href="https://www.facebook.com/" class="fa fa-facebook" tabindex="7"></a>
 				<a href="https://www.twitter.com/" class="fa fa-twitter" tabindex="8"></a>
 				<a href="https://www.instagram.com" class="fa fa-instagram" tabindex="9"></a>
@@ -76,31 +76,29 @@
 				<a href="https://www.reddit.com" class="fa fa-reddit" tabindex="11"></a>
 				<a href="https://linkedin.com/" class="fa fa-linkedin" tabindex="12"></a>
 			<div id ="userinfo">
-			<img id="contactimage" src="style/sample.jpg" alt="Sample">
+			<img id="contactimage" src="style/socialmedia.jpg" alt="Sample">
 				<h2>CONTACT US!</h2>
 					<form id="form" method="post" action="contact.php" onsubmit="return formValidate()">
 						<div id = "textboxes">
-							<div id="fullNameWrapper">
 							<label for="firstname">First name:</label>
-							<br>
-							<div id="fullNameError"></div>
+							<div id="firstNameWrapper">
+							<div id="firstNameError"></div>
 							<input type="text" id="firstname" name="first_name" placeholder="First Name" tabindex="1" required>
-							<br>
+							</div>
 							<br>
 							<label for="lastname">Last name:</label>
-							<br>
+							<div id="lastNameWrapper">
+							<div id="lastNameError"></div>
 							<input type="text" id="lastname" name="last_name" placeholder="Last Name" tabindex="2"required>	
-							</div>							
+							</div>	
 							<br>
-							<div id="emailWrapper">
 							<label for="email">Email:</label>
-							<br>
+							<div id="emailWrapper">
 							<div id="emailError"></div>
 							<input type="text" id="email" name="email" placeholder="Email Address" tabindex="3"required>
 							</div>
 							<br>
 						</div>
-						<br>
 							<label for ="message">Your message here:</label>
 							<br>
 							<br>
@@ -135,7 +133,7 @@
 		</ul>
 	</div>
 	<div id="copyright">
-		<p><a href="sitemap.html">Site Map</a> &copy; 2017 Web RCKT Design | All rights reserved.</p>
+		<p><a href="sitemap.html">Site Map</a> &copy; 2017 Web RCKT Design <span>| All rights reserved.</span></p>
 	</div>
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>

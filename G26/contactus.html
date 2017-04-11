@@ -65,27 +65,25 @@
 				<h2>CONTACT US!</h2>
 					<form id="form" method="post" action="contact.php" onsubmit="return formValidate()">
 						<div id = "textboxes">
-							<div id="fullNameWrapper">
 							<label for="firstname">First name:</label>
-							<br>
-							<div id="fullNameError"></div>
+							<div id="firstNameWrapper">
+							<div id="firstNameError"></div>
 							<input type="text" id="firstname" name="first_name" placeholder="First Name" tabindex="1" required>
-							<br>
+							</div>
 							<br>
 							<label for="lastname">Last name:</label>
-							<br>
+							<div id="lastNameWrapper">
+							<div id="lastNameError"></div>
 							<input type="text" id="lastname" name="last_name" placeholder="Last Name" tabindex="2"required>	
-							</div>							
+							</div>	
 							<br>
-							<div id="emailWrapper">
 							<label for="email">Email:</label>
-							<br>
+							<div id="emailWrapper">
 							<div id="emailError"></div>
 							<input type="text" id="email" name="email" placeholder="Email Address" tabindex="3"required>
 							</div>
 							<br>
 						</div>
-						<br>
 							<label for ="message">Your message here:</label>
 							<br>
 							<br>

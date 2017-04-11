@@ -44,8 +44,7 @@ input {
 	margin-top: 1em;
 }
 
-#textboxes span {
-	color: #E55B58;
+.findsocial label {
 	font-weight: bold;
 }
 
@@ -144,4 +143,5 @@ div.error {
 	display: block;
 	color: #E55B58;
 	font-weight: bold;
+	font-size: 85%
 }

@@ -55,13 +55,22 @@ function warnDomainInvalid(id) {
 function formValidate() {
 	var valid = true;
 	
-	if(!testNameValid_2('firstname') || !testNameValid_2('lastname')) {
+	if(!testNameValid_2('firstname')) {
 		valid = false;
-		$('fullNameWrapper').className = 'error';
-		$('fullNameError').innerHTML = 'Name fields cannot be blank and cannot contain numbers or special characters';
+		$('firstNameWrapper').className = 'error';
+		$('firstNameError').innerHTML = 'Name cannot be blank and cannot contain numbers or special characters';
 	} else {
-		$('fullNameWrapper').className = '';
-		$('fullNameError').innerHTML = '';
+		$('firstNameWrapper').className = '';
+		$('firstNameError').innerHTML = '';
+	}
+	
+	if(!testNameValid_2('lastname')) {
+		valid = false;
+		$('lastNameWrapper').className = 'error';
+		$('lastNameError').innerHTML = 'Name cannot be blank and cannot contain numbers or special characters';
+	} else {
+		$('lastNameWrapper').className = '';
+		$('lastNameError').innerHTML = '';
 	}
 	
 	if(!testDomainValid('email')) {
