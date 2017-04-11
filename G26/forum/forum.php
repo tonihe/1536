@@ -38,17 +38,17 @@
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../aboutus.html">About Us  </a></div>
 				<div class="dropdown-content">
-					<a href="team.html">Team</a>
+					<a href="../team.html">Team</a>
 				</div>
 			</div>
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../services.html">Services</a></div>
 				<div class="dropdown-content">
-					<a href="projects.html">Projects</a>
-					<a href="projects/project1.html">Project1</a>
-					<a href="projects/project2.html">Project2</a>
-					<a href="projects/project3.html">Project3</a>
-					<a href="projects/project4.html">Project4</a>
+					<a href="../projects.html">Projects</a>
+					<a href="../projects/project1.html">Project1</a>
+					<a href="../projects/project2.html">Project2</a>
+					<a href="../projects/project3.html">Project3</a>
+					<a href="../projects/project4.html">Project4</a>
 				</div>
 			</div>
 			<div class="dropdown">
