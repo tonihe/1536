@@ -122,15 +122,33 @@ a {
 }
 
 nav {
+	float: right;
 	position: relative;
-	left: 53%;
-	top: 33px;
+	top: 32px;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-	/* Transition for moving effect */
-	/*transition-duration: 0.4s; */
+}
+
+.login {
+	position: absolute;
+	top: -25px;
+	right: 150px;
+}
+
+.login a{
+	font-size: 0.8em;
+}
+
+.user {
+	position: absolute;
+	top: -25px;
+	right: 15px;
+}
+
+.user a{
+	font-size: 0.8em;
 }
 
 /* To negate navbar underlines from becoming transparent */
