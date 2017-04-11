@@ -63,10 +63,7 @@
 }
 			
 #Community p {
-	width: 250px;
-	position: relative;
-	left: 20%;
-    text-shadow: none;
+    text-shadow: 1px 1px #000000;
 
 }
 			
