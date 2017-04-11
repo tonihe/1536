@@ -5,7 +5,7 @@
 	margin-right: auto;
 	text-align: center;
 	padding: 25px;
-	background-color: #A1B0B7;
+	background-color: rgba(255, 255, 255, 0.85);
 	border-radius: 25px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 body {
-	background-image: url(waterfront.jpg);
+	background-image: url(stanley.jpg);
 	background-repeat: no-repeat;
 	background-size: 220% 160%;
 	background-position: bottom;
