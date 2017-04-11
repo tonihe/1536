@@ -1,3 +1,8 @@
+#communityheader {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
 #infoboxes {
 	overflow: hidden;
 }
@@ -54,7 +59,7 @@
 	background-color: #237DAE;
 	color: white;
 	text-shadow: 1px 1px #000000;
-	padding: 10px;
+	padding: 10px 10px 30px 10px;
 }
 			
 #Community p {

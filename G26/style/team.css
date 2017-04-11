@@ -1,10 +1,11 @@
 #teamProfiles  {
+	font-size: 0.9em;
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	padding: 25px;
-	background-color: #A1B0B7;
+	background-color: white;
 	border-radius: 25px;
 }
 
