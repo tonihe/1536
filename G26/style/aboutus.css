@@ -45,7 +45,6 @@ main img {
 	margin-bottom: 25px;
 }
 
-<<<<<<< HEAD
 #content2 {
 	background-color: rgba(255, 255, 255, 0.98);
 	margin-top: 12%;
@@ -79,7 +78,7 @@ main img {
 	font-size: 1.1em;
 	margin-left: 2%;
 	margin-right: 2%;
-=======
+}
 /* Added by Toni April 10, 2017
 to adjust padding / letter-spacing
 of the bubble box across the website */ 
@@ -87,8 +86,6 @@ of the bubble box across the website */
 #textbox p { 
 	padding: 10px;
 	letter-spacing: 1px;
-
->>>>>>> 500bafa4f71eb2b2ebcf0c20b46c081a27586029
 }
 
 body {
