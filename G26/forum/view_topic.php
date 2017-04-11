@@ -85,7 +85,7 @@
 		</tr>
 
 		<tr>
-		<td bgcolor="#F8F7F1"><strong>By :</strong> <strong></td>
+		<td bgcolor="#F8F7F1"><strong>By : </strong><?php echo $rows['firstname']; ?></td>
 		</tr>
 
 		<tr>
