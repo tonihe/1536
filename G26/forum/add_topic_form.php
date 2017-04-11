@@ -41,9 +41,9 @@
 				</div>
 			</div>
 			<div class="dropdown">
-				<div class="dropbtn"><a href="../community.html">Community</a></div>
+				<div class="dropbtn"><a href="index.php">Community</a></div>
 				<div class="dropdown-content">
-					<a href="forum.html">Forum</a>
+					<a href="forum.php">Forum</a>
 				</div>
 			</div>
 			<div class="dropdown">
