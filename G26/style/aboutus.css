@@ -77,7 +77,7 @@ main img {
     background-image: url(colourbuildings.jpg);
 
     /* Set a specific height */
-    min-height: 300px; 
+    min-height: 275px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -121,9 +121,6 @@ main img {
 	font-size: 1.1em;
 	margin-left: 2%;
 	margin-right: 2%;
-}
-
-#text2 p{
 }
 
 /* Added by Toni April 10, 2017
