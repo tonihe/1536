@@ -24,10 +24,8 @@ body{
 	float:left;
 	display: block;
 	display: inline;
-	border: solid;
 	border-radius: 25px;
 	background-color: #237DAE;
-	text-shadow: 1px 1px #000000;
 	color: white;
 	padding: 15px;
 	margin-bottom: 100px;
