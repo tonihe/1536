@@ -31,26 +31,6 @@ please contact Toni. */
 	margin-right: auto;
 }
 
-.formtd1 { 
-	width: 300px;
-	height: 300px;
-}
-
-.formtd2 { 
-	width: 300px;
-	height: 300px;
-}
-
-.formtd3 { 
-	width: 300px;
-	height: 300px;
-}
-
-.formtd4 { 
-	width: 300px;
-	height: 300px;
-}
-
 /* Gray Scale of Project Colors & Hover */
 .hovergray figure img {
 	-webkit-filter: grayscale(100%);

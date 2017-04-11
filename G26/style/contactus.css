@@ -39,7 +39,7 @@ input {
 	margin-top: 1em;
 }
 
-span {
+#textboxes span {
 	color: #E55B58;
 	font-weight: bold;
 }

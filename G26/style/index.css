@@ -1,44 +1,18 @@
-#homepagecontent {
-	overflow: hidden;
-	max-width: 75%;
+/* Resized background image to work with animated background and true to original */
+body {
+	background-image: url(scienceworld3.jpg);
+	background-repeat: no-repeat;
+	background-size: 154% 90%;
+	background-position: bottom;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body p {
+	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 30px 0;
-}
-
-#pagetext {
-	background-color: #237DAE;
-	padding: 10px;
-	color: white;
-	font-size: 1.2em;
-	text-shadow:2px 2px #000000;
-	border-radius: 25px;
-	float: left;
-	width: 60%;
-}		
-
-.previewprojects {
-	float: right;
-	width: 35%;
-}
-	
-#vimeo_player {
-	width: 80%;
-	display: block;
-	margin-top: 2%;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 75px;
-}
-
-/* Animated Header Backgrounds */
-#large-header {
-	background-image: url('animatedBackground.jpg');
-	padding-top: 5%;
-}
-
-#demo-canvas {
-	width: 100%;
 }
 
 .main-title {
@@ -56,19 +30,103 @@
 	letter-spacing: 0.1em;
 }
 
-/* Resized background image to work with animated background and true to original */
-body {
-	background-image: url(scienceworld3.jpg);
-	background-repeat: no-repeat;
-	background-size: 150% 69%;
-	background-position: bottom;
-	margin: 0;
-	padding: 0;
-	border: 0;
+/* Animated Header Backgrounds */
+#large-header {
+	background-image: url('animatedBackground.jpg');
+	padding-top: 5%;
 }
 
-body p {
-	max-width: 800px;
+#demo-canvas {
+	width: 100%;
+}
+
+#homecontentbg {
+	background-color: rgba(255,255,255,0.5);
+	z-index: -5;
+	margin-bottom: 50px;
+}
+
+#homepagecontent {
+	overflow: hidden;
+	max-width: 75%;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 30px 0;
+	z-index:10;
+}
+
+#pagetext {
+	background-color: #237DAE;
+	padding: 10px;
+	color: white;
+	font-size: 1.2em;
+	text-shadow:2px 2px #000000;
+	border-radius: 25px;
+	float: left;
+	width: 55%;
+
+}		
+
+#vimeo_player {
+	width: 80%;
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+/* Gray-scale for preview projects */
+.previewprojects {
+	float: right;
+	width: 35%;
+}
+
+table a:hover{
+	opacity: 1;
+}
+	
+#project1 img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#project1:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#project2 img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#project2:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#project3 img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#project3:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+#project4 img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#project4:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
