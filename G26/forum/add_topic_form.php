@@ -55,7 +55,7 @@
 <a id="pagetop"></a>
 <main>
 	<div id="forumWrapper">
-		<a href="forum.php">Back to Forum</a>
+		<a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a>
 		<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 		<tr>
 		<form id="form1" name="form1" method="post" action="add_topic.php">
@@ -85,6 +85,7 @@
 		</tr>
 		</table>
 	</div>
+<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -112,7 +113,7 @@
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
-		<script src="js/scroll.js"></script>
+		<script src="../js/scroll.js"></script>
 </body>
 </html>
 

@@ -11,6 +11,14 @@
 <link rel="shortcut icon" href="../style/favicon.ico" type="image/x-icon">
 <!-- Importing Google Font -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
+<script>
+	function show(id) {
+		document.getElementById(id).style.visibility = "visible";
+	}
+	function hide(id) {
+		document.getElementById(id).style.visibility = "hidden";
+  }
+</script>
 </head>
 <body>
 <header>
@@ -71,11 +79,11 @@
   <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
     <tr>
       <th>First Name </th>
-      <td><input name="fname" type="text" class="textfield" id="fname" /></td>
+      <td><input name="fname" type="text" class="textfield" id="fname" onfocus="show('namehelp')" onblur="hide('namehelp')"/></td>
     </tr>
     <tr>
       <th>Last Name </th>
-      <td><input name="lname" type="text" class="textfield" id="lname" /></td>
+      <td><input name="lname" type="text" class="textfield" id="lname" onfocus="show('namehelp')" onblur="hide('namehelp')"/></td>
     </tr>
     <tr>
       <th width="124">Login</th>
@@ -83,7 +91,7 @@
     </tr>
     <tr>
       <th>Password</th>
-      <td><input name="password" type="password" class="textfield" id="password" /></td>
+      <td><input name="password" type="password" class="textfield" id="password" onfocus="show('passwordhelp')" onblur="hide('passwordhelp')"/></td>
     </tr>
     <tr>
       <th>Confirm Password </th>
@@ -95,8 +103,13 @@
     </tr>
   </table>
 </form>
-<p class="reminder">Password must be at least 6 characters long, contain only letters and numbers, and contain at least one letter.</p>
+<a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a>
+<div class = "reminder">
+	<p id="namehelp">Names can only contain upper or lower case letters</p>
+	<p id="passwordhelp">Password must be at least 6 characters long, contain only letters and numbers, and contain at least one letter.</p>
 </div>
+</div>
+<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -124,6 +137,6 @@
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
-		<script src="js/scroll.js"></script>
+		<script src="../js/scroll.js"></script>
 </body>
 </html>

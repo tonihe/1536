@@ -81,7 +81,10 @@
 			</tr>
 		  </table>
 		</form>
+		<br>
+		<a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a>
 	</div>
+<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -109,6 +112,6 @@
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
-		<script src="js/scroll.js"></script>
+		<script src="../js/scroll.js"></script>
 </body>
 </html>

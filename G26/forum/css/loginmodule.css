@@ -34,6 +34,12 @@ body{
 	font-size: 90%;
 	padding-left: 10%;
 	padding-right: 10%;
+	visibility: hidden;
+}
+
+.backbutton {
+	margin-left: 10%;
+	color: #237DAE;
 }
 
 

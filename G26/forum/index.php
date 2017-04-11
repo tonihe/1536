@@ -66,8 +66,6 @@
 <a id="pagetop"></a>
 <main>
 	<div id="content">
-	<div style="float: right;"><a href="javascript:ts('body',1)">[+]</a> | <a
-	href="javascript:ts('body',-1)">[-]</a></div>
 	<div id="left">
 	<h2>Welcome to the Web RCKT Community!</h2>
 	<p>Have a question about web design?</p>
@@ -76,7 +74,6 @@
 	<p>We are constantly checking our forum and answering questions.</p>
 	<p>Come join us and talk with us, as well as other members of our community!</p>
 	
-	</p>
 	</div>
 	<div id="right">
 		<div class="box">
@@ -109,6 +106,7 @@
 		</div>
 	</div>
 	<div id="clear"></div></div>
+<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -136,6 +134,6 @@
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
-		<script src="js/scroll.js"></script>
+		<script src="../js/scroll.js"></script>
 </body>
 </html>

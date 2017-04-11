@@ -85,7 +85,7 @@
 		</tr>
 
 		<tr>
-		<td bgcolor="#F8F7F1"><strong>By : </strong><?php echo $rows['firstname']; ?></td>
+		<td bgcolor="#F8F7F1"><strong>By : </strong><?php echo $rows['login']; ?></td>
 		</tr>
 
 		<tr>
@@ -113,11 +113,11 @@
 		<td bgcolor="#F8F7F1"><?php echo $rows['id']; ?></td>
 		</tr>
 		<tr>
-		<td width="18%" bgcolor="#F8F7F1"><strong>Name</strong></td>
+		<td width="18%" bgcolor="#F8F7F1"><strong>By</strong></td>
 		<td width="5%" bgcolor="#F8F7F1">:</td>
 
 
-		<td width="77%" bgcolor="#F8F7F1"><?php echo $rows['firstname']; ?></td>
+		<td width="77%" bgcolor="#F8F7F1"><?php echo $rows['login']; ?></td>
 		</tr>
 		<tr>
 		<td bgcolor="#F8F7F1"><strong>Response</strong></td>
@@ -145,10 +145,11 @@
 				echo "<br>";
 				echo "<br>";
 				echo '
-				<a href="index.php">Back</a> </p>
+				<a href="#" onclick="history.go(-1)">Go Back</a>
 				';
 				echo '
 				</div>
+<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -176,7 +177,7 @@
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
-		<script src="js/scroll.js"></script>
+		<script src="../js/scroll.js"></script>
 </body>
 </html>
 
@@ -184,7 +185,7 @@
 				exit();
 			}
 		?>
-		<a href="forum.php">Back to Forum</a>
+		<a href="#" onclick="history.go(-1)">Go Back</a>
 		<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 		<tr>
 		<form name="form1" method="post" action="add_response.php">
@@ -206,6 +207,7 @@
 		</tr>
 		</table>
 	</div>
+<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
 <footer>
 	<div class="footerclmns">
@@ -233,6 +235,6 @@
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
-		<script src="js/scroll.js"></script>
+		<script src="../js/scroll.js"></script>
 </body>
 </html>

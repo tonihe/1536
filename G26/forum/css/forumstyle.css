@@ -32,3 +32,10 @@ main{
 #forumWrapper a {
 	color: #237DAE;
 }
+
+.backbutton {
+	padding: 5px;
+	background: #F6F9FB;
+	border: solid #237DAE;
+	border-radius: 25px;
+}
