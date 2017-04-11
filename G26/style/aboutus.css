@@ -1,5 +1,5 @@
 main img {
-	padding-top: 30px;
+	margin-top: 30px;
 }
 
 #teamlink {
@@ -8,7 +8,7 @@ main img {
 }
 
 #scrollbutton {
-	padding-top: 30px;
+	margin-top: 30px;
 }
 
 #textbox {
@@ -17,6 +17,41 @@ main img {
 	border-radius: 25px;
 	padding: 15px;
 	margin-bottom: 25px;
+}
+
+#content2 {
+	background-color: rgba(255, 255, 255, 0.98);
+	margin-top: 12%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#teamlink {
+	background-color: #237DAE;
+	display: block;
+	padding: 0.2% 5%;
+	text-align: center;
+	white-space: nowrap;
+	color: white;
+	height: 8%;
+	width: 10%;
+}
+
+#teampicture {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1%;
+	width: 50%;
+}
+
+#text2 {
+	display: block;
+	height: 100%;
+	width: 44%;
+	float: right;
+	font-size: 1.1em;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 body {
