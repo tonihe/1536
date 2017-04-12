@@ -38,7 +38,7 @@ body {
 .parallax {
 	position: relative;
 	/* The image used */
-    background-image: url(backgroundimg.jpg);
+    background-image: url(bgproject21.jpg);
 
     /* Set a specific height */
     min-height: 400px; 
@@ -68,7 +68,7 @@ body {
 .parallax2 {
 	position: relative;
 	/* The image used */
-    background-image: url(scienceworld3.jpg);
+    background-image: url(bgproject21.jpg);
 
     /* Set a specific height */
     min-height: 400px; 
@@ -99,7 +99,7 @@ body {
 .parallax3 {
 	position: relative;
 	/* The image used */
-    background-image: url(colourbuildings.jpg);
+    background-image: url(bgproject22.jpg);
 
     /* Set a specific height */
     min-height: 400px; 
@@ -114,7 +114,7 @@ body {
 .parallax4 {
 	position: relative;
 	/* The image used */
-    background-image: url(colourbuildings.jpg);
+    background-image: url(bgproject22.jpg);
 
     /* Set a specific height */
     min-height: 200px; 
