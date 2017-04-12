@@ -15,49 +15,6 @@ header {
 	z-index:10;
 }
 
-/* Transition Effect */
-/*header:hover {
-	height:130px;
-	width:100%;
-	background-color: white;
-	transition-duration: 0.4s;
-}*/
-
-/*header:hover .dropbtn a{
-	background-color: transparent;
-	transition-duration: 0.4s;
-	color: black;
-	font-size: 1.2em;
-}*/
-
-/*header .dropbtn {
-	transition-duration: 0.4s;
-	text-align: center;
-}*/
-
-/*header:hover nav {
-	top: 35%;
-	transition-duration: 0.4s;
-}*/
-
-/*header:hover #banner img {
-	display: inline-block;
-	height: 115px;
-	width: 115px;
-	position: absolute;
-	top: 5%;
-	transition: 0.4s;
-}*/
-
-/*header:hover #banner h1 {
-	font-size: 2.5em;
-	margin-left: 15px;
-	margin-top: 30px;
-	transition-duration:0.4s;
-	white-space: nowrap;
-}*/
-/* End of transition Effect */
-
 header a {
 	color: black;
 }

@@ -1,4 +1,14 @@
 main {
-	background-color: #A1B0B7;
-	opacity: 0.8;
+	background-color: white;
+	opacity: 0.85;
+}
+
+main ul li a {
+	color: #0e3c4b;
+}
+
+body {
+	background-attachment: fixed;
+	background-image: url(backgroundimg.jpg);
+	background-position: center;
 }
