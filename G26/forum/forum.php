@@ -1,5 +1,7 @@
 <?php
+	include 'functions.php';
 	require_once('config.php');
+	session_start();
 
 	// Connect to server and select database.
 	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect");
@@ -60,6 +62,16 @@
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../contactus.html">Contact Us</a></div>
 			</div>
+			<?php
+			if (isLoggedIn()){
+					echo '<div class="dropdown"><div class="dropbtn">'."hi: ".$_SESSION['SESS_FIRST_NAME']." | ".'<a href="logout.php">Logout</a></div>';
+			} else {
+			echo '
+			<div class="dropdown">
+				<div class="dropbtn"><a href="login_form.php">Login</a></div>
+			</div>';
+			}
+			?>
 		</nav>
 	</div>
 </header>
@@ -91,7 +103,7 @@
 		((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 		?>
 		<tr>
-		<td colspan="5" align="right" bgcolor="#E6E6E6"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
+		<td id="newtopicrow" colspan="5" align="right" bgcolor="#E6E6E6"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
 		</tr>
 		</table>
 		<a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a>

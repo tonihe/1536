@@ -1,7 +1,13 @@
 <?php
-	require_once('auth.php');
-?>
+	include 'functions.php';
+	require_once('config.php');
+	session_start();
 
+	// Connect to server and select database.
+	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	$tbl_name="topic"; // Table name
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,13 +55,22 @@
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../contactus.html">Contact Us</a></div>
 			</div>
+			<?php
+			if (isLoggedIn()){
+					echo '<div class="dropdown"><div class="dropbtn">'."hi: ".$_SESSION['SESS_FIRST_NAME']." | ".'<a href="logout.php">Logout</a></div>';
+			} else {
+			echo '
+			<div class="dropdown">
+				<div class="dropbtn"><a href="login_form.php">Login</a></div>
+			</div>';
+			}
+			?>
 		</nav>
 	</div>
 </header>
 <a id="pagetop"></a>
 <main>
 	<div id="forumWrapper">
-		<a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a>
 		<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 		<tr>
 		<form id="form1" name="form1" method="post" action="add_topic.php">
@@ -84,6 +99,7 @@
 		</form>
 		</tr>
 		</table>
+		<a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a>
 	</div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>

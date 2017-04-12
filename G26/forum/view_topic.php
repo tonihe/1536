@@ -67,6 +67,16 @@
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../contactus.html">Contact Us</a></div>
 			</div>
+			<?php
+			if (isLoggedIn()){
+					echo '<div class="dropdown"><div class="dropbtn">'."hi: ".$_SESSION['SESS_FIRST_NAME']." | ".'<a href="logout.php">Logout</a></div>';
+			} else {
+			echo '
+			<div class="dropdown">
+				<div class="dropbtn"><a href="login_form.php">Login</a></div>
+			</div>';
+			}
+			?>
 		</nav>
 	</div>
 </header>
@@ -81,7 +91,7 @@
 		</tr>
 
 		<tr>
-		<td bgcolor="#F8F7F1"><?php echo $rows['detail']; ?></td>
+		<td class="responseposts" bgcolor="#F8F7F1"><?php echo $rows['detail']; ?></td>
 		</tr>
 
 		<tr>
@@ -122,7 +132,7 @@
 		<tr>
 		<td bgcolor="#F8F7F1"><strong>Response</strong></td>
 		<td bgcolor="#F8F7F1">:</td>
-		<td bgcolor="#F8F7F1"><?php echo $rows['response']; ?></td>
+		<td class="responseposts" bgcolor="#F8F7F1"><?php echo $rows['response']; ?></td>
 		</tr>
 		<tr>
 		<td bgcolor="#F8F7F1"><strong>Date/Time</strong></td>

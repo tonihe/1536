@@ -36,7 +36,7 @@
 				<div class="dropbtn"><a href="../index.html">Home</a></div>
 			</div>
 			<div class="dropdown">
-				<div class="dropbtn"><a href="../aboutus.html">About Us  </a></div>
+				<div class="dropbtn"><a href="../aboutus.html">About Us</a></div>
 				<div class="dropdown-content">
 					<a href="../team.html">Team</a>
 				</div>
@@ -60,6 +60,16 @@
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../contactus.html">Contact Us</a></div>
 			</div>
+			<?php
+			if (isLoggedIn()){
+					echo '<div class="dropdown"><div class="dropbtn">'."hi: ".$_SESSION['SESS_FIRST_NAME']." | ".'<a href="logout.php">Logout</a></div>';
+			} else {
+			echo '
+			<div class="dropdown">
+				<div class="dropbtn"><a href="login_form.php">Login</a></div>
+			</div>';
+			}
+			?>
 		</nav>
 	</div>
 </header>
