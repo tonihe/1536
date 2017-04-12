@@ -2,6 +2,41 @@ main img {
 	margin-top: 30px;
 }
 
+body span {
+	color: #f3796c;
+}
+
+.blackbg {
+	background-color: black;
+}
+
+#aboutustitle { 
+	margin: auto;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 225px;
+	z-index: 5;
+}
+
+#aboutustitle h1 {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 7em;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+#tagline p {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 1.5em;
+	margin-top: 0;
+	bottom: 20px;
+}
+
 #teamlink {
 	text-align: center;
 	background-color: #f3796c;
@@ -50,15 +85,34 @@ main img {
 
 #textbox {
 	background-color: #237DAE;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	color: white;
-	border-radius: 25px;
-	padding: 15px;
-	margin-top: 50px;
+	overflow: hidden;
 }
 
+#textbox h2{
+	margin-top: 0;
+}
+
+#textboxtext {
+	float: left;
+	margin-bottom: 0;
+	margin-left: 2%;
+	margin-right: auto;
+	width: 42%;
+} 
+
+#textboxtext p{
+	margin-top: 0;
+	margin-bottom: 0;
+} 
+
 .parallax {
-	    /* The image used */
+	/* The image used */
     background-image: url(colourbuildings.jpg);
+	opacity: 0.5;
 
     /* Set a specific height */
     min-height: 700px; 
@@ -71,9 +125,24 @@ main img {
 }
 
 .parallax2 {
+	    /* The image used */
+    background-image: url(coffeeshop.jpg);
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
 	position: relative;
 	/* The image used */
     background-image: url(colourbuildings.jpg);
+	opacity: 0.5;
 
     /* Set a specific height */
     min-height: 200px; 
@@ -97,18 +166,27 @@ main img {
 
 #content2 {
 	background-color: rgba(255, 255, 255, 0.98);
-	height: 400px;
+	height: 450px;
 	padding-bottom: 25px;
-	margin-top: 3%;
-	margin-bottom: 4%;
+	margin-top: 0;
+	margin-bottom: 0;
 	width: 100%;
 }
 
 #teampicture {
 	display: block;
+	float: right;
+	margin: 2% 2% 1% 1%;
+	width: 53%;
+	max-height: 385px;
+}
+
+#teampicture2 {
+	display: block;
 	float: left;
 	margin: 2% 0 1% 1%;
 	width: 53%;
+	max-height: 385px;
 }
 
 #text2 {
