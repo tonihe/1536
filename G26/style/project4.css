@@ -40,7 +40,7 @@ body {
 .parallax {
 	position: relative;
 	/* The image used */
-    background-image: url(matchatime.GIF);
+    background-image: url(matchatime.gif);
 
     /* Set a specific height */
     min-height: 600px; 
@@ -70,7 +70,7 @@ body {
 .parallax2 {
 	position: relative;
 	/* The image used */
-    background-image: url(matchahome.GIF);
+    background-image: url(matchahome.gif);
 
     /* Set a specific height */
     min-height: 600px; 
@@ -101,7 +101,7 @@ body {
 .parallax3 {
 	position: relative;
 	/* The image used */
-    background-image: url(matchasocial.GIF);
+    background-image: url(matchasocial.gif);
 
     /* Set a specific height */
     min-height: 600px; 
@@ -116,7 +116,7 @@ body {
 .parallax4 {
 	position: relative;
 	/* The image used */
-    background-image: url(matchasocial.GIF);
+    background-image: url(matchasocial.gif);
 
     /* Set a specific height */
     min-height: 200px; 

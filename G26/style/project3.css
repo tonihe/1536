@@ -44,7 +44,7 @@ body {
 .parallax {
 	position: relative;
 	/* The image used */
-    background-image: url(fantasyindex.GIF);
+    background-image: url(fantasyindex.gif);
 
     /* Set a specific height */
     min-height: 600px; 
@@ -67,7 +67,7 @@ body {
 .parallax2 {
 	position: relative;
 	/* The image used */
-    background-image: url(fantasysample.GIF);
+    background-image: url(fantasysample.gif);
 
     /* Set a specific height */
     min-height: 600px; 
@@ -98,7 +98,7 @@ body {
 .parallax3 {
 	position: relative;
 	/* The image used */
-    background-image: url(fantasytimeline.GIF);
+    background-image: url(fantasytimeline.gif);
 
     /* Set a specific height */
     min-height: 400px; 
@@ -114,7 +114,7 @@ body {
 .parallax4 {
 	position: relative;
 	/* The image used */
-    background-image: url(fantasytimeline.GIF);
+    background-image: url(fantasytimeline.gif);
 
     /* Set a specific height */
     min-height: 200px; 
