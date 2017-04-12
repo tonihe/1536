@@ -17,7 +17,7 @@
 
 <main>
 	<div id="textbox">
-	<h2>Meet the team!</h2>
+	<h2>Meet the Team!</h2>
 		<p>
 		Hi, we're Web RCKT Design, a creative agency that wants to bring excellent web design and online communities to the BC Lower Mainland area. Our small team is made up of multi-talented and skilled designers, developers, and managers, who all share in producing the best content possible.<br><br>
 		Our team relies on our strong work ethic to not only get projects done, but to push ourselves to overcome challenges, follow processes, and produce work that in the end, we are proud of.

@@ -43,7 +43,7 @@
 		<br><br>Get to know us a little bit better!
 		</p>
 		<div id="teamlink">
-			<a href="team.html" id="teambutton">
+			<a href="team.php" id="teambutton">
 			<p>Come meet the family<img src="style/rocketpic.png" alt="Meet Our Team" width="45" height="45"></p>
 			</a>
 		</div>
