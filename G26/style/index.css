@@ -177,17 +177,11 @@ table a:hover{
     max-width: 750px;
 }
 
-#image1 {
+.carouselimage {
 	max-height: 100%;
     max-width: 100%;
 }
 
-#image2 {
-	max-height: 100%;
-    max-width: 100%;
-}
-
-#image3 {
-	max-height: 100%;
-    max-width: 100%;
+.carouselimage:hover a{
+	opacity: 1;
 }
