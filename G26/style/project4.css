@@ -6,17 +6,19 @@ body {
 
 /* For editing text on section 1 & 3*/
 .text {
-	width: 46%;
+	width: 70%;
 	margin: 15px;
 	padding: 30px;
+	font-size: 1.4em;
 }
 
 /* For editing text on section 2 */
 .text2 {
 	float: right;
-	width: 42%;
+	width: 65%;
 	margin: 15px;
 	padding: 30px;
+	font-size: 1.4em;
 }
 
 #subject1 {
@@ -28,20 +30,20 @@ body {
 
 #subject1 img {
 	float: right;
-	width: 45%;
-	height: 400px;
+	width: 370px;
+	height: 300px;
 	margin: 15px;
-	padding: 30px;
+	padding: 10px;
 }
 
 /*                                         First image                                         */
 .parallax {
 	position: relative;
 	/* The image used */
-    background-image: url(backgroundimg.jpg);
+    background-image: url(matchatime.gif);
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 600px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -58,8 +60,8 @@ body {
 }
 
 #subject2 img {
-	width: 45%;
-	height: 400px;
+	width: 350px;
+	height: 220px;
 	margin: 15px;
 	padding: 30px;
 }
@@ -68,10 +70,10 @@ body {
 .parallax2 {
 	position: relative;
 	/* The image used */
-    background-image: url(scienceworld3.jpg);
+    background-image: url(matchahome.gif);
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 600px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -89,8 +91,8 @@ body {
 
 #subject3 img {
 	float: right;
-	width: 45%;
-	height: 400px;
+	width: 600px;
+	height: 300px;
 	margin: 15px;
 	padding: 30px;
 }
@@ -99,10 +101,10 @@ body {
 .parallax3 {
 	position: relative;
 	/* The image used */
-    background-image: url(colourbuildings.jpg);
+    background-image: url(matchasocial.gif);
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 600px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -114,7 +116,7 @@ body {
 .parallax4 {
 	position: relative;
 	/* The image used */
-    background-image: url(colourbuildings.jpg);
+    background-image: url(matchasocial.gif);
 
     /* Set a specific height */
     min-height: 200px; 
