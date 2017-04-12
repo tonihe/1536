@@ -33,6 +33,8 @@
 </head>
 <body>
 <?php include("forumheader.php"); ?>
+<div class="parallax">
+
 <a id="pagetop"></a>
 <main>
 	<div id="forumWrapper">
@@ -114,6 +116,7 @@
 				</div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
+</div>
 <footer>
 	<div class="footerclmns">
 		<ul id="footerclmn1">
@@ -172,6 +175,7 @@
 	</div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
+</div>
 <?php include("forumfooter.php"); ?>
 </body>
 </html>

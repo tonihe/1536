@@ -29,6 +29,8 @@
 </head>
 <body>
 <?php include("forumheader.php"); ?>
+<div class="parallax">
+
 <a id="pagetop"></a>
 <main>
 <div id="formWrapper">
@@ -81,5 +83,6 @@
 </div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
+</div>
 <?php include("forumfooter.php"); ?>
 </html>
