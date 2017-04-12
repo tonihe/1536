@@ -271,7 +271,7 @@ footer a {
 	color: #f3796c;
 }
 
-#validator {
+.validator {
 	display: block;
 	padding: 2px;
 	clear: both;
