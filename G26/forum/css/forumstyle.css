@@ -39,3 +39,19 @@ main{
 	border: solid #237DAE;
 	border-radius: 25px;
 }
+
+.forumposts {
+	height: 100px;
+	max-height: 100px;
+	max-width: 500px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.forumposts a {
+	color: #237DAE;
+	font-weight: bold;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
