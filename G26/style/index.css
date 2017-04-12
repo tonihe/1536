@@ -2,7 +2,7 @@
 body {
 	background-image: url(scienceworld3.jpg);
 	background-repeat: no-repeat;
-	background-size: 108% 84%;
+	background-size: 108% 80%;
 	background-position: bottom;
 	margin: 0;
 	padding: 0;
@@ -177,17 +177,11 @@ table a:hover{
     max-width: 750px;
 }
 
-#image1 {
+.carouselimage {
 	max-height: 100%;
     max-width: 100%;
 }
 
-#image2 {
-	max-height: 100%;
-    max-width: 100%;
-}
-
-#image3 {
-	max-height: 100%;
-    max-width: 100%;
+.carouselimage:hover a{
+	opacity: 1;
 }

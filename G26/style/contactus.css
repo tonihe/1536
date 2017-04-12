@@ -31,10 +31,10 @@
 }
 
 body {
-	background-image: url(falsecreek0.jpg);
+	/*background-image: url(falsecreek0.jpg);
 	background-repeat: no-repeat;
 	background-size: 150% 120%;
-	background-position: bottom;
+	background-position: bottom;*/
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -144,4 +144,18 @@ div.error {
 	color: #E55B58;
 	font-weight: bold;
 	font-size: 85%
+}
+
+.parallax {
+	    /* The image used */
+    background-image: url(falsecreek0.jpg);
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
