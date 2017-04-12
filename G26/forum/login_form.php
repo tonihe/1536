@@ -58,7 +58,7 @@
 	</div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
-<div class="parallax">
+</div>
 <?php include("forumfooter.php"); ?>
 </body>
 </html>
