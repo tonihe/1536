@@ -115,7 +115,7 @@ body span {
 	opacity: 0.5;
 
     /* Set a specific height */
-    min-height: 700px; 
+    min-height: 800px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

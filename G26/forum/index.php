@@ -17,7 +17,6 @@
 	<script type="text/javascript" src="js/textsizer.js"></script>
 	<script type="text/javascript" src="js/rel.js"></script>
 <link rel="stylesheet" href="../style/base.css">
-<link rel="stylesheet" href="../style/community.css">
 <link rel="shortcut icon" href="../style/favicon.ico" type="image/x-icon">
 <title>Community</title>
 <!-- Importing Google Font -->
@@ -74,7 +73,64 @@
 	</div>
 </header>
 <a id="pagetop"></a>
-<main>
+<div id="communitytitle">
+	<h1>COMMUNITY</h1>
+		<div id="tagline">
+			<p>Come meet some new <span>friends</span></P>
+		</div>
+</div>
+<div class="blackbg">
+	<div class="parallax"></div>
+</div>
+<div id="communitycontent">
+	<div id="content">
+	<div id="leftclmn">"
+		<div id="left">
+			<h2>Welcome to the Web RCKT <span>Community!</span></h2>
+			<p>Have a question about web design?</p>
+			<p>Want to know about the progress of a website that we're working on for you?</p>
+			<p>Feel free to ask here at our Community Forum!</p>
+			<p>We are constantly checking our forum and answering questions.</p>
+			<p>Come join us and talk with us, as well as other members of our community!</p>
+		</div>
+		<div id= "centerpic">
+			<img id= "communityimage" src="../style/sample.jpg" alt="Design and Development">
+		</div>
+	</div>
+	<div id="right">
+		<div class="box">
+			<h2 style="margin-top:17px">Recent <span>Entries</span></h2>
+			<ul>
+			<?php
+				$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
+				$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
+				$count = min(5, mysqli_num_rows($result));
+				if($count==0)
+					echo "<li>No topics</li>";
+				else
+					for($i=0; $i < $count; $i++){
+						$row=mysqli_fetch_array($result);
+						echo '<li><a href="view_topic.php?id='.$row['id'].'">'.$row['topic'].'</a></li>';
+					}
+			?>
+			</ul>
+			<?php
+				if (isLoggedIn()){
+					echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
+					echo '<a href="logout.php">Logout</a><br/>';
+					echo '<a href="forum.php">Go to forum</a><br/>';
+					echo '>><a href="add_topic_form.php">Create new topic</a>';
+				} else {
+					echo '<a href="login_form.php">Login</a><br/>';
+					echo '<a href="register_form.php">New user?</a>';
+				}
+			?>
+		</div>
+	</div>
+	</div>
+</div>
+
+<!--<main>
 	<div id="content">
 	<div id="left">
 	<h2>Welcome to the Web RCKT Community!</h2>
@@ -117,7 +173,10 @@
 	</div>
 	<div id="clear"></div></div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
-</main>
+</main>-->
+<div class="blackbg">
+	<div class="parallax2"></div>
+</div>
 <footer>
 	<div class="footerclmns">
 		<ul id="footerclmn1">
@@ -139,7 +198,7 @@
 		</ul>
 	</div>
 	<div id="copyright">
-		<p><a href="../sitemap.html">Site Map</a> &copy; 2017 Web RCKT Design | All rights reserved.</p>
+		<p><a href="../sitemap.html">Site Map</a> &copy; 2017 Web RCKT Design <span>| All rights reserved.</span></p>
 	</div>
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
