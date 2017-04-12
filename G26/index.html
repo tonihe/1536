@@ -71,14 +71,25 @@
 			Come check out our work!
 			</p>
 		</div>
-			<table class="previewprojects">
+		<div id="slideshow">
+			<div id="image1">
+				<img src="style/fantasyindex.gif">
+			</div>
+			<div id="image2">
+				<img src="style/fantasysample.gif">
+			</div>
+			<div id="image3">
+				<img src="style/fantasytimeline.gif">
+			</div>
+		</div>
+					<!--<table class="previewprojects">
 				<tr>
 					<td id="project1"><a href="projects/project1.html"><img src="style/sample.jpg" alt="Previews of Projects" width=225 height=225 /></a></td>
 					<td id="project2"><a href="projects/project2.html"><img src="style/sample.jpg" alt="Previews of Projects" width=225 height=225 /></a></td>
 				<tr>
 					<td id="project3"><a href="projects/project3.html"><img src="style/sample.jpg" alt="Previews of Projects" width=225 height=225 /></a></td>
 					<td id="project4"><a href="projects/project4.html"><img src="style/sample.jpg" alt="Previews of Projects" width=225 height=225 /></a></td>
-			</table>
+			</table> -->
 		</div>
 	</div>
 	<div class="parallax2">
@@ -120,5 +131,16 @@
 		<script src="js/muteautoplay.js"></script>
 	<!-- Javascript for animated scroll-to-top -->
 		<script src="js/scroll.js"></script>
+
+		<script>$("#slideshow > div:gt(0)").hide();
+
+					setInterval(function() {
+					  $('#slideshow > div:first')
+					    .fadeOut(2000)
+					    .next()
+					    .fadeIn(2000)
+					    .end()
+					    .appendTo('#slideshow');
+					}, 4000); </script>
 </body>	
 </html>
