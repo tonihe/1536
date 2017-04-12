@@ -15,19 +15,20 @@ body{
 }
 
 #content {
+	height: 100%;
 	width: 100%;
 	margin-top:30px 0 30px 0;
 }
 
 #leftclmn {
-	margin-left: 30px;
-	width: 70%;
+	padding-left: 30px;
+	width: 62%;
 	float: left;
 }
 
 #left {
 	float: left;
-	width: 40%;
+	width: 55%;
 }
 
 #left h2{
@@ -36,7 +37,7 @@ body{
 
 #centerpic {
 	float: right;
-	width: 32%;
+	width: 30%;
 }
 
 #communityimage {
@@ -45,9 +46,11 @@ body{
 }
 
 #right {
+	height: 100%;
 	background-color: #237DAE;
 	padding: 10px 30px 30px 30px;
-	width: 22%;
+	width: 25%;
+	margin: 30px;
 	float: right;
 }
 
@@ -63,6 +66,10 @@ body{
 	color: white;
 }
 
+#postlinks {
+	position: relative;
+	overflow: auto;
+}
 /**** Content ***/
 
 /*#left {
@@ -135,7 +142,6 @@ body{
 	overflow:hidden;
 }*/
 
-
 span {
 	color: #f3796c;
 }
@@ -185,7 +191,6 @@ span {
 	margin: auto;
 	position: absolute;
 	width: 100%;
-	height: 100%;
 	top: 225px;
 	z-index: 5;
 }
@@ -209,6 +214,7 @@ span {
 }
 
 #communitycontent {
+	height: 100%;
 	width: 100%;
 	overflow: hidden;
 }
