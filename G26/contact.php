@@ -23,6 +23,7 @@
 	<title>Contact Us</title>
 </head>
 <body>
+<div class="parallax">
 <header>
 	<div class="headerbox">
 		<div id="banner">
@@ -112,6 +113,7 @@
 	</div> 
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </main>
+</div>
 <footer>
 	<div class="footerclmns">
 		<ul id="footerclmn1">
