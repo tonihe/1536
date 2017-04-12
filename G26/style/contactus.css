@@ -40,12 +40,15 @@ body {
 	border: 0;
 }
 
+.findsocial h1, h2 {
+	font-weight: 400;
+}
 input {
 	margin-top: 1em;
 }
 
 .findsocial label {
-	font-weight: bold;
+	font-weight: 400;
 }
 
 textarea {
