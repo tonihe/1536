@@ -64,7 +64,7 @@
 		unset($_SESSION['ERRMSG_ARR']);
 	}
 ?>
-	<h2> Please log in to view our forum </h2>
+	<h2> Log in to our community forum </h2>
 		<form id="loginForm" name="loginForm" method="post" action="login.php">
 		  <table width="300" border="0" align="center" cellpadding="2" cellspacing="0">
 			<tr>
