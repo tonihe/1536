@@ -22,6 +22,7 @@
 		<p><a href="../sitemap.php">Site Map</a> &copy; 2017 Web RCKT Design <span>| All rights reserved.</span></p>
 	</div>
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
+<a id="validator" href="https://jigsaw.w3.org/css-validator/check/referer">W3C CSS 5 Validator</a>
 </footer>
 	<!-- Javascript for animated scroll-to-top -->
 		<script src="../js/scroll.js"></script>
