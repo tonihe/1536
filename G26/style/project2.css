@@ -38,6 +38,7 @@ body {
 .parallax {
 	position: relative;
 	/* The image used */
+
     background-image: url(coffeeshop.jpg);
 
     /* Set a specific height */
@@ -68,7 +69,7 @@ body {
 .parallax2 {
 	position: relative;
 	/* The image used */
-    background-image: url(scienceworld3.jpg);
+    background-image: url(bgproject21.jpg);
 
     /* Set a specific height */
     min-height: 400px; 
@@ -99,7 +100,11 @@ body {
 .parallax3 {
 	position: relative;
 	/* The image used */
+<<<<<<< HEAD
     background-image: url(city.jpg);
+=======
+    background-image: url(bgproject22.jpg);
+>>>>>>> 8f3a8c110d33191eb250b8ed66056090f43cbfab
 
     /* Set a specific height */
     min-height: 400px; 
@@ -114,7 +119,11 @@ body {
 .parallax4 {
 	position: relative;
 	/* The image used */
+<<<<<<< HEAD
     background-image: url(city.jpg);
+=======
+    background-image: url(bgproject22.jpg);
+>>>>>>> 8f3a8c110d33191eb250b8ed66056090f43cbfab
 
     /* Set a specific height */
     min-height: 200px; 
