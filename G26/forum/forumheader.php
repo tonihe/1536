@@ -17,14 +17,14 @@
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../services.php">Services</a></div>
 				<div class="dropdown-content">
-					<a href="../projects/project1.php">Project1</a>
-					<a href="../projects/project2.php">Project2</a>
-					<a href="../projects/project3.php">Project3</a>
-					<a href="../projects/project4.php">Project4</a>
+					<a href="../projects/project1.php">VanTravels</a>
+					<a href="../projects/project2.php">Levels Club</a>
+					<a href="../projects/project3.php">Plains of Hiberia</a>
+					<a href="../projects/project4.php">Matcha Movement</a>
 				</div>
 			</div>
 			<div class="dropdown">
-				<div class="dropbtn"><a href="index.php">Community</a></div>
+				<div class="dropbtn"><a href="community.php">Community</a></div>
 				<div class="dropdown-content">
 					<a href="forum.php">Forum</a>
 				</div>

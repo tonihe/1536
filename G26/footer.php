@@ -14,12 +14,12 @@
 			<li><a href="index.html">Home</a></li>
 			<li><a href="aboutus.html">About Us</a></li>
 			<li><a href="services.html">Services</a></li>
-			<li><a href="./forum/index.php">Community</a></li>
+			<li><a href="forum/community.php">Community</a></li>
 			<li><a href="contactus.html">Contact Us</a></li>
 		</ul>
 	</div>
 	<div id="copyright">
-		<p><a href="sitemap.html">Site Map</a> &copy; 2017 Web RCKT Design <span>| All rights reserved.</span></p>
+		<p><a href="sitemap.php">Site Map</a> &copy; 2017 Web RCKT Design <span>| All rights reserved.</span></p>
 	</div>
 <a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
 </footer>
