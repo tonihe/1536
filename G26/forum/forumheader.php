@@ -11,17 +11,17 @@
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../aboutus.php">About Us  </a></div>
 				<div class="dropdown-content">
-					<a href="../team.html">Team</a>
+					<a href="../team.php">Team</a>
 				</div>
 			</div>
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../services.php">Services</a></div>
 				<div class="dropdown-content">
 					<a href="../projects.html">Projects</a>
-					<a href="../projects/project1.html">Project1</a>
-					<a href="../projects/project2.html">Project2</a>
-					<a href="../projects/project3.html">Project3</a>
-					<a href="../projects/project4.html">Project4</a>
+					<a href="../projects/project1.php">Project1</a>
+					<a href="../projects/project2.php">Project2</a>
+					<a href="../projects/project3.php">Project3</a>
+					<a href="../projects/project4.php">Project4</a>
 				</div>
 			</div>
 			<div class="dropdown">

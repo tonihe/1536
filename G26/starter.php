@@ -1,6 +1,6 @@
 <?php
-	include '../forum/functions.php';
-	require_once('../forum/config.php');
+	include 'forum/functions.php';
+	require_once('forum/config.php');
 	session_start();
 
 	// Connect to server and select database.

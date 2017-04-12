@@ -27,7 +27,7 @@
 			<div class="dropdown">
 				<div class="dropbtn"><a href="../forum/index.php">Community</a></div>
 				<div class="dropdown-content">
-					<a href="forum.php">Forum</a>
+					<a href="../forum/forum.php">Forum</a>
 				</div>
 			</div>
 			<div class="dropdown">
@@ -35,7 +35,7 @@
 			</div>
 			<?php
 			if (isLoggedIn()){
-					echo '<div class="dropdown"><div class="dropbtn">'."hi: ".$_SESSION['SESS_FIRST_NAME']." | ".'<a href="..forum/logout.php">Logout</a></div>';
+					echo '<div class="dropdown"><div class="dropbtn">'."hi: ".$_SESSION['SESS_FIRST_NAME']." | ".'<a href="../forum/logout.php">Logout</a></div>';
 			} else {
 			echo '
 			<div class="dropdown">
