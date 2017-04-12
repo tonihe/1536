@@ -13,11 +13,8 @@ main{
 }
 
 #forumWrapper {
-	margin: 30px;
-	padding: 30px;
 	background: #F6F9FB;
 	border: solid #237DAE;
-	border-radius: 25px;
 }
 
 #forumWrapper p {
@@ -25,8 +22,9 @@ main{
 }
 
 #forum  table {
-	margin: 30px;
 	border: solid #237DAE;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 #forumWrapper a {
@@ -34,16 +32,17 @@ main{
 }
 
 .backbutton {
-	padding: 5px;
+	padding: 10px;
 	background: #F6F9FB;
-	border: solid #237DAE;
+	border: #237DAE;
 	border-radius: 25px;
+	color: #237DAE;
+	font-weight: bold;
 }
 
 .forumposts {
-	height: 100px;
-	max-height: 100px;
-	max-width: 500px;
+	height: 80px;
+	max-width: 480px;
 	overflow: hidden;
 	text-overflow: ellipsis;
     white-space: nowrap;
@@ -54,4 +53,8 @@ main{
 	font-weight: bold;
 	padding-bottom: 50px;
 	margin-bottom: 50px;
+}
+
+.preview {
+	font-size: 75%;
 }

@@ -80,7 +80,7 @@
 
 		<tr>
 		<td bgcolor="#FFFFFF"><?php echo $rows['id']; ?></td>
-		<td class="forumposts" bgcolor="#FFFFFF"><a href="view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic'] ?></a> <br><br> <?php echo $rows['detail']; ?><BR></td>
+		<td class="forumposts" bgcolor="#FFFFFF"><a href="view_topic.php?id=<?php echo $rows['id']; ?>"><?php echo $rows['topic'] ?></a><span class="preview"> <br><br> <?php echo $rows['detail']; ?> </span></td>
 		<td align="center" bgcolor="#FFFFFF"><?php echo $rows['datetime']; ?></td>
 		<td align="center"  bgcolor="#FFFFFF"><?php echo $rows['login']; ?></td>
 		</tr>
