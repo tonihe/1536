@@ -11,11 +11,11 @@
 		</ul>
 		<ul id="footerclmn2">
 			<li class="liheading">Our Company<li>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
-			<li><a href="services.html">Services</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="aboutus.php">About Us</a></li>
+			<li><a href="services.php">Services</a></li>
 			<li><a href="forum/community.php">Community</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
+			<li><a href="contactus.php">Contact Us</a></li>
 		</ul>
 	</div>
 	<div id="copyright">
