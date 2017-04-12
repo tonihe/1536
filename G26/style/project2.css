@@ -7,6 +7,7 @@ body {
 /* For editing text on section 1 & 3*/
 .text {
 	width: 46%;
+	font-size: 1.4em;
 	margin: 15px;
 	padding: 30px;
 }
@@ -14,9 +15,9 @@ body {
 /* For editing text on section 2 */
 .text2 {
 	float: right;
-	width: 42%;
-	margin: 15px;
-	padding: 30px;
+	font-size: 1.5em;
+	width: 37%;
+	margin: 20px 70px 15px 10px;
 }
 
 #subject1 {
@@ -28,10 +29,10 @@ body {
 
 #subject1 img {
 	float: right;
-	width: 45%;
+	width: 53%;
 	height: 400px;
-	margin: 15px;
-	padding: 30px;
+	margin: 15px 15px 5px 15px;
+	padding: 5px;
 }
 
 /*                                         First image                                         */
@@ -39,10 +40,10 @@ body {
 	position: relative;
 	/* The image used */
 
-    background-image: url(coffeeshop.jpg);
+    background-image: url(scienceworld4.jpg);
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -59,10 +60,10 @@ body {
 }
 
 #subject2 img {
-	width: 45%;
+	width: 50%;
 	height: 400px;
 	margin: 15px;
-	padding: 30px;
+	padding: 5px;
 }
 
 /*                                           Second image                                       */
@@ -72,7 +73,7 @@ body {
     background-image: url(bgproject21.jpg);
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -100,14 +101,11 @@ body {
 .parallax3 {
 	position: relative;
 	/* The image used */
-<<<<<<< HEAD
+
     background-image: url(city.jpg);
-=======
-    background-image: url(bgproject22.jpg);
->>>>>>> 8f3a8c110d33191eb250b8ed66056090f43cbfab
 
     /* Set a specific height */
-    min-height: 400px; 
+    min-height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -119,11 +117,8 @@ body {
 .parallax4 {
 	position: relative;
 	/* The image used */
-<<<<<<< HEAD
+
     background-image: url(city.jpg);
-=======
-    background-image: url(bgproject22.jpg);
->>>>>>> 8f3a8c110d33191eb250b8ed66056090f43cbfab
 
     /* Set a specific height */
     min-height: 200px; 
