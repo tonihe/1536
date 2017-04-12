@@ -11,45 +11,9 @@
 	<title>Web RCKT</title>
 </head>
 <body>
-<header>
-	<div class="headerbox">
-		<div id="banner">
-			<a href="index.html"><img src="style/rocketLogo.png" alt="Rocket Logo"></a>
-			<a href="index.html"><h1>WEB RCKT DESIGN</h1></a>
-		</div>
-		<nav>
-			<div class="dropdown">
-				<a href="index.html"><div class="dropbtn">Home</div></a>
-			</div>
-			<div class="dropdown">
-				<a href="aboutus.html"><div class="dropbtn">About Us</div></a>
-				<div class="dropdown-content">
-					<a href="team.html">Team</a>
-				</div>
-			</div>
-			<div class="dropdown">
-				<a href="services.html"><div class="dropbtn">Services</div></a>
-				<div class="dropdown-content">
-					<a href="projects.html">Projects</a>
-					<a href="projects/project1.html">Project1</a>
-					<a href="projects/project2.html">Project2</a>
-					<a href="projects/project3.html">Project3</a>
-					<a href="projects/project4.html">Project4</a>
-				</div>
-			</div>
-			<div class="dropdown">
-				<a href="./forum/index.php"><div class="dropbtn">Community</div></a>
-				<div class="dropdown-content">
-					<a href="./forum/forum.php">Forum</a>
-				</div>
-			</div>
-			<div class="dropdown">
-				<a href="contactus.html"><div class="dropbtn">Contact Us</div></a>
-			</div>
-		</nav>
-	</div>
-</header>
+<?php include("header.php"); ?>
 <a id="pagetop"></a>
+
 <div id="large-header">
 	<canvas id="demo-canvas"></canvas>
 	<h1 class="main-title">YOUR WEBSITE<br>IS YOUR ONLINE<br>PRESENCE AND REPUTATION</h1>
@@ -87,31 +51,7 @@
 	<div class="parallax2">
 		<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>	
 	</div>
-<footer>
-	<div class="footerclmns">
-		<ul id="footerclmn1">
-			<li class="liheading">Contact Us</li>
-			<li>Number</li>
-			<li><a href="tel:685-987-8934">685-987-8934</a></li>
-			<li>Address</li>
-			<li>751 Takin Jerbs St.</li>
-			<li>Email</li>
-			<li><a href="mailto:rckt@rcktmail.com">rckt@rcktmail.com</a></li>
-		</ul>
-		<ul id="footerclmn2">
-			<li class="liheading">Our Company<li>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="community.html">Community</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-		</ul>
-	</div>
-	<div id="copyright">
-		<p><a href="sitemap.html">Site Map</a> &copy; 2017 Web RCKT Design <span>| All rights reserved.</span></p>
-	</div>
-<a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
-</footer>
+<?php include("footer.php"); ?>
 	<!-- Javscript for animated background -->
 		<script src="js/TweenLite.min.js"></script>
 		<script src="js/EasePack.min.js"></script>
