@@ -17,7 +17,6 @@
 			<div class="dropdown">
 				<a href="services.php"><div class="dropbtn">Services</div></a>
 				<div class="dropdown-content">
-					<a href="projects.html">Projects</a>
 					<a href="projects/project1.php">Project1</a>
 					<a href="projects/project2.php">Project2</a>
 					<a href="projects/project3.php">Project3</a>
