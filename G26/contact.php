@@ -10,6 +10,17 @@
 	 
 ?>
 
+<?php
+	include 'forum/functions.php';
+	require_once('forum/config.php');
+	session_start();
+
+	// Connect to server and select database.
+	($GLOBALS["___mysqli_ston"] = mysqli_connect(DB_HOST,  DB_USER,  DB_PASSWORD))or die("cannot connect, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	((bool)mysqli_query($GLOBALS["___mysqli_ston"], "USE " . constant('DB_DATABASE')))or die("cannot select DB, error: ".((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)));
+	$tbl_name="topic"; // Table name
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,8 +68,18 @@
 				</div>
 			</div>
 			<div class="dropdown">
-				<a href="contactus.html"><div class="dropbtn">Contact Us</div></a>
+				<a href="contactus.php"><div class="dropbtn">Contact Us</div></a>
 			</div>
+			<?php
+			if (isLoggedIn()){
+					echo '<div class="dropdown"><div class="dropbtn">'."hi: ".$_SESSION['SESS_FIRST_NAME']." | ".'<a href="forum/logout.php">Logout</a></div>';
+			} else {
+			echo '
+			<div class="dropdown">
+				<div class="dropbtn"><a href="forum/login_form.php">Login</a></div>
+			</div>';
+			}
+			?>
 		</nav>
 	</div>
 </header>

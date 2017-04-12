@@ -141,7 +141,7 @@ EDIT WITH CAUTION */
 
 div.error {
 	display: block;
-	color: #E55B58;
+	color: black;
 	font-weight: bold;
 	font-size: 85%
 }

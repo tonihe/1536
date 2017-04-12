@@ -20,54 +20,7 @@
 <link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<header>
-	<div class="headerbox">
-		<div id="banner">
-			<a href="../index.html"><img src="../style/rocketLogo.png" alt="Rocket Logo"></a>
-			<a href="../index.html"><h1>WEB RCKT DESIGN</h1></a>
-		</div>
-		<nav>
-			<div class="dropdown">
-				<div class="dropbtn"><a href="../index.html">Home</a></div>
-			</div>
-			<div class="dropdown">
-				<div class="dropbtn"><a href="../aboutus.html">About Us  </a></div>
-				<div class="dropdown-content">
-					<a href="../team.html">Team</a>
-				</div>
-			</div>
-			<div class="dropdown">
-				<div class="dropbtn"><a href="../services.html">Services</a></div>
-				<div class="dropdown-content">
-					<a href="../projects.html">Projects</a>
-					<a href="../projects/project1.html">Project1</a>
-					<a href="../projects/project2.html">Project2</a>
-					<a href="../projects/project3.html">Project3</a>
-					<a href="../projects/project4.html">Project4</a>
-				</div>
-			</div>
-			<div class="dropdown">
-				<div class="dropbtn"><a href="index.php">Community</a></div>
-				<div class="dropdown-content">
-					<a href="forum.php">Forum</a>
-				</div>
-			</div>
-			<div class="dropdown">
-				<div class="dropbtn"><a href="../contactus.html">Contact Us</a></div>
-			</div>
-			<?php
-			if (isLoggedIn()){
-					echo '<div class="dropdown"><div class="dropbtn">'."hi: ".$_SESSION['SESS_FIRST_NAME']." | ".'<a href="logout.php">Logout</a></div>';
-			} else {
-			echo '
-			<div class="dropdown">
-				<div class="dropbtn"><a href="login_form.php">Login</a></div>
-			</div>';
-			}
-			?>
-		</nav>
-	</div>
-</header>
+<?php include("forumheader.php"); ?>
 <a id="pagetop"></a>
 <main>
 	<div id="forumWrapper">
@@ -103,33 +56,7 @@
 	</div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
-<footer>
-	<div class="footerclmns">
-		<ul id="footerclmn1">
-			<li class="liheading">Contact Us</li>
-			<li>Number</li>
-			<li><a href="tel:685-987-8934">685-987-8934</a></li>
-			<li>Address</li>
-			<li>751 Takin Jerbs St.</li>
-			<li>Email</li>
-			<li><a href="mailto:rckt@rcktmail.com">rckt@rcktmail.com</a></li>
-		</ul>
-		<ul id="footerclmn2">
-			<li class="liheading">Our Company<li>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutus.html">About Us</a></li>
-			<li><a href="services.html">Services</a></li>
-			<li><a href="community.html">Community</a></li>
-			<li><a href="contactus.html">Contact Us</a></li>
-		</ul>
-	</div>
-	<div id="copyright">
-		<p><a href="../sitemap.html">Site Map</a> &copy; 2017 Web RCKT Design | All rights reserved.</p>
-	</div>
-<a id="validator" href="http://validator.w3.org/check?url=referer">W3C HTML 5 Validator</a>
-</footer>
-	<!-- Javascript for animated scroll-to-top -->
-		<script src="../js/scroll.js"></script>
+<?php include("forumfooter.php"); ?>
 </body>
 </html>
 

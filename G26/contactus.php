@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="dropdown">
-				<a href="contactus.html"><div class="dropbtn">Contact Us</div></a>
+				<a href="contactus.php"><div class="dropbtn">Contact Us</div></a>
 			</div>
 			<?php
 			if (isLoggedIn()){
