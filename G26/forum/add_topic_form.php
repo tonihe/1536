@@ -52,9 +52,11 @@
 		</table>
 		</td>
 		</form>
+		<tr>
+		<td><a class="backbutton2" href="#" onclick="history.go(-1)">Go Back</a></td>
+		</tr>
 		</tr>
 		</table>
-		<a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a>
 	</div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>

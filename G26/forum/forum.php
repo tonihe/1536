@@ -58,14 +58,14 @@
 		((is_null($___mysqli_res = mysqli_close($GLOBALS["___mysqli_ston"]))) ? false : $___mysqli_res);
 		?>
 		<tr>
-		<td id="newtopicrow" colspan="5" align="right" bgcolor="#E6E6E6"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
+		<td colspan="2"><a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a></td>
+		<td id="newtopicrow" colspan="5" align="right"><a href="add_topic_form.php"><strong>Create New Topic</strong> </a></td>
 		</tr>
 		</table>
-		<a class="backbutton" href="#" onclick="history.go(-1)">Go Back</a>
 	</div>
-	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>
 </div>
+<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 <?php include("forumfooter.php"); ?>
 </body>
 </html>
