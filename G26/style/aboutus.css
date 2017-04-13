@@ -176,9 +176,9 @@ body span {
 #teampicture {
 	display: block;
 	float: right;
-	margin: 2% 2% 1% 1%;
+	margin: 0 2% 1% 1%;
 	width: 53%;
-	max-height: 385px;
+	max-height: 420px;
 }
 
 #teampicture2 {
