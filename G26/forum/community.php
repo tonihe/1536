@@ -78,16 +78,15 @@
 			?>
 		</div>
 	</div>
-<<<<<<< HEAD
 	</div>
 	</div>
-=======
->>>>>>> 60536d8fef941638d299c34fd4465a2676129c27
 </div>
 
 <div class="blackbg">
-	<div class="parallax2">	
-		<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
+	<div class="parallax2">
+		<div id="break">
+			<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
+		</div>
 	</div>
 </div>
 <?php include("forumfooter.php"); ?>
