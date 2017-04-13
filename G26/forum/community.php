@@ -38,18 +38,17 @@
 <div id="communitycontent">
 	<div id="content">
 		<div id= "centerpic">
-			<img id= "communityimage" src="../Style/communitylol.jpg" alt="Design and Development">
+			<img id= "communityimage" src="../style/communitylol.jpg" alt="Design and Development">
 		</div>
 		<div id="left">
 			<h2>Welcome to the Web RCKT <span>Community!</span></h2>
 			<p>Have a question about web design?</p>
 			<p>Want to know about the progress of a website that we're working on for you?</p>
 			<p>Feel free to ask here at our Community Forum!</p>
-			<p>We are constantly checking our forum and answering questions.</p>
-			<p>Come join us and talk with us, as well as other members of our community!</p>
+			<p>We are constantly checking our forum and answering questions. Come join us and talk with us, as well as other members of our community!</p>
+			<p>You can check out our forums <a href="forum.php"><span>here</span></a> or click <a href="login_form.php"><span>here</span></a> to create a new profile/log-in.</p>
 		</div>
-	</div>
-	<div id="right">
+		<div id="right">
 		<div class="box">
 			<h2 style="margin-top:17px">Recent <span>Entries</span></h2>
 			<ul>
@@ -78,6 +77,7 @@
 				}
 			?>
 		</div>
+	</div>
 	</div>
 	</div>
 </div>
