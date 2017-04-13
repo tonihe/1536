@@ -18,13 +18,13 @@
 	<canvas id="demo-canvas"></canvas>
 	<h1 class="main-title">YOUR WEBSITE<br>IS YOUR ONLINE<br>PRESENCE AND REPUTATION</h1>
 </div>
-	<iframe id="vimeo_player" src="https://player.vimeo.com/video/213006965?api=1&player_id=vimeo_player&autoplay=1&loop=1&color=ffffff" width="1280" height="680" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	<iframe id="vimeo_player" src="https://player.vimeo.com/video/213006965?api=1&player_id=vimeo_player&autoplay=1&loop=1&color=ffffff" width="1280" height="680"></iframe>
 	<div id="homecontentbg">
 		<div id="homepagecontent">
 		<div id="pagetext">
 			<div id="welcome">
+				<h3>Welcome to Web RCKT Design.</h3>
 				<p>
-				<h3>Welcome to Web RCKT Design.</h3><br>
 				We are a web design and development team that is passionate about bringing your dream to life.
 				Web RCKT Design is located on the "sunny" shores of Vancouver, Canada, where we help local businesses and companies build online presences to connect to their users and customers.<br><br>
 				Here at Web RCKT, our team prides ourselves with bringing to the table expert skills and local connections to provide the best services possible.<br><br>
