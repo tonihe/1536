@@ -30,7 +30,7 @@
 			<h2>Our Mission</h2>
 			<p>Located in Vancouver, Canada, our dream is use the skills we learned in this city to help local businesses develop fantastic online communties. We want to help companies set up their first websites and social media networks.</p>
 		</div>
-		<img id="teampicture" src="style/designteam.jpg" alt="Picture of the team">
+		<img id="teampicture" src="style/team2.jpg" alt="Picture of the team">
 	</div>
 <div class="parallax2"></div>
 <div id="content2">
