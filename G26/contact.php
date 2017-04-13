@@ -55,13 +55,13 @@
 							<label for="lastname">Last name:</label>
 							<div id="lastNameWrapper">
 							<div id="lastNameError"></div>
-							<input type="text" id="lastname" name="last_name" placeholder="Last Name" tabindex="2"required>	
+							<input type="text" id="lastname" name="last_name" placeholder="Last Name" tabindex="2" required>	
 							</div>	
 							<br>
 							<label for="email">Email:</label>
 							<div id="emailWrapper">
 							<div id="emailError"></div>
-							<input type="text" id="email" name="email" placeholder="Email Address" tabindex="3"required>
+							<input type="text" id="email" name="email" placeholder="Email Address" tabindex="3" required>
 							</div>
 							<br>
 						</div>

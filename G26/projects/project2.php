@@ -17,7 +17,7 @@
 <!-- First Section -->
 <div class="parallax"></div>
 <div id="subject1">
-	<img id="sampleimg1" src="../style/levelshome.gif" alt="Levels club home">
+	<img class="sampleimg1" src="../style/levelshome.gif" alt="Levels club home">
 	<div class="text">
 	<h2>Levels Club Website</h2>
 	<p>
@@ -30,7 +30,7 @@
 <!-- Second Section -->
 <div class="parallax2"></div>
 <div id="subject2">
-	<img id= "sampleimg1" src="../style/levelsreservation.gif" alt="Levels reservation page">
+	<img class="sampleimg1" src="../style/levelsreservation.gif" alt="Levels reservation page">
 	<div class="text2">
 	<h2>Seamless Reservations</h2>
 	<p>
@@ -43,7 +43,7 @@
 <!-- Third Section -->
 <div class="parallax3"></div>
 <div id="subject3">
-	<img id= "sampleimg1" src="../style/levelsevents.gif" alt="Levels events page">
+	<img class="sampleimg1" src="../style/levelsevents.gif" alt="Levels events page">
 	<div class="text">
 	<h2>Be the First One to Know About Events</h2>
 	<p>
