@@ -33,9 +33,10 @@
 		<li><a href="projects/project3.php">Plains of Hiberia Website</a></li>
 		<li><a href="projects/project4.php">Matcha Movement Website</a></li>
 	</ul>
-</div>	
-	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
+</div>
 </main>
+<div id="break">	
+	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </div>
 <?php include("footer.php"); ?>
 </body>	
