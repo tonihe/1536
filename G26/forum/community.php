@@ -82,7 +82,9 @@
 </div>
 
 <div class="blackbg">
-	<div class="parallax2"></div>
+	<div class="parallax2">	
+		<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
+	</div>
 </div>
 <?php include("forumfooter.php"); ?>
 </body>

@@ -64,8 +64,10 @@
 		</table>
 	</div>
 </main>
+<div id="break">	
+	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </div>
-<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
+</div>
 <?php include("forumfooter.php"); ?>
 </body>
 </html>

@@ -52,6 +52,12 @@ body{
 	color: #237DAE;
 }
 
+#break {
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
 #scrollbutton {
 	position: absolute;
 	bottom: 0;

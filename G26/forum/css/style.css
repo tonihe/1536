@@ -162,6 +162,12 @@ span {
 	float: right;
 }
 
+#break {
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
 #scrollbutton {
 	position: absolute;
 	bottom: 0;

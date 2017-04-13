@@ -1,7 +1,11 @@
 #map {
 	background-color: white;
-	opacity: 0.9;
+	opacity: 0.96;
 	padding: 50px;
+}
+
+main {
+    margin-bottom: 50px;
 }
 
 main ul li a {
@@ -28,6 +32,13 @@ body {
     background-size: cover;
 }
 
+#break {
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+/* For centering the pagetop button within a parallax */
 #scrollbutton {
 	position: absolute;
 	bottom: 0;
