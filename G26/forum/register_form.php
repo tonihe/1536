@@ -81,7 +81,9 @@
 	<p id="passwordhelp">Password must be at least 6 characters long, contain only letters and numbers, and contain at least one letter.</p>
 </div>
 </div>
-<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
+<div id="break">	
+	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
+</div>
 </main>
 </div>
 <?php include("forumfooter.php"); ?>
