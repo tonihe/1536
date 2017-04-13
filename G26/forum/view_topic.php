@@ -151,7 +151,6 @@
 				exit();
 			}
 		?>
-		<a href="#" onclick="history.go(-1)">Go Back</a>
 		<table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 		<tr>
 		<form name="form1" method="post" action="add_response.php">
@@ -172,6 +171,9 @@
 		</form>
 		</tr>
 		</table>
+		<div id="buttondiv">
+		<a href="#" onclick="history.go(-1)">Go Back</a>
+		</div>
 	</div>
 <a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="../style/buttonup.png" alt="Back to Top"></a>
 </main>

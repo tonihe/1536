@@ -76,14 +76,8 @@ main{
 	float: left;
 }
 
-.backbutton2 {
-	padding: 10px;
-	background: #F6F9FB;
-	border: solid 2px #237DAE;
-	border-radius: 25px;
-	color: #237DAE;
-	margin: 30px;
-	font-weight: bold;
+#buttondiv {
+	margin-top: 15px;
 }
 
 .forumposts {
