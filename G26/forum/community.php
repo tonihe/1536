@@ -78,8 +78,11 @@
 			?>
 		</div>
 	</div>
+<<<<<<< HEAD
 	</div>
 	</div>
+=======
+>>>>>>> 60536d8fef941638d299c34fd4465a2676129c27
 </div>
 
 <div class="blackbg">

@@ -38,7 +38,7 @@
 <div id="contentisking">
 	<a href="projects/project3.php"><img id= "sampleimg2" src="style/fantasysample.gif" alt="Content"></a>
 	<div class="text2">
-	<h2>Content is <span>King</span></h2>
+	<h2>Content is <span>King</span><img id="crown" src="style/crown.png" alt="crown" width=60 height=50></h2>
 	<p>
 	A well designed website is nothing without the stories that it can tell and share. It is important to us that for your website, what really stands out is the amazing content that your company can bring to the table.<br><br>
 	At Web RCKT, we have expert editors and designers who excel at taking your stories, and sharing them with the world.<br><br>
@@ -71,7 +71,9 @@
 	</p>
 	</div>
 </div>
-<div class="parallax2"><a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a></div>
+<div class="parallax2">
+	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
+</div>
 <?php include("footer.php"); ?>
 </body>	
 </html>

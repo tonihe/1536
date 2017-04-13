@@ -4,6 +4,10 @@
 	padding: 50px;
 }
 
+main {
+    margin-bottom: 50px;
+}
+
 main ul li a {
 	color: #0e3c4b;
 }
@@ -26,4 +30,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+<<<<<<< HEAD
+#break {
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+/* For centering the pagetop button within a parallax */
+=======
+>>>>>>> 0c5f16831e71e89b50ebd2f256535da972e9943c
+#scrollbutton {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }

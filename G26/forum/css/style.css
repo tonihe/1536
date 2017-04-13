@@ -31,6 +31,10 @@ body{
 #content {
 	height: 100%;
 	width: 100%;
+<<<<<<< HEAD
+=======
+	margin-top:30px;
+>>>>>>> 60536d8fef941638d299c34fd4465a2676129c27
 }
 
 #left {
@@ -160,4 +164,13 @@ span {
 
 #communitycontent img {
 	float: right;
+}
+
+#scrollbutton {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }

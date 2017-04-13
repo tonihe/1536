@@ -24,6 +24,10 @@ body {
 	padding: 30px;
 }
 
+#crown {
+	float: right;
+}
+
 #subject1 img {
 	float: right;
 	width: 45%;

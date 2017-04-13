@@ -51,25 +51,25 @@ body h3 {
 }
 
 #ralypic:hover {
-	content: url(rocketpic.png);
+	content: url(Raly02.jpg);
 	width: 350px;
 	height: 300px;
 }
 
 #carlopic:hover {
-	content: url(rocketpic.png);
+	content: url(Carlo02.jpg);
 	width: 350px;
 	height: 300px;
 }
 
 #tonipic:hover {
-	content: url(rocketpic.png);
+	content: url(Toni02.jpg);
 	width: 350px;
 	height: 300px;
 }
 
 #kevinpic:hover {
-	content: url(rocketpic.png);
+	content: url(Kevin02.jpg);
 	width: 350px;
 	height: 300px;
 }
