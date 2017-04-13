@@ -26,20 +26,20 @@
 	<table id="teamProfiles">
 		<tr>
 			<td id="Raly">
-				<img id="ralypic" src="style/sample.jpg" alt="raly" width="350" height="300">
+				<img id="ralypic" src="style/Raly01.jpg" alt="Raly" width="350" height="300">
 				<h3>Raly</h3>
 				<h4>Executive Content Manager</h4>
 				<p>Born into a family of curtain inspectors, Raly escaped his family business to become a door-to-door vacuum salesman. Evidently it did not work out, so he decided to come into the CST program.</p>
 			</td>
 			<td id="Carlo">
-				<img id="carlopic" src="style/sample.jpg" alt="Carlo" width="350" height="300">
+				<img id="carlopic" src="style/Carlo01.jpg" alt="Carlo" width="350" height="300">
 				<h3>Carlo</h3>
 				<h4>Database Administrator</h4>
 				<p>A former professional card player and award winning recruiter, Carlo has translated his organizational skills and people skills to create an awesome forum for the Web RCKT community.</p>
 			</td>
 		<tr>
 			<td id="Kevin">
-				<img id="kevinpic" src="style/sample.jpg" alt="Kevin" width="350" height="300">
+				<img id="kevinpic" src="style/Kevin01.jpg" alt="Kevin" width="350" height="300">
 				<h3>Kevin</h3>
 				<h4>Team Lead and Editor</h4>
 				<p>
@@ -47,7 +47,7 @@
 				</p>
 			</td>
 			<td id="Toni">
-				<img id="tonipic" src="style/sample.jpg" alt="Toni" width="350" height="300">
+				<img id="tonipic" src="style/Toni01.jpg" alt="Toni" width="350" height="300">
 				<h3>Toni</h3>
 				<h4>Creative Director</h4>
 				<p>
