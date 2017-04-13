@@ -34,15 +34,10 @@ body{
 	margin-top:30px 0 30px 0;
 }
 
-#leftclmn {
-	padding-left: 30px;
-	width: 62%;
-	float: left;
-}
-
 #left {
+	padding: 15px;
 	float: left;
-	width: 55%;
+	width: 35%;
 }
 
 #left h2{
@@ -50,7 +45,8 @@ body{
 }
 
 #centerpic {
-	float: right;
+	margin: 15px;
+	float: left;
 	width: 30%;
 }
 
@@ -62,9 +58,9 @@ body{
 #right {
 	height: 100%;
 	background-color: #237DAE;
-	padding: 10px 30px 30px 30px;
-	width: 25%;
-	margin: 30px;
+	padding: 30px;
+	width: 20%;
+	margin: 15px;
 	float: right;
 }
 
@@ -84,77 +80,6 @@ body{
 	position: relative;
 	overflow: auto;
 }
-/**** Content ***/
-
-/*#left {
-	width: 500px;
-	height: 500px;
-	float:left;
-	display: block;
-	display: inline;
-	border-radius: 25px;
-	background-color: #237DAE;
-	color: white;
-	padding: 15px;
-	margin-bottom: 100px;
-}
-	*/
-
-
-/**** Sidebar ***/
-
-
-/*#right {
-	width: 150px; 
-	float: right;
-	display:block;
-}
-
-#right .box {
-	width: 150px;
-	background: #F6F9FB;
-	border: solid #237DAE;
-	border-radius: 25px;
-	padding:15px;
-	float: right;
-}
-
-#right .box h2 {
-	font-size: 1.1em;
-	margin: 0px 0 0px 0;
-	padding:0px 0 5px 0;
-}
-
-#right .box a {
-	margin: 10px 0 10px 0;
-	color: #237DAE;
-}
-
-#right .box p {
-	margin: 5px 0 10px 0;
-	line-height: 15px;
-}
-
-#right .box ul {
-	padding: 0 0 7px 20px;
-	margin:10px 0 10px 0;
-}
-
-#right .box li {
-	margin-top:5px;
-}*/
-
-
-/**** Clear Div ***/
-
-
-/*#clear {
-	display: block;
-	clear: both;
-	width: 100%;
-	height:1px;
-	overflow:hidden;
-}*/
 
 span {
 	color: #f3796c;
