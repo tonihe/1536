@@ -1,6 +1,6 @@
 #map {
 	background-color: white;
-	opacity: 0.9;
+	opacity: 0.96;
 	padding: 50px;
 }
 
@@ -32,16 +32,12 @@ body {
     background-size: cover;
 }
 
-<<<<<<< HEAD
 #break {
     position: relative;
     height: 50px;
     width: 100%;
 }
 
-/* For centering the pagetop button within a parallax */
-=======
->>>>>>> 0c5f16831e71e89b50ebd2f256535da972e9943c
 #scrollbutton {
 	position: absolute;
 	bottom: 0;

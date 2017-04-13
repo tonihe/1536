@@ -39,5 +39,6 @@
 	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </div>
 <?php include("footer.php"); ?>
+</div>
 </body>	
 </html>
