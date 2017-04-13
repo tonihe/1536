@@ -31,13 +31,17 @@ body{
 #content {
 	height: 100%;
 	width: 100%;
+<<<<<<< HEAD
+=======
 	margin-top:30px;
+>>>>>>> 60536d8fef941638d299c34fd4465a2676129c27
 }
 
 #left {
-	padding: 15px;
 	float: left;
-	width: 35%;
+	width: 36%;
+	margin-left: 10px;
+	font-size: 1.1em;
 }
 
 #left h2{
@@ -47,20 +51,20 @@ body{
 #centerpic {
 	margin: 15px;
 	float: left;
-	width: 30%;
+	width: 34%;
 }
 
 #communityimage {
-	width: 442px;
-	height: 400px;
+	width: 100%;
+	height: 100%;
 }
 
 #right {
 	height: 100%;
 	background-color: #237DAE;
-	padding: 30px;
-	width: 20%;
-	margin: 15px;
+	padding: 20px 20px 30px 30px;
+	width: 17%;
+	margin: 15px 15px 15px 0;
 	float: right;
 }
 

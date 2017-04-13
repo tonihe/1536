@@ -3,9 +3,22 @@
     margin-bottom: 8%;
 }
 
-#communityimage {
-    height: 250px;
-    width: 370px;
+#communitycontent {
+    height: 100%;
+}
+
+#content {
+    height: 100%;
+}
+
+#centerpic {
+    position: relative;
+    max-height: 200px;
+    width: 400px;
+}
+
+#communityimage #centerpic img {
+    
 }
 
 #infoboxes {
