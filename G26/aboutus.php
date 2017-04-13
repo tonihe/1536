@@ -26,7 +26,7 @@
 	<div id="textbox">
 		<div id="textboxtext">
 			<h2>Who Are We?</h2>
-			<p>We are a dedicated team of software and web developers who put pride and passion into our work. All of us are CST students from the British Columbia Institute of Technology, where we have learned the skills necessary to succeed in today's tech-driven society.</p>
+			<p>We are a dedicated team of software and web developers who put pride and passion into our work. All of us are CST students from the British Columbia Institute of Technology, where we have learned the skills necessary to succeed in today's tech-driven society.</p><br>
 			<h2>Our Mission</h2>
 			<p>Located in Vancouver, Canada, our dream is use the skills we learned in this city to help local businesses develop fantastic online communties. We want to help companies set up their first websites and social media networks.</p>
 		</div>
