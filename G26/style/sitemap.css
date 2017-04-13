@@ -1,6 +1,7 @@
-main {
+#map {
 	background-color: white;
-	opacity: 0.85;
+	opacity: 0.9;
+	padding: 50px;
 }
 
 main ul li a {
@@ -8,7 +9,21 @@ main ul li a {
 }
 
 body {
-	background-attachment: fixed;
-	background-image: url(backgroundimg.jpg);
-	background-position: center;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.parallax {
+	    /* The image used */
+    background-image: url(backgroundimg.jpg);
+
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

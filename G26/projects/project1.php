@@ -17,7 +17,7 @@
 <!-- First Section -->
 <div class="parallax"></div>
 <div id="subject1">
-	<img id="sampleimg1" src="../style/project1img1.png" alt="VanTravel home">
+	<img class="sampleimg1" src="../style/project1img1.png" alt="VanTravel home">
 	<div class="text">
 	<h2>VanTravels:</h2>
 	<p>
@@ -30,7 +30,7 @@
 <!-- Second Section -->
 <div class="parallax2"></div>
 <div id="subject2">
-	<img id= "sampleimg1" src="../style/project1img2.png" alt="VanTravel gallery">
+	<img class= "sampleimg1" src="../style/project1img2.png" alt="VanTravel gallery">
 	<div class="text2">
 	<h2>Not all those who wander are lost</h2>
 	<p>
@@ -42,7 +42,7 @@
 <!-- Third Section -->
 <div class="parallax3"></div>
 <div id="subject3">
-	<img id= "sampleimg1" src="../style/project1img3.png" alt="VanTravel networks">
+	<img class= "sampleimg1" src="../style/project1img3.png" alt="VanTravel networks">
 	<div class="text">
 	<h2>Catch them on one of their networks...if you can.</h2>
 	<p>

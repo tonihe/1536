@@ -12,27 +12,31 @@
 </head>
 <body>
 <?php include("header.php"); ?>
-<a name="pagetop"></a>
+<div class="parallax">
+<a id="pagetop"></a>
 <main>
+<div id="map">
 	<h2>Site Map</h2>
 	<ul>
-		<li><a href="index.html">Home Page</a></li>
-		<li><a href="aboutus.html">About Us</a></li>
-		<li><a href="services.html">Services</a></li>
+		<li><a href="index.php">Home Page</a></li>
+		<li><a href="aboutus.php">About Us</a></li>
+		<li><a href="services.php">Services</a></li>
 		<li><a href="forum/community.php">Community</a></li>
-		<li><a href="team.html">Team Page</a></li>
-		<li><a href="contactus.html">Contract Us</a></li>
+		<li><a href="team.php">Team Page</a></li>
+		<li><a href="contactus.php">Contract Us</a></li>
 		<li><a href="forum/forum.php">Forum Page</a></li>
 	</ul>	
 	<h2>Our Projects</h2>
 	<ul>
-		<li><a href="projects/project1.html">VanTravels Website</a></li>
-		<li><a href="projects/project2.html">GnS Events</a></li>
-		<li><a href="projects/project3.html">Plains of Hiberia Website</a></li>
-		<li><a href="projects/project4.html">Matcha Movement Website</a></li>
-	</ul>	
+		<li><a href="projects/project1.php">VanTravels Website</a></li>
+		<li><a href="projects/project2.php">Levels Night Club Website</a></li>
+		<li><a href="projects/project3.php">Plains of Hiberia Website</a></li>
+		<li><a href="projects/project4.php">Matcha Movement Website</a></li>
+	</ul>
+</div>	
 	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
 </main>
+</div>
 <?php include("footer.php"); ?>
 </body>	
 </html>
