@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="../style/favicon.ico" type="image/x-icon">
 	<!-- Importing Google Font -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,800' rel='stylesheet' type='text/css'>
-	<title>Project 4</title>
+	<title>Matcha Movement</title>
 </head>
 <body>
 <?php include("projectheader.php") ?>

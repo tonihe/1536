@@ -29,7 +29,7 @@
 	<h2>Our Projects</h2>
 	<ul>
 		<li><a href="projects/project1.php">VanTravels Website</a></li>
-		<li><a href="projects/project2.php">Levels Night Club Website</a></li>
+		<li><a href="projects/project2.php">Levels Club Website</a></li>
 		<li><a href="projects/project3.php">Plains of Hiberia Website</a></li>
 		<li><a href="projects/project4.php">Matcha Movement Website</a></li>
 	</ul>
