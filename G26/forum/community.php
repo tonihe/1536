@@ -49,36 +49,35 @@
 			<p>You can check out our forums <a href="forum.php"><span>here</span></a> or click <a href="login_form.php"><span>here</span></a> to create a new profile/log-in.</p>
 		</div>
 		<div id="right">
-		<div class="box">
-			<h2 style="margin-top:17px">Recent <span>Entries</span></h2>
-			<ul>
-			<?php
-				$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
-				$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
-				$count = min(5, mysqli_num_rows($result));
-				if($count==0)
-					echo "<li>No topics</li>";
-				else
-					for($i=0; $i < $count; $i++){
-						$row=mysqli_fetch_array($result);
-						echo '<li><a href="view_topic.php?id='.$row['id'].'">'.$row['topic'].'</a></li>';
+			<div class="box">
+				<h2 style="margin-top:17px">Recent <span>Entries</span></h2>
+				<ul>
+				<?php
+					$sql="SELECT * FROM $tbl_name ORDER BY id DESC";
+					$result=mysqli_query($GLOBALS["___mysqli_ston"], $sql);
+					$count = min(5, mysqli_num_rows($result));
+					if($count==0)
+						echo "<li>No topics</li>";
+					else
+						for($i=0; $i < $count; $i++){
+							$row=mysqli_fetch_array($result);
+							echo '<li><a href="view_topic.php?id='.$row['id'].'">'.$row['topic'].'</a></li>';
+						}
+				?>
+				</ul>
+				<?php
+					if (isLoggedIn()){
+						echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
+						echo '<a href="logout.php">Logout</a><br/>';
+						echo '<a href="forum.php">Go to forum</a><br/>';
+						echo '>><a href="add_topic_form.php">Create new topic</a>';
+					} else {
+						echo '<a href="login_form.php">Login</a><br/>';
+						echo '<a href="register_form.php">New user?</a>';
 					}
-			?>
-			</ul>
-			<?php
-				if (isLoggedIn()){
-					echo "Welcome: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
-					echo '<a href="logout.php">Logout</a><br/>';
-					echo '<a href="forum.php">Go to forum</a><br/>';
-					echo '>><a href="add_topic_form.php">Create new topic</a>';
-				} else {
-					echo '<a href="login_form.php">Login</a><br/>';
-					echo '<a href="register_form.php">New user?</a>';
-				}
-			?>
+				?>
+			</div>
 		</div>
-	</div>
-	</div>
 	</div>
 </div>
 
