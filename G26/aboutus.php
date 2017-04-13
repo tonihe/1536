@@ -12,7 +12,7 @@
 </head>
 <body>
 <?php include("header.php"); ?>
-<a name="pagetop"></a>
+<a id="pagetop"></a>
 
 <div id="aboutustitle">
 	<h1>ABOUT US</h1>
