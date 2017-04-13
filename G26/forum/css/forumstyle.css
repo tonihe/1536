@@ -69,10 +69,15 @@ main{
 .backbutton {
 	padding: 10px;
 	background: #F6F9FB;
-	border: #237DAE;
+	border: solid 2px #237DAE;
 	border-radius: 25px;
 	color: #237DAE;
 	font-weight: bold;
+	float: left;
+}
+
+#buttondiv {
+	margin-top: 15px;
 }
 
 .forumposts {
@@ -100,4 +105,13 @@ main{
 
 .preview {
 	font-size: 75%;
+}
+
+#scrollbutton {
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }

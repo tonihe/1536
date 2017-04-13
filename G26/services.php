@@ -71,7 +71,9 @@
 	</p>
 	</div>
 </div>
-<div class="parallax2"><a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a></div>
+<div class="parallax2">
+	<a id="scrollbutton" href="#pagetop" onclick="scrollToTop();return false"><img src="style/buttonup.png" alt="Back to Top"></a>
+</div>
 <?php include("footer.php"); ?>
 </body>	
 </html>
