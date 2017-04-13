@@ -94,6 +94,8 @@ main{
 .responseposts {
 	height: 80px;
 	padding: 15px;
+	word-wrap: break-word;
+	max-width: 400px;
 }
 
 .preview {

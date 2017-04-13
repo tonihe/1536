@@ -38,7 +38,7 @@
 <div id="communitycontent">
 	<div id="content">
 		<div id= "centerpic">
-			<img id= "communityimage" src="../Style/communitylol.jpg" alt="Design and Development">
+			<img id= "communityimage" src="../style/communitylol.jpg" alt="Design and Development">
 		</div>
 		<div id="left">
 			<h2>Welcome to the Web RCKT <span>Community!</span></h2>
@@ -78,7 +78,6 @@
 				}
 			?>
 		</div>
-	</div>
 	</div>
 </div>
 
