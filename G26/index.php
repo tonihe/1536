@@ -34,16 +34,16 @@
 		</div>
 		<div id="slideshow">
 			<div class="carouselimage">
-				<a href="projects/project1.php"><img src="style/project1img1.png" alt="cool doggo" height=455 width=750></a>
+				<a href="projects/project1.php"><img src="style/project1img1.png" alt="VanTravel link" height=455 width=750></a>
 			</div>
 			<div class="carouselimage">
-				<a href="projects/project2.php"><img src="style/levelshome.gif" alt="cool doggo" height=455 width=750></a>
+				<a href="projects/project2.php"><img src="style/levelshome.gif" alt="Levels Club link" height=455 width=750></a>
 			</div>
 			<div class="carouselimage">
-				<a href="projects/project3.php"><img src="style/fantasysample.gif" alt="cool doggo" height=455 width=750></a>
+				<a href="projects/project3.php"><img src="style/fantasysample.gif" alt="Hiberia link" height=455 width=750></a>
 			</div>
 			<div class="carouselimage">
-				<a href="projects/project4.php"><img src="style/matchasocial.gif" alt="cool doggo" height=455 width=750></a>
+				<a href="projects/project4.php"><img src="style/matchasocial.gif" alt="Matcha link" height=455 width=750></a>
 			</div>
 		</div>
 		</div>
